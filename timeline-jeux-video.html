@@ -250,51 +250,30 @@ function initObserver() {
   document.querySelectorAll('.entry').forEach(el => io.observe(el));
 }
 
-/* ── WIKIPEDIA IMAGES ── */
 async function fetchImages() {
-  const imgs   = Array.from(document.querySelectorAll('img[data-wiki]'));
-  const bar    = document.getElementById('img-progress');
-  let loaded   = 0;
-  const total  = imgs.length;
+  const YOUR_KEY = 'f6c45b580a3841c8bf5a054192ee23fd';
+  const imgs  = Array.from(document.querySelectorAll('img[data-wiki]'));
+  const bar   = document.getElementById('img-progress');
+  let loaded  = 0;
 
-  // wikiTitle → img element
-  const map = {};
-  imgs.forEach(img => { map[img.dataset.wiki] = img; });
-
-  const BATCH = 50;
-  const titles = imgs.map(i => i.dataset.wiki);
-
-  for(let i = 0; i < titles.length; i += BATCH) {
-    const batch = titles.slice(i, i+BATCH);
-    const param = batch.map(t => encodeURIComponent(t)).join('|');
-    const url   = `https://en.wikipedia.org/w/api.php?action=query&titles=${param}&prop=pageimages&format=json&pithumbsize=200&origin=*`;
+  for (const img of imgs) {
+    const query = encodeURIComponent(img.dataset.wiki);
+    const url   = `https://api.rawg.io/api/games?search=${query}&key=${YOUR_KEY}&page_size=1`;
     try {
       const res  = await fetch(url);
       const data = await res.json();
-      const pages = data.query?.pages || {};
-
-      // Build normalization map
-      const norm = {};
-      (data.query?.normalized || []).forEach(n => { norm[n.to] = n.from; });
-      (data.query?.redirects  || []).forEach(r => { norm[r.to] = norm[r.from] || r.from; });
-
-      Object.values(pages).forEach(page => {
-        if(!page.thumbnail) { loaded++; bar.style.width=Math.round((loaded/total)*100)+'%'; return; }
-        let imgEl = map[page.title];
-        if(!imgEl){ const orig = norm[page.title]; if(orig) imgEl = map[orig]; }
-        if(!imgEl) return;
-        imgEl.src = page.thumbnail.source;
-        imgEl.onload = () => {
-          imgEl.classList.add('loaded');
-          const ph = imgEl.previousElementSibling;
-          if(ph) ph.classList.add('hidden');
+      const game = data.results?.[0];
+      if (game?.background_image) {
+        img.src = game.background_image;
+        img.onload = () => {
+          img.classList.add('loaded');
+          img.previousElementSibling?.classList.add('hidden');
           loaded++;
-          bar.style.width = Math.round((loaded/total)*100)+'%';
-          if(loaded>=total) setTimeout(()=>{ bar.style.opacity='0'; },900);
+          bar.style.width = Math.round((loaded / imgs.length) * 100) + '%';
+          if (loaded >= imgs.length) setTimeout(() => bar.style.opacity = '0', 900);
         };
-        imgEl.onerror = () => { loaded++; bar.style.width=Math.round((loaded/total)*100)+'%'; };
-      });
-    } catch(e) { console.warn('Wikipedia fetch error:', e); }
+      }
+    } catch(e) { console.warn('RAWG error:', e); }
   }
 }
 
