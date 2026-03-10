@@ -260,7 +260,7 @@ function render() {
               id="ci-${dec.label}-${i}"
               alt="${g.title}"
               loading="lazy"
-              data-wiki="${g.wiki}"
+              data-slug="${g.slug}"
               data-idx="${dec.label}-${i}"
             />
           </div>
@@ -280,9 +280,10 @@ function initObserver() {
 }
 
 async function fetchImages() {
-  const YOUR_KEY = 'f6c45b580a3841c8bf5a054192ee23fd';
+  const key = 'f6c45b580a3841c8bf5a054192ee23fd';
   const imgs  = Array.from(document.querySelectorAll('img[data-slug]'));
   const bar   = document.getElementById('img-progress');
+  const total   = imgs.length;
   let loaded  = 0;
 
   // Throttle: max 2 simultaneous requests to respect RAWG rate limits
