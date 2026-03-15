@@ -100,6 +100,34 @@
   .img-placeholder .ph-text  { font-family:'Press Start 2P',monospace; font-size:5.5px; color:rgba(150,150,200,.45); letter-spacing:1px; text-align:center; line-height:1.9; padding:0 4px; }
   .img-placeholder.hidden { opacity:0; pointer-events:none; }
 
+  /* ALTERNATIVES */
+  .card-alts {
+    margin-top: 10px;
+    padding-top: 9px;
+    border-top: 1px solid rgba(255,255,255,.07);
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  }
+  .alts-label {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 5.5px; color: rgba(150,150,200,.5);
+    letter-spacing: 1px; text-transform: uppercase;
+    white-space: nowrap; margin-right: 2px;
+  }
+  .alt-pill {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: .72rem; font-weight: 600;
+    color: rgba(180,180,220,.6);
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 3px; padding: 2px 8px;
+    transition: color .2s, border-color .2s;
+  }
+  .entry:hover .alt-pill {
+    color: currentColor;
+    border-color: currentColor;
+    opacity: .75;
+  }
+  
   /* PROGRESS BAR */
   #img-progress { position:fixed; top:0; left:0; height:2px; background:linear-gradient(90deg,var(--neon-cyan),var(--neon-pink)); box-shadow:0 0 8px var(--neon-cyan); transition:width .3s,opacity .6s; z-index:9999; width:0%; }
 
@@ -357,6 +385,143 @@ const GAMES = [
   { year:2024, slug:"steamworld-heist-ii",                               title:"SteamWorld Heist II",                             platform:"Switch / PS4 / PS5 / Xbox / PC", publisher:"Thunderful",                    genre:"Stratégie tour par tour",emoji:"🤖", desc:"Les pirates-robots reprennent la mer dans ce tactical tour par tour où viser manuellement reste aussi jouissif que jamais. Thunderful enrichit la formule avec une carte du monde ouverte et des classes de personnages profondément revisitées." }
 ];
 
+
+/* ================================================================
+   ALTERNATIVES — 1 à 2 suggestions par jeu (slug → [titres])
+================================================================ */
+const ALTS = {
+  // ── 1990 ──
+  "the-secret-of-monkey-island":                       ["Monkey Island 2: LeChuck's Revenge (1991)", "Grim Fandango (1998)"],
+  "actraiser":                                         ["ActRaiser 2 (1993)", "Populous: The Beginning (1998)"],
+  // ── 1992 ──
+  "indiana-jones-and-the-fate-of-atlantis":            ["The Dig (1995)", "Broken Sword 2 (1997)"],
+  "ogre-battle-the-march-of-the-black-queen":          ["Ogre Battle 64 (1999)", "Tactics Ogre: Let Us Cling Together (1995)"],
+  "super-mario-land-2-6-golden-coins":                 ["Wario Land: Super Mario Land 3 (1994)"],
+  "kirbys-dream-land":                                 ["Kirby's Adventure (1993)", "Kirby: Nightmare in Dream Land (2002)"],
+  "evo-search-for-eden":                               ["Spore (2008)"],
+  // ── 1993 ──
+  "day-of-the-tentacle":                               ["Full Throttle (1995)", "Grim Fandango (1998)"],
+  "illusion-of-time":                                  ["Terranigma (1995)", "Secret of Mana (1993)"],
+  // ── 1994 ──
+  "theme-park":                                        ["Theme Hospital (1997)", "RollerCoaster Tycoon (1999)"],
+  "wario-land-super-mario-land-3":                     ["Wario Land II (1998)", "Wario Land 4 (2001)"],
+  "breath-of-fire-ii":                                 ["Breath of Fire III (1997)", "Breath of Fire IV (2000)"],
+  "woodruff-and-the-schnibble-of-azimuth":             ["Deponia (2012)", "Syberia (2002)"],
+  // ── 1995 ──
+  "super-mario-world-2-yoshis-island":                 ["Yoshi's Island DS (2006)", "Yoshi's Crafted World (2019)"],
+  "rayman":                                            ["Rayman 2: The Great Escape (1999)", "Rayman Origins (2011)"],
+  "chrono-trigger":                                    ["Chrono Cross (1999)", "Radiant Historia (2010)"],
+  "trials-of-mana":                                    ["Secret of Mana (1993)", "Visions of Mana (2024)"],
+  "front-mission":                                     ["Front Mission 3 (1999)", "Into the Breach (2018)"],
+  "tales-of-phantasia":                                ["Tales of Symphonia (2003)", "Tales of Vesperia (2008)"],
+  "terranigma":                                        ["Illusion of Time (1993)", "Soul Blazer (1992)"],
+  // ── 1996 ──
+  "wipeout-2097":                                      ["Wipeout 3 (1999)", "F-Zero X (1998)"],
+  "donkey-kong-country-3-dixie-kongs-double-trouble":  ["Donkey Kong Country: Tropical Freeze (2014)"],
+  "broken-sword-2-the-smoking-mirror":                 ["Broken Sword: The Shadow of the Templars (1996)", "Syberia (2002)"],
+  // ── 1997 ──
+  "age-of-empires":                                    ["Age of Empires II (1999)", "Age of Mythology (2002)"],
+  "crash-bandicoot-2-cortex-strikes-back":             ["Crash Bandicoot 3: Warped (1998)", "Crash Bandicoot 4: It's About Time (2020)"],
+  "oddworld-abes-oddysee":                             ["Oddworld: Abe's Exoddus (1998)", "Oddworld: Soulstorm (2021)"],
+  "theme-hospital":                                    ["Theme Park (1994)", "Two Point Hospital (2018)"],
+  // ── 1998 ──
+  "the-legend-of-zelda-links-awakening-dx":            ["Link's Awakening Remake (2019)", "The Legend of Zelda: Oracle of Ages (2001)"],
+  "suikoden-ii":                                       ["Suikoden (1995)", "Eiyuden Chronicle: Hundred Heroes (2024)"],
+  "crash-bandicoot-3-warped":                          ["Crash Bandicoot N. Sane Trilogy (2017)"],
+  "medievil":                                          ["MediEvil Remake (2019)", "Ghosts 'n Goblins Resurrection (2021)"],
+  "the-settlers-iii":                                  ["The Settlers IV (2001)", "Anno 1602 (1998)"],
+  "populous-the-beginning":                            ["Black & White (2001)", "Spore (2008)"],
+  // ── 1999 ──
+  "worms-armageddon":                                  ["Worms World Party (2001)", "Worms W.M.D (2016)"],
+  "heroes-of-might-and-magic-iii-the-restoration-of-erathia": ["Heroes of Might and Magic V (2006)", "King's Bounty: The Legend (2008)"],
+  "chrono-cross":                                      ["Xenogears (1998)", "Lost Odyssey (2007)"],
+  "metal-gear-solid-vr-missions":                      ["Metal Gear Solid 2: Sons of Liberty (2001)"],
+  "civilization-call-to-power":                        ["Civilization III (2001)", "Civilization IV (2005)"],
+  // ── 2000 ──
+  "zeus-master-of-olympus":                            ["Pharaoh (1999)", "Caesar III (1998)"],
+  "final-fantasy-ix":                                  ["Final Fantasy X (2001)", "Final Fantasy XII (2006)"],
+  "command-conquer-red-alert-2":                       ["Command & Conquer: Red Alert 3 (2008)", "Tiberian Sun (1999)"],
+  // ── 2001 ──
+  "max-payne":                                         ["Max Payne 2: The Fall of Max Payne (2003)", "Alan Wake (2010)"],
+  "commandos-2-men-of-courage":                        ["Commandos 3: Destination Berlin (2003)", "Desperados III (2020)"],
+  "arcanum-of-steamworks-and-magick-obscura":          ["Planescape: Torment (1999)", "Pillars of Eternity (2015)"],
+  "golden-sun":                                        ["Golden Sun: The Lost Age (2002)", "Baten Kaitos (2003)"],
+  "baldurs-gate-dark-alliance":                        ["Champions of Norrath (2004)", "Diablo II (2000)"],
+  "phoenix-wright-ace-attorney":                       ["Phoenix Wright: Ace Attorney — Trials and Tribulations (2004)", "The Great Ace Attorney Chronicles (2021)"],
+  // ── 2002 ──
+  "dark-chronicle":                                    ["Dark Cloud (2000)", "Rogue Galaxy (2005)"],
+  "warcraft-iii-reign-of-chaos":                       ["Warcraft III: The Frozen Throne (2003)", "StarCraft II (2010)"],
+  "age-of-mythology":                                  ["Age of Empires III (2005)", "Mythology: The Battle for Olympus"],
+  "metroid-fusion":                                    ["Metroid: Zero Mission (2004)", "Metroid Dread (2021)"],
+  "syberia":                                           ["Syberia II (2004)", "Syberia: The World Before (2022)"],
+  // ── 2003 ──
+  "ogre-battle-64":                                    ["Tactics Ogre: Reborn (2022)"],
+  "final-fantasy-tactics-advance":                     ["Final Fantasy Tactics A2 (2007)", "Tactics Ogre: Let Us Cling Together (1995)"],
+  "the-lord-of-the-rings-the-battle-for-middle-earth": ["The Battle for Middle-earth II (2006)", "Company of Heroes (2006)"],
+  "zoo-tycoon":                                        ["Planet Zoo (2019)", "Wildlife Park 2 (2005)"],
+  "castlevania-aria-of-sorrow":                        ["Castlevania: Dawn of Sorrow (2005)", "Castlevania: Portrait of Ruin (2006)"],
+  "beyond-good-evil":                                  ["Beyond Good & Evil 2 (à venir)", "Psychonauts (2005)"],
+  "xiii":                                              ["XIII Remake (2020)", "No One Lives Forever (2000)"],
+  "prince-of-persia-the-sands-of-time":               ["Prince of Persia: Warrior Within (2004)", "Prince of Persia (2008)"],
+  // ── 2004 ──
+  "dragon-quest-viii-journey-of-the-cursed-king":      ["Dragon Quest XI (2017)", "Dragon Quest IX (2009)"],
+  "sly-2-band-of-thieves":                             ["Sly 3: Honor Among Thieves (2005)", "Ratchet & Clank: Up Your Arsenal (2004)"],
+  "the-lord-of-the-rings-the-battle-for-middle-earth": ["The Battle for Middle-earth II (2006)", "Company of Heroes (2006)"],
+  "sacred":                                            ["Sacred 2: Fallen Angel (2008)", "Titan Quest (2006)"],
+  // ── 2005 ──
+  "shadow-of-the-colossus":                            ["Ico (2001)", "The Last Guardian (2016)"],
+  "the-movies":                                        ["Prison Architect (2015)", "RimWorld (2018)"],
+  // ── 2006 ──
+  "okami":                                             ["Ōkamiden (2010)", "Zelda: Twilight Princess (2006)"],
+  "company-of-heroes":                                 ["Company of Heroes 2 (2013)", "Company of Heroes 3 (2023)"],
+  "titan-quest":                                       ["Titan Quest: Immortal Throne (2007)", "Sacred (2004)"],
+  // ── 2008 ──
+  "spore":                                             ["EVO: Search for Eden (1992)", "Niche: A Genetics Survival Game (2018)"],
+  "the-last-remnant":                                  ["Lost Odyssey (2007)", "Infinite Undiscovery (2008)"],
+  "kings-bounty-the-legend":                           ["King's Bounty: Armored Princess (2009)", "Heroes of Might and Magic III (1999)"],
+  // ── 2009 ──
+  "dragon-age-origins":                                ["Dragon Age II (2011)", "Dragon Age: Inquisition (2014)"],
+  // ── 2010 ──
+  "xenoblade-chronicles":                              ["Xenoblade Chronicles 2 (2017)", "Xenoblade Chronicles 3 (2022)"],
+  "vvvvvv":                                            ["Super Meat Boy (2010)", "Celeste (2018)"],
+  // ── 2011 ──
+  "rayman-origins":                                    ["Rayman Legends (2013)"],
+  "bastion":                                           ["Transistor (2014)", "Pyre (2017)"],
+  // ── 2012 ──
+  "the-walking-dead":                                  ["The Walking Dead: Season 2 (2013)", "Life is Strange (2015)"],
+  "hotline-miami":                                     ["Hotline Miami 2: Wrong Number (2015)", "Katana ZERO (2019)"],
+  "spec-ops-the-line":                                 ["This War of Mine (2014)", "Disco Elysium (2019)"],
+  "fez":                                               ["Antichamber (2013)", "Manifold Garden (2019)"],
+  // ── 2013 ──
+  "the-stanley-parable":                               ["The Stanley Parable: Ultra Deluxe (2022)", "The Beginner's Guide (2015)"],
+  "deponia-the-complete-journey":                      ["Day of the Tentacle (1993)", "Edna & Harvey: The Breakout (2008)"],
+  // ── 2014 ──
+  "this-war-of-mine":                                  ["Suzerain (2020)", "Frostpunk (2018)"],
+  "south-park-the-stick-of-truth":                     ["South Park: The Fractured But Whole (2017)"],
+  "shantae-and-the-pirates-curse":                     ["Shantae: Half-Genie Hero (2016)", "Freedom Planet (2014)"],
+  "lumino-city":                                       ["Botanicula (2012)", "Machinarium (2009)"],
+  // ── 2015 ──
+  "life-is-strange":                                   ["Life is Strange 2 (2018)", "Life is Strange: True Colors (2021)"],
+  "ori-and-the-blind-forest":                          ["Ori and the Will of the Wisps (2020)", "Hollow Knight (2017)"],
+  "her-story":                                         ["Immortality (2022)", "Telling Lies (2019)"],
+  "evoland-legendary-edition":                         ["Undertale (2015)", "CrossCode (2018)"],
+  "the-incredible-adventures-of-van-helsing-final-cut":["Grim Dawn (2016)", "Path of Exile (2013)"],
+  "rise-of-the-tomb-raider":                           ["Shadow of the Tomb Raider (2018)", "Uncharted 4 (2016)"],
+  // ── 2016 ──
+  "inside":                                            ["Limbo (2010)", "Little Nightmares (2017)"],
+  "superhot-vr":                                       ["Superhot (2016)", "Beat Saber (2018)"],
+  "owlboy":                                            ["Cave Story (2004)", "Shovel Knight (2014)"],
+  // ── 2017 ──
+  "doki-doki-literature-club":                         ["Umineko When They Cry (2007)", "Omori (2020)"],
+  // ── 2018 ──
+  "monster-boy-and-the-cursed-kingdom":                ["Wonder Boy: The Dragon's Trap (2017)", "Shantae and the Pirate's Curse (2014)"],
+  "chuchel":                                           ["Machinarium (2009)", "Botanicula (2012)"],
+  "minit":                                             ["Undertale (2015)", "The Forgotten City (2021)"],
+  "ni-no-kuni-ii-revenant-kingdom":                    ["Ni no Kuni: Wrath of the White Witch (2011)", "Little Town Hero (2019)"],
+  // ── 2024 ──
+  "steamworld-heist-ii":                               ["SteamWorld Heist (2015)", "Into the Breach (2018)"],
+
+  
 /* ── RENDER ── */
 function render() {
   const root = document.getElementById('root');
@@ -387,6 +552,11 @@ function render() {
             <div class="card-platform">${g.platform} &nbsp;·&nbsp; ${g.publisher}</div>
             <div class="card-desc">${g.desc}</div>
             <span class="tag">${g.genre}</span>
+            ${(ALTS[g.slug] || []).length ? `
+            <div class="card-alts">
+              <span class="alts-label">Voir aussi</span>
+              ${(ALTS[g.slug]).map(a => `<span class="alt-pill">${a}</span>`).join('')}
+            </div>` : ''}
           </div>
           <div class="card-image">
             <div class="img-placeholder">
