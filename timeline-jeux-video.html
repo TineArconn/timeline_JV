@@ -391,30 +391,23 @@ const GAMES = [
 ================================================================ */
 const ALTS = {
   // ── 1990 ──
-  "the-secret-of-monkey-island":                       ["Monkey Island 2: LeChuck's Revenge (1991)", "Grim Fandango (1998)"],
-  "actraiser":                                         ["ActRaiser 2 (1993)", "Populous: The Beginning (1998)"],
+  "the-secret-of-monkey-island":                       ["Monkey Island 2: LeChuck's Revenge (1991)", "The Curse of Monkey Island (1997)"],
+  "actraiser":                                         ["Soul Blazer (1994)"],
   // ── 1992 ──
-  "indiana-jones-and-the-fate-of-atlantis":            ["The Dig (1995)", "Broken Sword 2 (1997)"],
-  "ogre-battle-the-march-of-the-black-queen":          ["Ogre Battle 64 (1999)", "Tactics Ogre: Let Us Cling Together (1995)"],
-  "super-mario-land-2-6-golden-coins":                 ["Wario Land: Super Mario Land 3 (1994)"],
-  "kirbys-dream-land":                                 ["Kirby's Adventure (1993)", "Kirby: Nightmare in Dream Land (2002)"],
-  "evo-search-for-eden":                               ["Spore (2008)"],
+  "ogre-battle-the-march-of-the-black-queen":          ["Tactics Ogre: Let Us Cling Together (1995)"],
+  "kirbys-dream-land":                                 ["Kirby's Dream Land 3 (1997)"],
   // ── 1993 ──
-  "day-of-the-tentacle":                               ["Full Throttle (1995)", "Grim Fandango (1998)"],
-  "illusion-of-time":                                  ["Terranigma (1995)", "Secret of Mana (1993)"],
+  "day-of-the-tentacle":                               ["Thimbleweed Park (2017)"],
   // ── 1994 ──
-  "theme-park":                                        ["Theme Hospital (1997)", "RollerCoaster Tycoon (1999)"],
+  "theme-park":                                        ["Theme Park World (2000)"],
   "wario-land-super-mario-land-3":                     ["Wario Land II (1998)", "Wario Land 4 (2001)"],
-  "breath-of-fire-ii":                                 ["Breath of Fire III (1997)", "Breath of Fire IV (2000)"],
-  "woodruff-and-the-schnibble-of-azimuth":             ["Deponia (2012)", "Syberia (2002)"],
+  "woodruff-and-the-schnibble-of-azimuth":             ["Gobliins 2: Le Prince Bouffon (1992)"],
   // ── 1995 ──
-  "super-mario-world-2-yoshis-island":                 ["Yoshi's Island DS (2006)", "Yoshi's Crafted World (2019)"],
-  "rayman":                                            ["Rayman 2: The Great Escape (1999)", "Rayman Origins (2011)"],
-  "chrono-trigger":                                    ["Chrono Cross (1999)", "Radiant Historia (2010)"],
-  "trials-of-mana":                                    ["Secret of Mana (1993)", "Visions of Mana (2024)"],
-  "front-mission":                                     ["Front Mission 3 (1999)", "Into the Breach (2018)"],
-  "tales-of-phantasia":                                ["Tales of Symphonia (2003)", "Tales of Vesperia (2008)"],
-  "terranigma":                                        ["Illusion of Time (1993)", "Soul Blazer (1992)"],
+  "rayman":                                            ["Rayman Forever (1998)"],
+  "trials-of-mana":                                    ["Secret of Mana (1993)", "Mystic Quest (1991)"],
+  "front-mission":                                     ["Valkyria Chronicles (2008)"],
+  "tales-of-phantasia":                                ["Tales of Berseria (2016)"],
+  "terranigma":                                        ["Terra Nil (2023)"],
   // ── 1996 ──
   "wipeout-2097":                                      ["Wipeout 3 (1999)", "F-Zero X (1998)"],
   "donkey-kong-country-3-dixie-kongs-double-trouble":  ["Donkey Kong Country: Tropical Freeze (2014)"],
@@ -555,7 +548,7 @@ function render() {
             <span class="tag">${g.genre}</span>
             ${(ALTS[g.slug] || []).length ? `
             <div class="card-alts">
-              <span class="alts-label">Voir aussi</span>
+              <span class="alts-label">Ou sinon :</span>
               ${(ALTS[g.slug]).map(a => `<span class="alt-pill">${a}</span>`).join('')}
             </div>` : ''}
           </div>
