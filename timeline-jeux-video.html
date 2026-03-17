@@ -298,7 +298,7 @@
     <h1>MON HISTOIRE DES<br>JEUX VIDÉO</h1>
     <p class="subtitle">1990 — 2020 (et un peu plus)&nbsp;·&nbsp; 30 ans d'épopée</p>
     <div class="header-line"></div>
-    <p class="game-count">100 JEUX SÉLECTIONNÉS</p>
+    <p class="game-count" id="game-count"></p>
   </header>
   <div id="filter-bar">
     <button class="filter-btn active" data-top="0">✦ TOUS</button>
@@ -596,6 +596,12 @@ function initFilter() {
         tl.previousElementSibling.style.display = visible ? 'flex' : 'none';
         tl.style.display = visible ? 'block' : 'none';
       });
+      const visible = [...document.querySelectorAll('.entry')]
+        .filter(e => e.style.display !== 'none').length;
+      document.getElementById('game-count').textContent =
+        top === 0
+          ? `${GAMES.length} JEUX SÉLECTIONNÉS`
+          : `${visible} / ${GAMES.length} JEUX AFFICHÉS`;
     });
   });
 }  
@@ -603,6 +609,8 @@ function initFilter() {
 /* ── RENDER ── */
 function render() {
   const root = document.getElementById('root');
+  document.getElementById('game-count').textContent =
+  `${GAMES.length} JEUX SÉLECTIONNÉS`;
   const decades = [
     { label:'1990s', range:[1990,2000] },
     { label:'2000s', range:[2000,2010] },
