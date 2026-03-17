@@ -242,6 +242,12 @@
     <div class="header-line"></div>
     <p class="game-count">100 JEUX SÉLECTIONNÉS</p>
   </header>
+  <div id="filter-bar">
+    <button class="filter-btn active" data-top="0">✦ TOUS</button>
+    <button class="filter-btn" data-top="50">TOP 50</button>
+    <button class="filter-btn" data-top="10">TOP 10</button>
+    <button class="filter-btn" data-top="5">TOP 5</button>
+  </div>
   <div id="root"></div>
   <footer><p class="footer-pixel">GAME OVER &nbsp;·&nbsp; <span>▮</span> &nbsp;·&nbsp; CONTINUE ?</p></footer>
 </div>
@@ -513,7 +519,28 @@ const ALTS = {
   "minit":                                             ["Undertale (2015)", "The Forgotten City (2021)"],
   "ni-no-kuni-ii-revenant-kingdom":                    ["Ni no Kuni: Wrath of the White Witch (2011)", "Little Town Hero (2019)"],
 }
-
+  
+/* ── FILTER ── */
+function initFilter() {
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const top = parseInt(btn.dataset.top);
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.entry').forEach(entry => {
+        const rank = parseInt(entry.dataset.rank || 0);
+        const show = top === 0 || (rank > 0 && rank <= top);
+        entry.style.display = show ? 'flex' : 'none';
+      });
+      // Masquer les séparateurs de décennie vides
+      document.querySelectorAll('.timeline').forEach(tl => {
+        const visible = [...tl.querySelectorAll('.entry')].some(e => e.style.display !== 'none');
+        tl.previousElementSibling.style.display = visible ? 'flex' : 'none';
+        tl.style.display = visible ? 'block' : 'none';
+      });
+    });
+  });
+}  
   
 /* ── RENDER ── */
 function render() {
@@ -537,6 +564,7 @@ function render() {
     group.forEach(g => {
       const entry = document.createElement('div');
       entry.className = 'entry';
+      entry.dataset.rank = g.rank || 0;
       entry.innerHTML = `
         <span class="year-badge">${g.year}</span>
         <div class="card">
