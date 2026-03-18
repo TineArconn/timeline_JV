@@ -57,7 +57,7 @@ const GAMES = [
     title:"Illusion of Time", platform:"Super Nintendo", publisher:"Enix",
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Will parcourt les grandes civilisations de l'histoire — pyramides d'Égypte, Machu Picchu, Angkor Vat — pour sauver le monde d'une extinction annoncée. Une narration mature et une ambiance envoûtante." },
-
+  
   // ── 1994 ──────────────────────────────────
   { year:1994, slug:"theme-park",
     title:"Theme Park", platform:"PC / SNES / Amiga", publisher:"Bullfrog Productions / EA",
@@ -152,6 +152,11 @@ const GAMES = [
     genre:"Gestion", emoji:"🏥",
     desc:"Gérez un hôpital peuplé de maladies absurdes — crâne gonflé, faux docteur, syndrome de la langue de bois. L'humour britannique décapant de Bullfrog en fait un jeu de gestion culte et toujours aussi savoureux." },
 
+  { year:1997, slug:"the-lost-vikings-2",
+    title:"The Lost Vikings 2", platform:"Super Nintendo / PS1 / PC", publisher:"Blizzard Entertainment",
+    genre:"Platformer / Puzzle", emoji:"🪓",
+    desc:"Erik, Baleog et Olaf sont de retour, accompagnés de deux nouveaux compagnons aux capacités inédites. Suite du cultissime premier opus de Blizzard, The Lost Vikings 2 pousse encore plus loin l'ingéniosité des puzzles en coopération asynchrone." },
+  
   // ── 1998 ──────────────────────────────────
   { year:1998, slug:"the-legend-of-zelda-links-awakening-dx",
     title:"The Legend of Zelda: Link's Awakening DX", platform:"Game Boy Color", publisher:"Nintendo",
@@ -219,6 +224,11 @@ const GAMES = [
     genre:"Platformer", emoji:"🐒",
     desc:"Spike doit capturer une horde de singes espièges disséminés à travers le temps après qu'ils se soient emparés de casques de contrôle mental. Premier jeu PlayStation à rendre l'usage des deux sticks analogiques obligatoire, Ape Escape est un platformer inventif et plein de charme." },
 
+  { year:1999, slug:"simcity-3000",
+    title:"SimCity 3000", platform:"PC / Mac", publisher:"Maxis / EA",
+    genre:"City Builder", emoji:"🏙️",
+    desc:"SimCity 3000 raffine la formule isométrique avec une gestion des déchets, des négociations avec les villes voisines et une ambiance sonore et visuelle particulièrement soignée. Un épisode souvent sous-estimé entre le légendaire 2000 et le colossal SimCity 4." },
+  
   // ── 2000 ──────────────────────────────────
   { year:2000, slug:"zeus-master-of-olympus",
     title:"Zeus: Master of Olympus", platform:"PC", publisher:"Impressions Games / Sierra",
@@ -590,6 +600,7 @@ const ALTS = {
   "crash-bandicoot-2-cortex-strikes-back":             ["Spyro the Dragon (1998)"],
   "oddworld-abes-oddysee":                             ["Oddworld: Abe's Exoddus (1998)", "Oddworld: New 'n' Tasty (2014)"],
   "theme-hospital":                                    ["Two Point Hospital (2018)"],
+  "the-lost-vikings-2":                                ["The Lost Vikings (1993)", "Trine Enchanted Edition (2009)"],
   // ── 1998 ──
   "the-legend-of-zelda-links-awakening-dx":            ["The Legend of Zelda: A Link to the Past (1991)", "The Legend of Zelda: A Link Between Worlds (2013)"],
   "crash-bandicoot-3-warped":                          ["Crash Bandicoot N. Sane Trilogy (2017)"],
@@ -598,12 +609,13 @@ const ALTS = {
   "populous-the-beginning":                            ["Black & White (2001)"],
   // ── 1999 ──
   "worms-armageddon":                                  ["Worms World Party (2001)", "Worms W.M.D (2016)"],
-  "heroes-of-might-and-magic-iii-the-restoration-of-erathia": ["Heroes of Might and Magic V (2006)"],
+  "heroes-of-might-and-magic-iii-the-restoration-of-erathia": ["Age of Wonders II: The Wizard's Throne (2002)"],
   "metal-gear-solid-vr-missions":                      ["Metal Gear Solid 2: Sons of Liberty (2001)", "Metal Gear Solid (1998)"],
   "civilization-call-to-power":                        ["Civilization V (2010)"],
   "ape-escape":                                        ["Ape Escape 2 (2002)", "Ape Escape 3 (2005)"],
+  "simcity-3000":                                      ["Les Sims 2: Castaway (2007)"],
   // ── 2000 ──
-  "zeus-master-of-olympus":                            ["Pharaoh (1999)", "Caesar III (1998)", "Emperor: Rise of the Middle Kingdom (2002)"],
+  "zeus-master-of-olympus":                            ["Pharaon (1999)", "Caesar III (1998)", "Emperor: Rise of the Middle Kingdom (2002)"],
   "final-fantasy-ix":                                  ["Final Fantasy X (2001)", "Final Fantasy V (1992)"],
   "command-conquer-red-alert-2":                       ["Tiberian Sun (1999)", "Command & Conquer Remastered Collection (2020)"],
   // ── 2001 ──
@@ -613,43 +625,33 @@ const ALTS = {
   "phoenix-wright-ace-attorney":                       ["Phoenix Wright: Ace Attorney Trilogy (2014)"],
   // ── 2002 ──
   "dark-chronicle":                                     ["Dark Cloud (2000)", "Rogue Galaxy (2005)"],
-  "warcraft-iii-reign-of-chaos":                        ["Warcraft III: The Frozen Throne (2003)", "StarCraft II (2010)"],
-  "age-of-mythology":                                   ["Age of Empires III (2005)"],
-  "metroid-fusion":                                     ["Metroid: Zero Mission (2004)", "Metroid Dread (2021)"],
+  "warcraft-iii-reign-of-chaos":                        ["Warcraft III: The Frozen Throne (2003)", "Warcraft II: Tides of Darkness (1995)"],
+  "age-of-mythology":                                   ["Age of Mythology: The Titans (2003)"],
+  "metroid-fusion":                                     ["Metroid Dread (2021)"],
   "syberia":                                            ["Syberia II (2004)", "Syberia: The World Before (2022)"],
   // ── 2003 ──
-  "tropico-2-pirate-cove":                              ["Tropico 3 (2009)", "Theme Hospital (1997)"],
-  "zoo-tycoon":                                         ["Planet Zoo (2019)", "Wildlife Park 2 (2005)"],
-  "castlevania-aria-of-sorrow":                         ["Castlevania: Dawn of Sorrow (2005)", "Castlevania: Portrait of Ruin (2006)"],
-  "beyond-good-evil":                                   ["Beyond Good & Evil 2 (à venir)", "Psychonauts (2005)"],
-  "xiii":                                               ["XIII Remake (2020)", "No One Lives Forever (2000)"],
-  "spellforce-the-order-of-dawn":                       ["SpellForce 2: Shadow Wars (2006)", "Warcraft III: Reign of Chaos (2002)"],
-  "final-fantasy-tactics-advance":                      ["Final Fantasy Tactics A2 (2007)", "Tactics Ogre: Let Us Cling Together (1995)"],
-  "prince-of-persia-the-sands-of-time":                ["Prince of Persia: Warrior Within (2004)", "Prince of Persia (2008)"],
+  "tropico-2-pirate-cove":                              ["Tropico 6 (2019)"],
+  "zoo-tycoon":                                         ["Jurassic World Evolution (2018)"],
+  "xiii":                                               ["Command & Conquer: Renegade (2002)"],
+  "spellforce-the-order-of-dawn":                       ["SpellForce 2: Shadow Wars (2006)", "SpellForce - Platinum Edition (2005)"],
+  "final-fantasy-tactics-advance":                      ["Fire Emblem: The Blazing Blade (2003)"],
+  "prince-of-persia-the-sands-of-time":                 ["Prince of Persia 2: The Shadow and the Flame (1993)"],
   // ── 2004 ──
-  "dragon-quest-viii-journey-of-the-cursed-king":       ["Dragon Quest XI (2017)", "Dragon Quest IX (2009)"],
-  "sly-2-band-of-thieves":                              ["Sly 3: Honor Among Thieves (2005)", "Ratchet & Clank: Up Your Arsenal (2004)"],
-  "the-lord-of-the-rings-the-battle-for-middle-earth":  ["The Battle for Middle-earth II (2006)", "Company of Heroes (2006)"],
-  "sacred":                                             ["Sacred 2: Fallen Angel (2008)", "Titan Quest (2006)"],
+  "sly-2-band-of-thieves":                              ["Sly 3: Honor Among Thieves (2005)"],
+  "the-lord-of-the-rings-the-battle-for-middle-earth":  ["The Battle for Middle-earth II (2006)"],
   // ── 2005 ──
-  "shadow-of-the-colossus":                             ["Ico (2001)", "The Last Guardian (2016)"],
-  "the-movies":                                         ["Prison Architect (2015)", "RimWorld (2018)"],
   // ── 2006 ──
-  "okami":                                              ["Ōkamiden (2010)", "Zelda: Twilight Princess (2006)"],
-  "company-of-heroes":                                  ["Company of Heroes 2 (2013)", "Company of Heroes 3 (2023)"],
-  "titan-quest":                                        ["Titan Quest: Immortal Throne (2007)", "Sacred (2004)"],
+  "company-of-heroes":                                  ["Act of War: Direct Action (2004)"],
+  "titan-quest":                                        ["Titan Quest: Immortal Throne (2007)", "Titan Quest Anniversary Edition (2016)"],
   // ── 2008 ──
-  "spore":                                              ["EVO: Search for Eden (1992)", "Niche: A Genetics Survival Game (2018)"],
-  "the-last-remnant":                                   ["Lost Odyssey (2007)", "Infinite Undiscovery (2008)"],
-  "kings-bounty-the-legend":                            ["King's Bounty: Armored Princess (2009)", "Heroes of Might and Magic III (1999)"],
+  "kings-bounty-the-legend":                            ["King's Bounty: Armored Princess (2009)"],
   // ── 2009 ──
-  "dragon-age-origins":                                 ["Dragon Age II (2011)", "Dragon Age: Inquisition (2014)"],
+  "dragon-age-origins":                                 ["Dragon Age: Origins - Ultimate Edition (2010)"],
   // ── 2010 ──
-  "xenoblade-chronicles":                               ["Xenoblade Chronicles 2 (2017)", "Xenoblade Chronicles 3 (2022)"],
-  "vvvvvv":                                             ["Super Meat Boy (2010)", "Celeste (2018)"],
+  "vvvvvv":                                             ["Super Meat Boy (2010)"],
   // ── 2011 ──
   "rayman-origins":                                     ["Rayman Legends (2013)"],
-  "bastion":                                            ["Transistor (2014)", "Pyre (2017)"],
+  "bastion":                                            ["Transistor (2014)"],
   // ── 2012 ──
   "the-walking-dead":                                   ["The Walking Dead: Season 2 (2013)", "Life is Strange (2015)"],
   "hotline-miami":                                      ["Hotline Miami 2: Wrong Number (2015)", "Katana ZERO (2019)"],
