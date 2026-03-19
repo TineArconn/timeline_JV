@@ -79,6 +79,11 @@ const GAMES = [
     genre:"Point & Click", emoji:"🖱️",
     desc:"Aventure point & click post-apocalyptique absurde et poétique made in France. Woodruff retrouve son père adoptif dans un univers bariolé loufoque, typiquement français dans son humour décalé." },
 
+  { year:1994, slug:"the-firemen",
+    title:"The Firemen", platform:"Super Nintendo", publisher:"Human Entertainment / Nintendo",
+    genre:"Action", emoji:"🔥",
+    desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue, rarement exporté hors du Japon et du Royaume-Uni — une curiosité exclusive au charme authentique." },
+    
   // ── 1995 ──────────────────────────────────
   { year:1995, slug:"super-mario-world-2-yoshis-island",
     title:"Super Mario World 2: Yoshi's Island", platform:"Super Nintendo", publisher:"Nintendo",
@@ -456,6 +461,11 @@ const GAMES = [
     genre:"Puzzle-Platformer", emoji:"🧩",
     desc:"Gomez découvre la troisième dimension dans son monde 2D grâce à un fez magique. Puzzle-platformer de Phil Fish avec une rotation ingénieuse et des mystères cryptiques qui ont alimenté des mois d'exploration communautaire." },
 
+  { year:2012, slug:"dust-an-elysian-tail",
+    title:"Dust: An Elysian Tail", platform:"PC / Xbox 360 / PS4", publisher:"Humble Hearts",
+    genre:"Action-RPG", emoji:"🌀",
+    desc:"Dust, guerrier amnésique accompagné de l'épée parlante Ahrah et de la fée Fidget, explore un monde animé d'une beauté stupéfiante. Action-RPG développé quasi entièrement par une seule personne, Dean Dodrill, avec un système de combat fluide et spectaculaire d'une générosité remarquable." },
+    
   // ── 2013 ──────────────────────────────────
   { year:2013, slug:"the-stanley-parable",
     title:"The Stanley Parable", platform:"PC", publisher:"Galactic Cafe",
@@ -524,6 +534,11 @@ const GAMES = [
     genre:"Stratégie tour par tour", emoji:"🤖",
     desc:"Des pirates-robots recrutent un équipage hétéroclite pour piller des vaisseaux en apesanteur dans des niveaux générés procéduralement. Tactical tour par tour au gameplay d'une élégance rare où viser manuellement fait toute la différence — une pépite d'Image & Form." },
 
+  { year:2015, slug:"ronin",
+    title:"RONIN", platform:"PC / Mac / Linux", publisher:"Devolver Digital",
+    genre:"Action / Tactique", emoji:"⚔️",
+    desc:"Une vindicatrice enchaîne des infiltrations nocturnes contre cinq cibles dans un système de combat au tour par tour déclenché au contact. RONIN fascine par sa tension unique entre action fluide en temps réel et réflexion tactique instantanée — une perle discrète éditée par Devolver." },
+  
   // ── 2016 ──────────────────────────────────
   { year:2016, slug:"inside",
     title:"Inside", platform:"Multi-plateformes", publisher:"Playdead",
@@ -653,35 +668,26 @@ const ALTS = {
   "rayman-origins":                                     ["Rayman Legends (2013)"],
   "bastion":                                            ["Transistor (2014)"],
   // ── 2012 ──
-  "the-walking-dead":                                   ["The Walking Dead: Season 2 (2013)", "Life is Strange (2015)"],
-  "hotline-miami":                                      ["Hotline Miami 2: Wrong Number (2015)", "Katana ZERO (2019)"],
-  "spec-ops-the-line":                                  ["This War of Mine (2014)", "Disco Elysium (2019)"],
-  "fez":                                                ["Antichamber (2013)", "Manifold Garden (2019)"],
   // ── 2013 ──
-  "the-stanley-parable":                                ["The Stanley Parable: Ultra Deluxe (2022)", "The Beginner's Guide (2015)"],
-  "deponia-the-complete-journey":                       ["Day of the Tentacle (1993)", "Edna & Harvey: The Breakout (2008)"],
+  "deponia-the-complete-journey":                       ["Runaway, A Road Adventure (2001)"],
   // ── 2014 ──
-  "this-war-of-mine":                                   ["Suzerain (2020)", "Frostpunk (2018)"],
+  "this-war-of-mine":                                   ["Frostpunk (2018)"],
   "south-park-the-stick-of-truth":                      ["South Park: The Fractured But Whole (2017)"],
-  "shantae-and-the-pirates-curse":                      ["Shantae: Half-Genie Hero (2016)", "Freedom Planet (2014)"],
-  "lumino-city":                                        ["Botanicula (2012)", "Machinarium (2009)"],
+  "shantae-and-the-pirates-curse":                      ["Shantae and the Seven Sirens (2020)"],
+  "lumino-city":                                        ["The Tiny Bang Story (2011)"],
   // ── 2015 ──
-  "life-is-strange":                                    ["Life is Strange 2 (2018)", "Life is Strange: True Colors (2021)"],
-  "ori-and-the-blind-forest":                           ["Ori and the Will of the Wisps (2020)", "Hollow Knight (2017)"],
-  "her-story":                                          ["Immortality (2022)", "Telling Lies (2019)"],
-  "evoland-legendary-edition":                          ["Undertale (2015)", "CrossCode (2018)"],
-  "the-incredible-adventures-of-van-helsing-final-cut": ["Grim Dawn (2016)", "Path of Exile (2013)"],
-  "rise-of-the-tomb-raider":                            ["Shadow of the Tomb Raider (2018)", "Uncharted 4 (2016)"],
-  "steamworld-heist":                                   ["SteamWorld Heist II (2024)", "Into the Breach (2018)"],
+  "life-is-strange":                                    ["Twin Mirror (2020)"],
+  "ori-and-the-blind-forest":                           ["Ori and the Will of the Wisps (2020)"],
+  "evoland-legendary-edition":                          ["Swords & Souls: Neverseen (2019)"],
+  "the-incredible-adventures-of-van-helsing-final-cut": ["Grim Dawn (2016)", "Victor Vran (2015)"],
+  "rise-of-the-tomb-raider":                            ["Tomb Raider (2013)"],
+  "steamworld-heist":                                   ["SteamWorld Heist II (2024)"],
   // ── 2016 ──
-  "inside":                                             ["Limbo (2010)", "Little Nightmares (2017)"],
-  "superhot-vr":                                        ["Superhot (2016)", "Beat Saber (2018)"],
-  "owlboy":                                             ["Cave Story (2004)", "Shovel Knight (2014)"],
+  "inside":                                             ["Limbo (2010)"],
+  "superhot-vr":                                        ["Townsmen VR (2018)", "Beat Saber (2018)"],
+  "owlboy":                                             ["Shovel Knight (2014)"],
   // ── 2017 ──
-  "doki-doki-literature-club":                          ["Umineko When They Cry (2007)", "Omori (2020)"],
   // ── 2018 ──
-  "monster-boy-and-the-cursed-kingdom":                 ["Wonder Boy: The Dragon's Trap (2017)", "Shantae and the Pirate's Curse (2014)"],
+  "monster-boy-and-the-cursed-kingdom":                 ["Wonder Boy in Monster World (1991)"],
   "chuchel":                                            ["Machinarium (2009)", "Botanicula (2012)"],
-  "minit":                                              ["Undertale (2015)", "The Forgotten City (2021)"],
-  "ni-no-kuni-ii-revenant-kingdom":                     ["Ni no Kuni: Wrath of the White Witch (2011)", "Little Town Hero (2019)"],
 };
