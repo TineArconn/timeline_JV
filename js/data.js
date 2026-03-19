@@ -48,12 +48,12 @@ const GAMES = [
     genre:"Tactical RPG", emoji:"♟️",
     desc:"Libérez un continent opprimé en commandant des armées de créatures mythiques dans un système de combats en temps réel unique. Tactical RPG d'une profondeur politique et morale rare, avec un système de réputation qui influe sur chaque fin possible." },
 
-  { year:1993, slug:"day-of-the-tentacle",
+  { year:1993, slug:"maniac-mansion-day-of-the-tentacle",
     title:"Day of the Tentacle", platform:"PC / Mac", publisher:"LucasArts",
     genre:"Point & Click", emoji:"🖱️",
     desc:"Trois amis naviguent dans le temps pour empêcher un tentacule maléfique de conquérir le monde. Un chef-d'œuvre de l'humour absurde et du design de puzzles, suite directe du cultissime Maniac Mansion." },
 
-  { year:1993, slug:"illusion-of-time",
+  { year:1993, slug:"illusion-of-gaia",
     title:"Illusion of Time", platform:"Super Nintendo", publisher:"Enix",
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Will parcourt les grandes civilisations de l'histoire — pyramides d'Égypte, Machu Picchu, Angkor Vat — pour sauver le monde d'une extinction annoncée. Une narration mature et une ambiance envoûtante." },
@@ -85,7 +85,7 @@ const GAMES = [
     desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue, rarement exporté hors du Japon et du Royaume-Uni — une curiosité exclusive au charme authentique." },
     
   // ── 1995 ──────────────────────────────────
-  { year:1995, slug:"super-mario-world-2-yoshis-island",
+  { year:1995, slug:"yoshis-island",
     title:"Super Mario World 2: Yoshi's Island", platform:"Super Nintendo", publisher:"Nintendo",
     genre:"Platformer", emoji:"🦕",
     desc:"Yoshi transporte bébé Mario à travers des niveaux peints à la craie dans un style aquarelle inédit. Un chef-d'œuvre graphique SNES d'une créativité permanente, avec des boss mémorables et inoubliables." },
@@ -95,7 +95,7 @@ const GAMES = [
     genre:"Platformer", emoji:"🦊",
     desc:"Premier opus du héros sans membres d'Ubisoft Montpellier. Des mondes oniriques sublimement animés, une bande-son jazzy envoûtante et un level design exigeant pour un platformer 2D parmi les plus ambitieux." },
 
-  { year:1995, slug:"chrono-trigger",
+  { year:1995, slug:"chrono-trigger-1995",
     title:"Chrono Trigger", platform:"Super Nintendo", publisher:"Square",
     genre:"RPG", emoji:"⚔️",
     desc:"L'un des plus grands RPG de tous les temps, né de la collaboration Toriyama-Horii-Sakaguchi. Voyage dans le temps, système ATB innovant, fins multiples et compositions légendaires de Mitsuda." },
@@ -126,7 +126,7 @@ const GAMES = [
     genre:"Course anti-gravité", emoji:"🚀",
     desc:"Vaisseaux anti-gravitationnels à des vitesses insensées sur des circuits futuristes conçus avec The Designers Republic. La bande-son électronique de The Chemical Brothers et Leftfield en fait une expérience sensorielle totale." },
 
-  { year:1996, slug:"donkey-kong-country-3-dixie-kongs-double-trouble",
+  { year:1996, slug:"donkey-kong-country-3-dixies-double-trouble",
     title:"Donkey Kong Country 3", platform:"Super Nintendo", publisher:"Rare / Nintendo",
     genre:"Platformer", emoji:"🦍",
     desc:"Troisième volet de la trilogie SNES avec Dixie et Kiddy Kong à la rescousse. La technique graphique pré-rendue de Rare reste bluffante et la richesse des niveaux confirme l'excellence d'une série souvent sous-estimée." },
@@ -142,7 +142,7 @@ const GAMES = [
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Le RTS historique qui démocratise le genre et façonne une génération entière de joueurs PC. De l'âge de pierre à l'Antiquité, bâtir sa civilisation et mener ses armées à la victoire devient une obsession." },
 
-  { year:1997, slug:"crash-bandicoot-2-cortex-strikes-back",
+  { year:1997, slug:"crash-bandicoot-2",
     title:"Crash Bandicoot 2: Cortex Strikes Back", platform:"PlayStation", publisher:"Naughty Dog / Sony",
     genre:"Platformer", emoji:"🦊",
     desc:"La série atteint sa pleine maturité avec des niveaux thématiques variés — arctique, égout, espace — et une maniabilité affinée. Crash s'impose comme la mascotte incontestée de la PlayStation originale." },
@@ -168,12 +168,12 @@ const GAMES = [
     genre:"Action-Aventure", emoji:"🗡️",
     desc:"Link naufragé sur l'île mystérieuse de Cocolint doit réveiller le Poisson-Vent. Un Zelda atypique, mélancolique et poétique, avec une conclusion émotionnelle inattendue et des emprunts savoureux à d'autres licences." },
 
-  { year:1998, slug:"suikoden-ii",
+  { year:1998, slug:"suikoden-ii-2014",
     title:"Suikoden II", platform:"PlayStation", publisher:"Konami",
     genre:"RPG", emoji:"⚔️",
     desc:"RPG PS1 d'une richesse scénaristique bouleversante avec 108 personnages recrutables. Une histoire de guerre, de trahison et d'amitié brisée d'une intensité rare dans le médium, encore adulée des décennies plus tard." },
 
-  { year:1998, slug:"crash-bandicoot-3-warped",
+  { year:1998, slug:"crash-bandicoot-warped",
     title:"Crash Bandicoot 3: Warped", platform:"PlayStation", publisher:"Naughty Dog / Sony",
     genre:"Platformer", emoji:"🦊",
     desc:"Crash et Coco voyagent dans le temps et débloquent de nouvelles capacités spectaculaires — moto, avion biplan, sous-marin. L'apothéose de la trilogie PS1, avec une générosité de contenu exemplaire." },
@@ -183,7 +183,7 @@ const GAMES = [
     genre:"Action-Aventure", emoji:"💀",
     desc:"Sir Daniel Fortesque, chevalier lâche ressuscité par accident, doit sauver le royaume de Gallowmere. Une aventure gothique et humoristique, exclusive PlayStation d'un charme noir irrésistible." },
 
-  { year:1998, slug:"the-settlers-iii",
+  { year:1998, slug:"the-settlers-3",
     title:"The Settlers III", platform:"PC", publisher:"Blue Byte",
     genre:"Stratégie / Gestion", emoji:"🏗️",
     desc:"Troisième opus de la saga de colonisation Blue Byte. Construire des chaînes de production complexes et mener ses armées à la conquête d'îles colorées — un équilibre parfait entre détente et stratégie." },
@@ -194,7 +194,7 @@ const GAMES = [
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
 
   // ── 1999 ──────────────────────────────────
-  { year:1999, slug:"heroes-of-might-and-magic-iii-the-restoration-of-erathia",
+  { year:1999, slug:"heroes-of-might-and-magic-3-the-restoration-of-era",
     title:"Heroes of Might and Magic III", platform:"PC", publisher:"New World Computing / 3DO",
     genre:"Tour par tour", emoji:"♟️",
     desc:"Le sommet absolu de la saga HoMM, encore joué compétitivement vingt-cinq ans après sa sortie. Exploration de cartes gigantesques, recrutement de créatures légendaires et sièges de châteaux en heroic fantasy." },
@@ -204,7 +204,7 @@ const GAMES = [
     genre:"RPG", emoji:"⚔️",
     desc:"Justin, fils d'aventurier, part à la découverte des mystères d'une civilisation ancienne dans un monde en pleine révolution industrielle. RPG de Game Arts au système de combat dynamique révolutionnaire, vibrant d'optimisme et d'esprit d'aventure." },
 
-  { year:1999, slug:"chrono-cross",
+  { year:1999, slug:"chrono-cross-2011",
     title:"Chrono Cross", platform:"PlayStation", publisher:"Square",
     genre:"RPG", emoji:"⚔️",
     desc:"Suite spirituelle de Chrono Trigger dans un univers de mondes parallèles avec 45 personnages jouables. Une bande-son magistrale de Mitsuda et un système de combat en éléments chromatiques composent une œuvre fascinante." },
@@ -261,7 +261,7 @@ const GAMES = [
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Hack-and-slash dans les Royaumes Oubliés pour trois héros qui démantèlent une alliance criminelle. Snowblind livre un dungeon crawler fluide et spectaculaire, pionnier du genre sur consoles, avec un mode coopératif particulièrement addictif." },
 
-  { year:2001, slug:"phoenix-wright-ace-attorney",
+  { year:2001, slug:"phoenix-wright-ace-attorney-2001",
     title:"Phoenix Wright: Ace Attorney", platform:"Game Boy Advance", publisher:"Capcom",
     genre:"Visual Novel", emoji:"⚖️",
     desc:"Naruhodō Ryūichi, avocat maladroit, défend des accusés innocents dans des procès absurdes et dramatiques. Les OBJECTION ! retentissants, l'écriture savoureuse et les twists judiciaires en font une série unique." },
@@ -282,12 +282,12 @@ const GAMES = [
     desc:"Un monde steampunk où magie et technologie industrielle s'affrontent. RPG isométrique de Troika d'une liberté narrative vertigineuse — race, classe, réputation et compétences recomposent entièrement l'expérience." },
 
   // ── 2002 ──────────────────────────────────
-  { year:2002, slug:"dark-chronicle",
+  { year:2002, slug:"dark-cloud-2",
     title:"Dark Chronicle", platform:"PlayStation 2", publisher:"Level-5 / Sony",
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Monica et Max voyagent dans le temps pour reconstruire un monde détruit, en combinant dungeon crawling et construction de villes. Un jeu généreux et touchant — vitrine de l'excellence naissante de Level-5." },
 
-  { year:2002, slug:"warcraft-iii-reign-of-chaos",
+  { year:2002, slug:"warcraft-3-reign-of-chaos",
     title:"Warcraft III: Reign of Chaos", platform:"PC / Mac", publisher:"Blizzard Entertainment",
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Révolutionne le RTS avec ses héros et ses éléments RPG profonds. Son éditeur donne naissance au genre MOBA via DotA — l'une des influences les plus durables et imprévisibles de l'histoire du jeu vidéo." },
@@ -313,12 +313,12 @@ const GAMES = [
     genre:"Gestion", emoji:"🏴‍☠️",
     desc:"Vous dirigez une île de pirates avec une poignée de forbans à contenter et des captifs à exploiter pour maintenir l'économie. Suite décalée du Tropico original, avec un humour mordant et une profondeur de gestion surprenante." },
 
-  { year:2003, slug:"zoo-tycoon",
+  { year:2003, slug:"zoo-tycoon-2001",
     title:"Zoo Tycoon: Complete Collection", platform:"PC", publisher:"Blue Fang Games / Microsoft",
     genre:"Gestion", emoji:"🦁",
     desc:"Gérez un zoo avec des centaines d'espèces animales dans des habitats sur mesure. Blue Fang crée un jeu de simulation accessible et éducatif, véritable bac à sable créatif pour amoureux des animaux." },
 
-  { year:2003, slug:"castlevania-aria-of-sorrow",
+  { year:2003, slug:"castlevania-aria-of-sorrow-2",
     title:"Castlevania: Aria of Sorrow", platform:"Game Boy Advance", publisher:"Konami",
     genre:"Metroidvania", emoji:"🏰",
     desc:"Soma Cruz découvre qu'il est la réincarnation de Dracula dans un château bloqué dans le futur. L'apogée de la formule Metroidvania sur GBA grâce au Tactical Soul — absorber les pouvoirs ennemis." },
@@ -349,7 +349,7 @@ const GAMES = [
     desc:"Le Prince manipule le temps pour corriger ses erreurs dans un palais envahi de créatures de sable. Reboot magistral d'Ubisoft Montréal qui réinvente l'action-aventure avec une fluidité acrobatique et un charme narratif inégalé." },
 
   // ── 2004 ──────────────────────────────────
-  { year:2004, slug:"dragon-quest-viii-journey-of-the-cursed-king",
+  { year:2004, slug:"dragon-quest-viii",
     title:"Dragon Quest VIII", platform:"PlayStation 2", publisher:"Level-5 / Square Enix",
     genre:"RPG", emoji:"⚔️",
     desc:"Premier opus PS2 du monument japonais avec un cel-shading lumineux révélant un monde immense signé Level-5. Yangus, Angelo et Jessica accompagnent le héros silencieux dans une aventure épique mémorable." },
@@ -499,7 +499,7 @@ const GAMES = [
     desc:"Lumi part à la recherche de son grand-père dans une ville construite entièrement à la main en maquettes de papier, carton et bois. Point & click d'une beauté artisanale époustouflante, récompensé pour son design et son univers incomparable." },
 
   // ── 2015 ──────────────────────────────────
-  { year:2015, slug:"life-is-strange",
+  { year:2015, slug:"life-is-strange-episode-1-2",
     title:"Life is Strange", platform:"Multi-plateformes", publisher:"Dontnod Entertainment / Square Enix",
     genre:"Aventure narrative", emoji:"📷",
     desc:"Max Caulfield peut rembobiner le temps pour changer les événements du présent. Aventure narrative épisodique qui aborde avec sensibilité l'adolescence, l'amitié, le deuil et les conséquences irréversibles de nos choix." },
