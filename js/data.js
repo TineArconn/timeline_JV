@@ -348,6 +348,11 @@ const GAMES = [
     genre:"Action-Aventure", emoji:"⏳",
     desc:"Le Prince manipule le temps pour corriger ses erreurs dans un palais envahi de créatures de sable. Reboot magistral d'Ubisoft Montréal qui réinvente l'action-aventure avec une fluidité acrobatique et un charme narratif inégalé." },
 
+  { year:2003, slug:"impossible-creatures",
+    title:"Impossible Creatures", platform:"PC", publisher:"Relic Entertainment / Microsoft",
+    genre:"Stratégie temps réel", emoji:"🧬",
+    desc:"Rex Chance fusionne des animaux pour créer des créatures hybrides uniques constituant son armée. RTS de Relic au concept totalement original où chaque unité est une combinaison personnalisée de deux espèces — un bac à sable créatif fascinant, injustement tombé dans l'oubli." },
+  
   // ── 2004 ──────────────────────────────────
   { year:2004, slug:"dragon-quest-viii",
     title:"Dragon Quest VIII", platform:"PlayStation 2", publisher:"Level-5 / Square Enix",
@@ -652,6 +657,7 @@ const ALTS = {
   "spellforce-the-order-of-dawn":                       ["SpellForce 2: Shadow Wars (2006)", "SpellForce - Platinum Edition (2005)"],
   "final-fantasy-tactics-advance":                      ["Fire Emblem: The Blazing Blade (2003)"],
   "prince-of-persia-the-sands-of-time":                 ["Prince of Persia 2: The Shadow and the Flame (1993)"],
+  "impossible-creatures":                               ["Paraworld (2006)"],
   // ── 2004 ──
   "sly-2-band-of-thieves":                              ["Sly 3: Honor Among Thieves (2005)"],
   "the-lord-of-the-rings-the-battle-for-middle-earth":  ["The Battle for Middle-earth II (2006)"],
