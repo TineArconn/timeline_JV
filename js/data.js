@@ -48,7 +48,7 @@ const GAMES = [
     genre:"Tactical RPG", emoji:"♟️",
     desc:"Libérez un continent opprimé en commandant des armées de créatures mythiques dans un système de combats en temps réel unique. Tactical RPG d'une profondeur politique et morale rare, avec un système de réputation qui influe sur chaque fin possible." },
 
-  { year:1993, slug:"maniac-mansion-day-of-the-tentacle", rank: 50,
+  { year:1993, slug:"maniac-mansion-day-of-the-tentacle", rank: 20,
     title:"Day of the Tentacle", platform:"PC / Mac", publisher:"LucasArts",
     genre:"Point & Click", emoji:"🖱️",
     desc:"Trois amis naviguent dans le temps pour empêcher un tentacule maléfique de conquérir le monde. Un chef-d'œuvre de l'humour absurde et du design de puzzles, suite directe du cultissime Maniac Mansion." },
@@ -95,12 +95,12 @@ const GAMES = [
     genre:"Platformer", emoji:"🦊",
     desc:"Premier opus du héros sans membres d'Ubisoft Montpellier. Des mondes oniriques sublimement animés, une bande-son jazzy envoûtante et un level design exigeant pour un platformer 2D parmi les plus ambitieux." },
 
-  { year:1995, slug:"chrono-trigger-1995", rank: 50,
+  { year:1995, slug:"chrono-trigger-1995", rank: 5,
     title:"Chrono Trigger", platform:"Super Nintendo", publisher:"Square",
     genre:"RPG", emoji:"⚔️",
     desc:"L'un des plus grands RPG de tous les temps, né de la collaboration Toriyama-Horii-Sakaguchi. Voyage dans le temps, système ATB innovant, fins multiples et compositions légendaires de Mitsuda." },
 
-  { year:1995, slug:"trials-of-mana", rank: 50,
+  { year:1995, slug:"trials-of-mana", rank: 20,
     title:"Seiken Densetsu 3 / Trials of Mana", platform:"Super Nintendo", publisher:"Square",
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Suite de Secret of Mana avec 6 personnages jouables et 3 storylines distinctes. Un action-RPG vibrant aux graphismes SNES sublimes, injustement resté exclusif au Japon pendant plus de vingt ans." },
@@ -152,7 +152,7 @@ const GAMES = [
     genre:"Platformer", emoji:"👾",
     desc:"Abe, esclave moudar dans une usine de viande, s'échappe et tente de sauver ses 99 congénères. Platformer sombre et satirique, critique du capitalisme industriel, avec un gameplay de possession mentale unique." },
 
-  { year:1997, slug:"theme-hospital", rank: 50,
+  { year:1997, slug:"theme-hospital", rank: 20,
     title:"Theme Hospital", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"Gestion", emoji:"🏥",
     desc:"Gérez un hôpital peuplé de maladies absurdes — crâne gonflé, faux docteur, syndrome de la langue de bois. L'humour britannique décapant de Bullfrog en fait un jeu de gestion culte et toujours aussi savoureux." },
@@ -173,7 +173,7 @@ const GAMES = [
     genre:"RPG", emoji:"⚔️",
     desc:"RPG PS1 d'une richesse scénaristique bouleversante avec 108 personnages recrutables. Une histoire de guerre, de trahison et d'amitié brisée d'une intensité rare dans le médium, encore adulée des décennies plus tard." },
 
-  { year:1998, slug:"crash-bandicoot-warped", rank: 50,
+  { year:1998, slug:"crash-bandicoot-warped", rank: 20,
     title:"Crash Bandicoot 3: Warped", platform:"PlayStation", publisher:"Naughty Dog / Sony",
     genre:"Platformer", emoji:"🦊",
     desc:"Crash et Coco voyagent dans le temps et débloquent de nouvelles capacités spectaculaires — moto, avion biplan, sous-marin. L'apothéose de la trilogie PS1, avec une générosité de contenu exemplaire." },
@@ -188,7 +188,7 @@ const GAMES = [
     genre:"Stratégie / Gestion", emoji:"🏗️",
     desc:"Troisième opus de la saga de colonisation Blue Byte. Construire des chaînes de production complexes et mener ses armées à la conquête d'îles colorées — un équilibre parfait entre détente et stratégie." },
 
-  { year:1998, slug:"populous-the-beginning", rank: 50,
+  { year:1998, slug:"populous-the-beginning", rank: 20,
     title:"Populous: The Beginning", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"God Game", emoji:"⚡",
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
@@ -235,7 +235,7 @@ const GAMES = [
     desc:"SimCity 3000 raffine la formule isométrique avec une gestion des déchets, des négociations avec les villes voisines et une ambiance sonore et visuelle particulièrement soignée. Un épisode souvent sous-estimé entre le légendaire 2000 et le colossal SimCity 4." },
   
   // ── 2000 ──────────────────────────────────
-  { year:2000, slug:"zeus-master-of-olympus", rank: 50,
+  { year:2000, slug:"zeus-master-of-olympus", rank: 20,
     title:"Zeus: Master of Olympus", platform:"PC", publisher:"Impressions Games / Sierra",
     genre:"City Builder", emoji:"🏛️",
     desc:"City builder mythologique dans la Grèce antique. Construisez des cités florissantes, apaisez les dieux de l'Olympe et repoussez les monstres légendaires dans ce titre d'une richesse culturelle sincère." },
@@ -245,7 +245,7 @@ const GAMES = [
     genre:"RPG", emoji:"⚔️",
     desc:"Retour aux sources médiévales-fantastiques de la saga après les opus futuristes. Zidane, Garnet et Vivi vivent une aventure nostalgique et profondément émouvante — un amour déclaré aux RPG japonais classiques." },
 
-  { year:2000, slug:"command-conquer-red-alert-2", rank: 50,
+  { year:2000, slug:"command-conquer-red-alert-2", rank: 20,
     title:"Command & Conquer: Red Alert 2", platform:"PC", publisher:"Westwood Studios / EA",
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Uchronie de la Guerre Froide où l'URSS envahit les États-Unis avec des esprits contrôlés et des téléporteurs. STR nerveux et charismatique de Westwood avec des cinématiques live-action mémorables." },
@@ -266,7 +266,7 @@ const GAMES = [
     genre:"Visual Novel", emoji:"⚖️",
     desc:"Naruhodō Ryūichi, avocat maladroit, défend des accusés innocents dans des procès absurdes et dramatiques. Les OBJECTION ! retentissants, l'écriture savoureuse et les twists judiciaires en font une série unique." },
 
-  { year:2001, slug:"max-payne", rank: 50,
+  { year:2001, slug:"max-payne", rank: 20,
     title:"Max Payne", platform:"PC / PS2 / Xbox", publisher:"Remedy Entertainment / 3D Realms",
     genre:"TPS", emoji:"🔫",
     desc:"Flic en cavale dans New York sous la neige, Max Payne popularise le bullet time et la narration en roman noir graphique. Remedy livre un shooter atmosphérique d'une intensité dramatique saisissante, hommage au cinéma hard-boiled." },
@@ -292,7 +292,7 @@ const GAMES = [
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Révolutionne le RTS avec ses héros et ses éléments RPG profonds. Son éditeur donne naissance au genre MOBA via DotA — l'une des influences les plus durables et imprévisibles de l'histoire du jeu vidéo." },
 
-  { year:2002, slug:"age-of-mythology", rank: 50,
+  { year:2002, slug:"age-of-mythology", rank: 20,
     title:"Age of Mythology", platform:"PC", publisher:"Ensemble Studios / Microsoft",
     genre:"Stratégie temps réel", emoji:"⚡",
     desc:"Spin-off fantastique d'Age of Empires intégrant les panthéons grec, nordique et égyptien. Pouvoirs divins et créatures mythologiques insufflent une épopée légendaire à la formule RTS bien rodée." },
@@ -318,12 +318,12 @@ const GAMES = [
     genre:"Gestion", emoji:"🦁",
     desc:"Gérez un zoo avec des centaines d'espèces animales dans des habitats sur mesure. Blue Fang crée un jeu de simulation accessible et éducatif, véritable bac à sable créatif pour amoureux des animaux." },
 
-  { year:2003, slug:"castlevania-aria-of-sorrow-2", rank: 50,
+  { year:2003, slug:"castlevania-aria-of-sorrow-2", rank: 20,
     title:"Castlevania: Aria of Sorrow", platform:"Game Boy Advance", publisher:"Konami",
     genre:"Metroidvania", emoji:"🏰",
     desc:"Soma Cruz découvre qu'il est la réincarnation de Dracula dans un château bloqué dans le futur. L'apogée de la formule Metroidvania sur GBA grâce au Tactical Soul — absorber les pouvoirs ennemis." },
 
-  { year:2003, slug:"beyond-good-evil", rank: 50,
+  { year:2003, slug:"beyond-good-evil", rank: 20,
     title:"Beyond Good & Evil", platform:"PS2 / GameCube / Xbox / PC", publisher:"Ubisoft Montpellier",
     genre:"Action-Aventure", emoji:"📷",
     desc:"Jade, reporter-photographe et combattante, enquête sur une invasion extraterrestre dissimulée par le gouvernement. Jeu culte de Michel Ancel mêlant aventure, infiltration et photographie dans un univers SF vibrant." },
@@ -386,7 +386,7 @@ const GAMES = [
     desc:"Simulateur de studio hollywoodien de Peter Molyneux. Gérez acteurs, réalisateurs et plateaux de l'ère du muet au blockbuster moderne, tout en tournant vos propres films grâce à un éditeur créatif addictif." },
 
   // ── 2006 ──────────────────────────────────
-  { year:2006, slug:"okami", rank: 50,
+  { year:2006, slug:"okami", rank: 5,
     title:"Ōkami", platform:"PlayStation 2", publisher:"Clover Studio / Capcom",
     genre:"Action-Aventure", emoji:"🌸",
     desc:"Amaterasu, déesse-loup blanche, restaure la nature dévastée à coups de pinceau divin. Chef-d'œuvre visuel inspiré des estampes ukiyo-e et de Zelda — le Celestial Brush comme mécanique centrale d'une poésie incomparable." },
@@ -396,7 +396,7 @@ const GAMES = [
     genre:"Stratégie temps réel", emoji:"🪖",
     desc:"RTS tactique ancré dans le débarquement en Normandie, avec une physique destructible révolutionnaire et une gestion des unités d'une profondeur inédite. Considéré par beaucoup comme le meilleur RTS jamais conçu." },
 
-  { year:2006, slug:"titan-quest", rank: 50,
+  { year:2006, slug:"titan-quest", rank: 20,
     title:"Titan Quest", platform:"PC", publisher:"Iron Lore Entertainment / THQ",
     genre:"Action-RPG", emoji:"⚡",
     desc:"Hack-and-slash dans la Grèce antique, l'Égypte et la Chine mythologiques face aux Titans déchaînés. Titan Quest s'impose par sa richesse culturelle, ses classes hybrides et son atmosphère somptueuse." },
@@ -412,13 +412,13 @@ const GAMES = [
     genre:"RPG", emoji:"⚔️",
     desc:"Rush Sykes part à la rescousse de sa sœur dans un monde dominé par d'énigmatiques artéfacts appelés Remnants. RPG de Square Enix au système de batailles en formations d'unités atypique, avec un lore d'une richesse considérable." },
 
-  { year:2008, slug:"kings-bounty-the-legend", rank: 50,
+  { year:2008, slug:"kings-bounty-the-legend", rank: 20,
     title:"King's Bounty: The Legend", platform:"PC", publisher:"Katauri Interactive / 1C Company",
     genre:"Tactical RPG", emoji:"♟️",
     desc:"Un chasseur de primes sillonne un monde de fantasy ouvert à dos de cheval pour lever des armées et combattre au tour par tour. Revival moderne du genre fondateur, King's Bounty séduit par son humour, sa richesse et sa liberté d'exploration." },
 
   // ── 2009 ──────────────────────────────────
-  { year:2009, slug:"dragon-age-origins", rank: 50,
+  { year:2009, slug:"dragon-age-origins", rank: 20,
     title:"Dragon Age: Origins", platform:"PC / PS3 / Xbox 360", publisher:"BioWare / EA",
     genre:"RPG tactique", emoji:"🛡️",
     desc:"RPG tactique de BioWare avec six origines jouables distinctes. Un monde de heroic fantasy sombre, des choix moraux aux conséquences durables et un niveau d'écriture exceptionnel pour les compagnons et la politique du royaume." },
@@ -456,7 +456,7 @@ const GAMES = [
     genre:"Action", emoji:"🔪",
     desc:"Tueur masqué assassine des gangsters au rythme d'une bande-son synthwave hypnotique dans une Miami néon des années 80. Ultra-violent et ultra-nerveux, il questionne notre rapport à la violence dans les jeux vidéo." },
 
-  { year:2012, slug:"spec-ops-the-line", rank: 50,
+  { year:2012, slug:"spec-ops-the-line", rank: 20,
     title:"Spec Ops: The Line", platform:"PC / PS3 / Xbox 360", publisher:"Yager Development / 2K",
     genre:"TPS", emoji:"💀",
     desc:"Shooter militaire en apparence, déconstruction lucide du genre en réalité. Inspiré de Au Cœur des Ténèbres de Conrad, il confronte le joueur à ses propres actes dans une Dubaï apocalyptique d'une noirceur rare." },
@@ -509,12 +509,12 @@ const GAMES = [
     genre:"Aventure narrative", emoji:"📷",
     desc:"Max Caulfield peut rembobiner le temps pour changer les événements du présent. Aventure narrative épisodique qui aborde avec sensibilité l'adolescence, l'amitié, le deuil et les conséquences irréversibles de nos choix." },
 
-  { year:2015, slug:"ori-and-the-blind-forest", rank: 50,
+  { year:2015, slug:"ori-and-the-blind-forest", rank: 20,
     title:"Ori and the Blind Forest", platform:"PC / Xbox One", publisher:"Moon Studios / Microsoft",
     genre:"Platformer", emoji:"🌟",
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
 
-  { year:2015, slug:"her-story", rank: 50,
+  { year:2015, slug:"her-story", rank: 20,
     title:"Her Story", platform:"PC / Mac / iOS", publisher:"Sam Barlow",
     genre:"Aventure narrative", emoji:"📼",
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
@@ -534,7 +534,7 @@ const GAMES = [
     genre:"Action-Aventure", emoji:"🏹",
     desc:"Lara Croft traque la légendaire cité de Kitezh dans les steppes sibériennes gelées. Sequel ambitieux qui perfectionne la formule reboot avec des tombeaux facultatifs exemplaires, une survie bien pensée et une narration plus mature." },
 
-  { year:2015, slug:"steamworld-heist", rank: 50,
+  { year:2015, slug:"steamworld-heist", rank: 20,
     title:"SteamWorld Heist", platform:"3DS / PC / Switch / PS4", publisher:"Image & Form",
     genre:"Stratégie tour par tour", emoji:"🤖",
     desc:"Des pirates-robots recrutent un équipage hétéroclite pour piller des vaisseaux en apesanteur dans des niveaux générés procéduralement. Tactical tour par tour au gameplay d'une élégance rare où viser manuellement fait toute la différence — une pépite d'Image & Form." },
@@ -649,7 +649,7 @@ const ALTS = {
   "warcraft-3-reign-of-chaos":                          ["Warcraft III: The Frozen Throne (2003)", "Warcraft II: Tides of Darkness (1995)"],
   "age-of-mythology":                                   ["Age of Mythology: The Titans (2003)"],
   "metroid-fusion":                                     ["Metroid Dread (2021)"],
-  "syberia":                                            ["Syberia II (2004)", "Syberia: The World Before (2022)"],
+  "syberia":                                            ["L'Amerzone (1999)", "Syberia II (2004)", "Syberia: The World Before (2022)"],
   // ── 2003 ──
   "tropico-2-pirate-cove":                              ["Tropico 6 (2019)"],
   "zoo-tycoon-2001":                                    ["Jurassic World Evolution (2018)"],
