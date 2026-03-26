@@ -48,7 +48,7 @@ const GAMES = [
     genre:"Tactical RPG", emoji:"♟️",
     desc:"Libérez un continent opprimé en commandant des armées de créatures mythiques dans un système de combats en temps réel unique. Tactical RPG d'une profondeur politique et morale rare, avec un système de réputation qui influe sur chaque fin possible." },
 
-  { year:1993, slug:"maniac-mansion-day-of-the-tentacle", rank: 20,
+  { year:1993, slug:"maniac-mansion-day-of-the-tentacle", rank: 5,
     title:"Day of the Tentacle", platform:"PC / Mac", publisher:"LucasArts",
     genre:"Point & Click", emoji:"🖱️",
     desc:"Trois amis naviguent dans le temps pour empêcher un tentacule maléfique de conquérir le monde. Un chef-d'œuvre de l'humour absurde et du design de puzzles, suite directe du cultissime Maniac Mansion." },
@@ -152,7 +152,7 @@ const GAMES = [
     genre:"Platformer", emoji:"👾",
     desc:"Abe, esclave moudar dans une usine de viande, s'échappe et tente de sauver ses 99 congénères. Platformer sombre et satirique, critique du capitalisme industriel, avec un gameplay de possession mentale unique." },
 
-  { year:1997, slug:"theme-hospital", rank: 20,
+  { year:1997, slug:"theme-hospital", rank: 10,
     title:"Theme Hospital", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"Gestion", emoji:"🏥",
     desc:"Gérez un hôpital peuplé de maladies absurdes — crâne gonflé, faux docteur, syndrome de la langue de bois. L'humour britannique décapant de Bullfrog en fait un jeu de gestion culte et toujours aussi savoureux." },
@@ -188,7 +188,7 @@ const GAMES = [
     genre:"Stratégie / Gestion", emoji:"🏗️",
     desc:"Troisième opus de la saga de colonisation Blue Byte. Construire des chaînes de production complexes et mener ses armées à la conquête d'îles colorées — un équilibre parfait entre détente et stratégie." },
 
-  { year:1998, slug:"populous-the-beginning", rank: 20,
+  { year:1998, slug:"populous-the-beginning", rank: 10,
     title:"Populous: The Beginning", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"God Game", emoji:"⚡",
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
@@ -235,7 +235,7 @@ const GAMES = [
     desc:"SimCity 3000 raffine la formule isométrique avec une gestion des déchets, des négociations avec les villes voisines et une ambiance sonore et visuelle particulièrement soignée. Un épisode souvent sous-estimé entre le légendaire 2000 et le colossal SimCity 4." },
   
   // ── 2000 ──────────────────────────────────
-  { year:2000, slug:"zeus-master-of-olympus", rank: 20,
+  { year:2000, slug:"zeus-master-of-olympus", rank: 10,
     title:"Zeus: Master of Olympus", platform:"PC", publisher:"Impressions Games / Sierra",
     genre:"City Builder", emoji:"🏛️",
     desc:"City builder mythologique dans la Grèce antique. Construisez des cités florissantes, apaisez les dieux de l'Olympe et repoussez les monstres légendaires dans ce titre d'une richesse culturelle sincère." },
@@ -318,7 +318,7 @@ const GAMES = [
     genre:"Gestion", emoji:"🦁",
     desc:"Gérez un zoo avec des centaines d'espèces animales dans des habitats sur mesure. Blue Fang crée un jeu de simulation accessible et éducatif, véritable bac à sable créatif pour amoureux des animaux." },
 
-  { year:2003, slug:"castlevania-aria-of-sorrow-2", rank: 20,
+  { year:2003, slug:"castlevania-aria-of-sorrow-2", rank: 10,
     title:"Castlevania: Aria of Sorrow", platform:"Game Boy Advance", publisher:"Konami",
     genre:"Metroidvania", emoji:"🏰",
     desc:"Soma Cruz découvre qu'il est la réincarnation de Dracula dans un château bloqué dans le futur. L'apogée de la formule Metroidvania sur GBA grâce au Tactical Soul — absorber les pouvoirs ennemis." },
@@ -418,7 +418,7 @@ const GAMES = [
     desc:"Un chasseur de primes sillonne un monde de fantasy ouvert à dos de cheval pour lever des armées et combattre au tour par tour. Revival moderne du genre fondateur, King's Bounty séduit par son humour, sa richesse et sa liberté d'exploration." },
 
   // ── 2009 ──────────────────────────────────
-  { year:2009, slug:"dragon-age-origins", rank: 20,
+  { year:2009, slug:"dragon-age-origins", rank: 10,
     title:"Dragon Age: Origins", platform:"PC / PS3 / Xbox 360", publisher:"BioWare / EA",
     genre:"RPG tactique", emoji:"🛡️",
     desc:"RPG tactique de BioWare avec six origines jouables distinctes. Un monde de heroic fantasy sombre, des choix moraux aux conséquences durables et un niveau d'écriture exceptionnel pour les compagnons et la politique du royaume." },
@@ -456,7 +456,7 @@ const GAMES = [
     genre:"Action", emoji:"🔪",
     desc:"Tueur masqué assassine des gangsters au rythme d'une bande-son synthwave hypnotique dans une Miami néon des années 80. Ultra-violent et ultra-nerveux, il questionne notre rapport à la violence dans les jeux vidéo." },
 
-  { year:2012, slug:"spec-ops-the-line", rank: 20,
+  { year:2012, slug:"spec-ops-the-line", rank: 10,
     title:"Spec Ops: The Line", platform:"PC / PS3 / Xbox 360", publisher:"Yager Development / 2K",
     genre:"TPS", emoji:"💀",
     desc:"Shooter militaire en apparence, déconstruction lucide du genre en réalité. Inspiré de Au Cœur des Ténèbres de Conrad, il confronte le joueur à ses propres actes dans une Dubaï apocalyptique d'une noirceur rare." },
@@ -514,7 +514,7 @@ const GAMES = [
     genre:"Platformer", emoji:"🌟",
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
 
-  { year:2015, slug:"her-story", rank: 20,
+  { year:2015, slug:"her-story", rank: 10,
     title:"Her Story", platform:"PC / Mac / iOS", publisher:"Sam Barlow",
     genre:"Aventure narrative", emoji:"📼",
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
