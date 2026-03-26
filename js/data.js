@@ -85,7 +85,7 @@ const GAMES = [
     desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue, rarement exporté hors du Japon et du Royaume-Uni — une curiosité exclusive au charme authentique." },
     
   // ── 1995 ──────────────────────────────────
-  { year:1995, slug:"yoshis-island",
+  { year:1995, slug:"yoshis-island", rank: 50,
     title:"Super Mario World 2: Yoshi's Island", platform:"Super Nintendo", publisher:"Nintendo",
     genre:"Platformer", emoji:"🦕",
     desc:"Yoshi transporte bébé Mario à travers des niveaux peints à la craie dans un style aquarelle inédit. Un chef-d'œuvre graphique SNES d'une créativité permanente, avec des boss mémorables et inoubliables." },
@@ -121,7 +121,7 @@ const GAMES = [
     desc:"Ark ressuscite littéralement la Terre et ses civilisations. Chef-d'œuvre mélancolique sur le cycle de la vie et de la mort, injustement méconnu hors du Japon — clôture magnifique de la trilogie de l'âme d'Enix." },
 
   // ── 1996 ──────────────────────────────────
-  { year:1996, slug:"wipeout-2097",
+  { year:1996, slug:"wipeout-2097", rank: 50,
     title:"Wipeout 2097", platform:"PlayStation / PC / Saturn", publisher:"Psygnosis",
     genre:"Course anti-gravité", emoji:"🚀",
     desc:"Vaisseaux anti-gravitationnels à des vitesses insensées sur des circuits futuristes conçus avec The Designers Republic. La bande-son électronique de The Chemical Brothers et Leftfield en fait une expérience sensorielle totale." },
