@@ -456,7 +456,7 @@ const GAMES = [
     genre:"Action", emoji:"🔪",
     desc:"Tueur masqué assassine des gangsters au rythme d'une bande-son synthwave hypnotique dans une Miami néon des années 80. Ultra-violent et ultra-nerveux, il questionne notre rapport à la violence dans les jeux vidéo." },
 
-  { year:2012, slug:"spec-ops-the-line", rank: 10,
+  { year:2012, slug:"spec-ops-the-line", rank: 5,
     title:"Spec Ops: The Line", platform:"PC / PS3 / Xbox 360", publisher:"Yager Development / 2K",
     genre:"TPS", emoji:"💀",
     desc:"Shooter militaire en apparence, déconstruction lucide du genre en réalité. Inspiré de Au Cœur des Ténèbres de Conrad, il confronte le joueur à ses propres actes dans une Dubaï apocalyptique d'une noirceur rare." },
@@ -514,7 +514,7 @@ const GAMES = [
     genre:"Platformer", emoji:"🌟",
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
 
-  { year:2015, slug:"her-story", rank: 10,
+  { year:2015, slug:"her-story", rank: 5,
     title:"Her Story", platform:"PC / Mac / iOS", publisher:"Sam Barlow",
     genre:"Aventure narrative", emoji:"📼",
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
