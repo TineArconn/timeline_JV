@@ -281,6 +281,11 @@ const GAMES = [
     genre:"RPG", emoji:"⚙️",
     desc:"Un monde steampunk où magie et technologie industrielle s'affrontent. RPG isométrique de Troika d'une liberté narrative vertigineuse — race, classe, réputation et compétences recomposent entièrement l'expérience." },
 
+{ year:2001, slug:"ring-of-red",
+  title:"Ring of Red", platform:"PlayStation 2", publisher:"Konami",
+  genre:"Tactical RPG", emoji:"🤖",
+  desc:"Dans une Japon alternatif des années 60 où la guerre froide se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
+  
   // ── 2002 ──────────────────────────────────
   { year:2002, slug:"dark-cloud-2", rank: 50,
     title:"Dark Chronicle", platform:"PlayStation 2", publisher:"Level-5 / Sony",
@@ -644,6 +649,7 @@ const ALTS = {
   "commandos-2-men-of-courage":                        ["Shadow Gambit: The Cursed Crew (2023)"],
   "baldurs-gate-dark-alliance":                        ["Champions of Norrath (2004)", "Champions: Return to Arms (2005)"],
   "phoenix-wright-ace-attorney-2001":                  ["Phoenix Wright: Ace Attorney Trilogy (2014)"],
+  "ring-of-red":                                       ["Valkyria Chronicles (2008)"],
   // ── 2002 ──
   "dark-cloud-2":                                       ["Dark Cloud (2000)", "Rogue Galaxy (2005)"],
   "warcraft-3-reign-of-chaos":                          ["Warcraft III: The Frozen Throne (2003)", "Warcraft II: Tides of Darkness (1995)"],
