@@ -162,7 +162,7 @@ const GAMES = [
     genre:"Platformer / Puzzle", emoji:"🪓",
     desc:"Erik, Baleog et Olaf sont de retour, accompagnés de deux nouveaux compagnons aux capacités inédites. Suite du cultissime premier opus de Blizzard, The Lost Vikings 2 pousse encore plus loin l'ingéniosité des puzzles en coopération asynchrone." },
 
-  { year:1997, slug:"dungeon-keeper",
+  { year:1997, slug:"dungeon-keeper-gold",
     title:"Dungeon Keeper", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"God Game / Gestion", emoji:"😈",
     desc:"Incarnez le Gardien du Donjon : creusez, piégez, recrutez des créatures maléfiques et repoussez les héros envahisseurs. Chef-d'œuvre absolu de Peter Molyneux et Bullfrog, Dungeon Keeper renverse les conventions du genre avec un humour noir irrésistible et une profondeur de gestion redoutable." },
