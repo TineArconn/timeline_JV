@@ -161,6 +161,11 @@ const GAMES = [
     title:"The Lost Vikings 2", platform:"Super Nintendo / PS1 / PC", publisher:"Blizzard Entertainment",
     genre:"Platformer / Puzzle", emoji:"🪓",
     desc:"Erik, Baleog et Olaf sont de retour, accompagnés de deux nouveaux compagnons aux capacités inédites. Suite du cultissime premier opus de Blizzard, The Lost Vikings 2 pousse encore plus loin l'ingéniosité des puzzles en coopération asynchrone." },
+
+  { year:1997, slug:"dungeon-keeper",
+    title:"Dungeon Keeper", platform:"PC", publisher:"Bullfrog Productions / EA",
+    genre:"God Game / Gestion", emoji:"😈",
+    desc:"Incarnez le Gardien du Donjon : creusez, piégez, recrutez des créatures maléfiques et repoussez les héros envahisseurs. Chef-d'œuvre absolu de Peter Molyneux et Bullfrog, Dungeon Keeper renverse les conventions du genre avec un humour noir irrésistible et une profondeur de gestion redoutable." },
   
   // ── 1998 ──────────────────────────────────
   { year:1998, slug:"the-legend-of-zelda-links-awakening-dx", rank: 50,
@@ -627,6 +632,7 @@ const ALTS = {
   "oddworld-abes-oddysee":                             ["Oddworld: Abe's Exoddus (1998)", "Oddworld: New 'n' Tasty (2014)"],
   "theme-hospital":                                    ["Two Point Hospital (2018)"],
   "the-lost-vikings-2":                                ["The Lost Vikings (1993)", "Trine Enchanted Edition (2009)"],
+  "dungeon-keeper":                                    ["Dungeons 2 (2015)"],
   // ── 1998 ──
   "the-legend-of-zelda-links-awakening-dx":            ["The Legend of Zelda: A Link to the Past (1991)", "The Legend of Zelda: A Link Between Worlds (2013)"],
   "crash-bandicoot-warped":                            ["Crash Bandicoot N. Sane Trilogy (2017)"],
