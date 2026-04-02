@@ -255,6 +255,11 @@ const GAMES = [
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Uchronie de la Guerre Froide où l'URSS envahit les États-Unis avec des esprits contrôlés et des téléporteurs. STR nerveux et charismatique de Westwood avec des cinématiques live-action mémorables." },
 
+  { year:2000, slug:"time-crisis-2",
+    title:"Time Crisis 2", platform:"Arcade / PlayStation 2", publisher:"Namco",
+    genre:"Rail Shooter", emoji:"🔫",
+    desc:"Deux agents affrontent une organisation terroriste dans un shooter sur rail en coopération, avec le système de pédale de mise à couvert emblématique de la série. Time Crisis 2 perfectionne la formule arcade de Namco et reste l'un des meilleurs rail shooters jamais conçus, aussi jouissif en solo qu'à deux." },
+  
   // ── 2001 ──────────────────────────────────
   { year:2001, slug:"golden-sun",
     title:"Golden Sun", platform:"Game Boy Advance", publisher:"Camelot / Nintendo",
@@ -286,10 +291,10 @@ const GAMES = [
     genre:"RPG", emoji:"⚙️",
     desc:"Un monde steampunk où magie et technologie industrielle s'affrontent. RPG isométrique de Troika d'une liberté narrative vertigineuse — race, classe, réputation et compétences recomposent entièrement l'expérience." },
 
-{ year:2001, slug:"ring-of-red",
-  title:"Ring of Red", platform:"PlayStation 2", publisher:"Konami",
-  genre:"Tactical RPG", emoji:"🤖",
-  desc:"Dans une Japon alternatif des années 60 où la guerre froide se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
+  { year:2001, slug:"ring-of-red",
+    title:"Ring of Red", platform:"PlayStation 2", publisher:"Konami",
+    genre:"Tactical RPG", emoji:"🤖",
+    desc:"Dans une Japon alternatif des années 60 où la guerre froide se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
   
   // ── 2002 ──────────────────────────────────
   { year:2002, slug:"dark-cloud-2", rank: 50,
@@ -362,6 +367,11 @@ const GAMES = [
     title:"Impossible Creatures", platform:"PC", publisher:"Relic Entertainment / Microsoft",
     genre:"Stratégie temps réel", emoji:"🧬",
     desc:"Rex Chance fusionne des animaux pour créer des créatures hybrides uniques constituant son armée. RTS de Relic au concept totalement original où chaque unité est une combinaison personnalisée de deux espèces — un bac à sable créatif fascinant, injustement tombé dans l'oubli." },
+
+  { year:2003, slug:"warioware-inc-mega-microgames",
+    title:"WarioWare, Inc.: Mega Microgame$!", platform:"Game Boy Advance", publisher:"Nintendo",
+    genre:"Party Game", emoji:"🕹️",
+    desc:"Wario lance sa boîte de jeux vidéo avec des centaines de microjeux de cinq secondes enchaînés à vitesse croissante. Nintendo invente un genre à part entière — frénétique, absurde et infiniment rejouable, WarioWare est l'une des expériences les plus originales et jubilatoires jamais produites sur GBA." },
   
   // ── 2004 ──────────────────────────────────
   { year:2004, slug:"dragon-quest-viii",
@@ -395,6 +405,11 @@ const GAMES = [
     genre:"Simulation", emoji:"🎬",
     desc:"Simulateur de studio hollywoodien de Peter Molyneux. Gérez acteurs, réalisateurs et plateaux de l'ère du muet au blockbuster moderne, tout en tournant vos propres films grâce à un éditeur créatif addictif." },
 
+  { year:2005, slug:"soulcalibur-iii",
+    title:"SoulCalibur III", platform:"PlayStation 2", publisher:"Namco",
+    genre:"Combat", emoji:"⚔️",
+    desc:"Le troisième opus de la saga d'armes blanches exclusive PS2 enrichit le roster avec des personnages créés de toutes pièces grâce à un mode Chronicles of the Sword ambitieux. SoulCalibur III reste l'épisode le plus généreux en contenu solo de la série, avec un système de combat spectaculaire au sommet de son art." },
+  
   // ── 2006 ──────────────────────────────────
   { year:2006, slug:"okami", rank: 5,
     title:"Ōkami", platform:"PlayStation 2", publisher:"Clover Studio / Capcom",
@@ -411,6 +426,11 @@ const GAMES = [
     genre:"Action-RPG", emoji:"⚡",
     desc:"Hack-and-slash dans la Grèce antique, l'Égypte et la Chine mythologiques face aux Titans déchaînés. Titan Quest s'impose par sa richesse culturelle, ses classes hybrides et son atmosphère somptueuse." },
 
+  { year:2006, slug:"elite-beat-agents",
+    title:"Elite Beat Agents", platform:"Nintendo DS", publisher:"Nintendo",
+    genre:"Rythme", emoji:"🕺",
+    desc:"Des agents en costumes noirs sauvent des civils en difficulté grâce à la puissance de la musique, entièrement joué au stylet sur l'écran tactile du DS. Adaptation occidentale d'Osu! Tatakae! Ouendan, Elite Beat Agents est un jeu de rythme d'une énergie communicative et d'un humour visuel absolument irrésistibles." },
+  
   // ── 2008 ──────────────────────────────────
   { year:2008, slug:"spore",
     title:"Spore", platform:"PC / Mac", publisher:"Maxis / EA",
@@ -433,6 +453,11 @@ const GAMES = [
     genre:"RPG tactique", emoji:"🛡️",
     desc:"RPG tactique de BioWare avec six origines jouables distinctes. Un monde de heroic fantasy sombre, des choix moraux aux conséquences durables et un niveau d'écriture exceptionnel pour les compagnons et la politique du royaume." },
 
+  { year:2009, slug:"dj-hero",
+    title:"DJ Hero", platform:"PS3 / Xbox 360 / Wii", publisher:"Activision / FreeStyleGames",
+    genre:"Rythme", emoji:"🎧",
+    desc:"Mixez des mashups de morceaux iconiques sur une platine vinyle périphérique dans ce spinoff musical de Guitar Hero. FreeStyleGames livre une expérience de rythme unique en son genre, avec une tracklist soignée mêlant hip-hop, électro et pop — un objet culte sous-estimé de la grande époque des jeux musicaux." },
+  
   // ── 2010 ──────────────────────────────────
   { year:2010, slug:"xenoblade-chronicles",
     title:"Xenoblade Chronicles", platform:"Wii", publisher:"Monolith Soft / Nintendo",
@@ -650,6 +675,7 @@ const ALTS = {
   "zeus-master-of-olympus":                            ["Pharaon (1999)", "Caesar III (1998)", "Emperor: Rise of the Middle Kingdom (2002)"],
   "final-fantasy-ix":                                  ["Final Fantasy X (2001)", "Final Fantasy V (1992)"],
   "command-conquer-red-alert-2":                       ["Tiberian Sun (1999)", "Command & Conquer Remastered Collection (2020)"],
+  "time-crisis-2":                                     ["Point Blank 2 (1999)", "Crisis Zone (2004)"],
   // ── 2001 ──
   "max-payne":                                         ["Max Payne 2: The Fall of Max Payne (2003)"],
   "commandos-2-men-of-courage":                        ["Shadow Gambit: The Cursed Crew (2023)"],
