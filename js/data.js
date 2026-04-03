@@ -255,7 +255,7 @@ const GAMES = [
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Uchronie de la Guerre Froide où l'URSS envahit les États-Unis avec des esprits contrôlés et des téléporteurs. STR nerveux et charismatique de Westwood avec des cinématiques live-action mémorables." },
 
-  { year:2000, slug:"time-crisis-2",
+  { year:2000, slug:"time-crisis-ii",
     title:"Time Crisis 2", platform:"Arcade / PlayStation 2", publisher:"Namco",
     genre:"Rail Shooter", emoji:"🔫",
     desc:"Deux agents affrontent une organisation terroriste dans un shooter sur rail en coopération, avec le système de pédale de mise à couvert emblématique de la série. Time Crisis 2 perfectionne la formule arcade de Namco et reste l'un des meilleurs rail shooters jamais conçus, aussi jouissif en solo qu'à deux." },
@@ -368,8 +368,8 @@ const GAMES = [
     genre:"Stratégie temps réel", emoji:"🧬",
     desc:"Rex Chance fusionne des animaux pour créer des créatures hybrides uniques constituant son armée. RTS de Relic au concept totalement original où chaque unité est une combinaison personnalisée de deux espèces — un bac à sable créatif fascinant, injustement tombé dans l'oubli." },
 
-  { year:2003, slug:"warioware-inc-mega-microgames",
-    title:"WarioWare, Inc.: Mega Microgame$!", platform:"Game Boy Advance", publisher:"Nintendo",
+  { year:2003, slug:"warioware-inc-mega-microgame",
+    title:"WarioWare, Inc.", platform:"Game Boy Advance", publisher:"Nintendo",
     genre:"Party Game", emoji:"🕹️",
     desc:"Wario lance sa boîte de jeux vidéo avec des centaines de microjeux de cinq secondes enchaînés à vitesse croissante. Nintendo invente un genre à part entière — frénétique, absurde et infiniment rejouable, WarioWare est l'une des expériences les plus originales et jubilatoires jamais produites sur GBA." },
   
