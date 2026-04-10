@@ -675,7 +675,7 @@ const ALTS = {
   "zeus-master-of-olympus":                            ["Pharaon (1999)", "Caesar III (1998)", "Emperor: Rise of the Middle Kingdom (2002)"],
   "final-fantasy-ix":                                  ["Final Fantasy X (2001)", "Final Fantasy V (1992)"],
   "command-conquer-red-alert-2":                       ["Tiberian Sun (1999)", "Command & Conquer Remastered Collection (2020)"],
-  "time-crisis-2":                                     ["Point Blank 2 (1999)", "Crisis Zone (2004)"],
+  "time-crisis-ii":                                    ["Point Blank 2 (1999)", "Crisis Zone (2004)"],
   // ── 2001 ──
   "max-payne":                                         ["Max Payne 2: The Fall of Max Payne (2003)"],
   "commandos-2-men-of-courage":                        ["Shadow Gambit: The Cursed Crew (2023)"],
