@@ -117,32 +117,57 @@ function initModal() {
 ════════════════════════════════════════════ */
 function initFilter() {
   const counter = document.getElementById('game-count');
+  const root        = document.getElementById('root');
+  const carouselView = document.getElementById('carousel-view');
 
+  function showTimeline() {
+    root.style.display         = '';
+    carouselView.style.display = 'none';
+  }
+
+  function showCarousel(top) {
+    const ranked = GAMES
+      .filter(g => g.rank > 0 && g.rank <= top)
+      .sort((a, b) => a.year - b.year);
+    root.style.display         = 'none';
+    carouselView.style.display = 'block';
+    renderCarousel(ranked);
+  }
+ 
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       const top = parseInt(btn.dataset.top);
-
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      document.querySelectorAll('.entry').forEach(entry => {
-        const rank = parseInt(entry.dataset.rank || 0);
-        const show = top === 0 || (rank > 0 && rank <= top);
-        entry.style.display = show ? 'flex' : 'none';
-      });
+      if (top === 0) {
+        // Tous — frise normale
+        showTimeline();
+        document.querySelectorAll('.entry').forEach(e => e.style.display = 'flex');
+        document.querySelectorAll('.timeline, .decade-sep').forEach(e => e.style.display = '');
+        counter.textContent = `${GAMES.length} JEUX SÉLECTIONNÉS`;
 
-      // Hide empty decade separators
-      document.querySelectorAll('.timeline').forEach(tl => {
-        const hasVisible = [...tl.querySelectorAll('.entry')].some(e => e.style.display !== 'none');
-        tl.previousElementSibling.style.display = hasVisible ? 'flex' : 'none';
-        tl.style.display = hasVisible ? 'block' : 'none';
-      });
+      } else if (top === 50) {
+        // Top 50 — frise filtrée
+        showTimeline();
+        document.querySelectorAll('.entry').forEach(entry => {
+          const rank = parseInt(entry.dataset.rank || 0);
+          entry.style.display = (rank > 0 && rank <= 50) ? 'flex' : 'none';
+        });
+        document.querySelectorAll('.timeline').forEach(tl => {
+          const hasVisible = [...tl.querySelectorAll('.entry')].some(e => e.style.display !== 'none');
+          tl.previousElementSibling.style.display = hasVisible ? 'flex' : 'none';
+          tl.style.display = hasVisible ? 'block' : 'none';
+        });
+        const visible = [...document.querySelectorAll('.entry')].filter(e => e.style.display !== 'none').length;
+        counter.textContent = `${visible} / ${GAMES.length} JEUX AFFICHÉS`;
 
-      // Update counter
-      const visible = [...document.querySelectorAll('.entry')].filter(e => e.style.display !== 'none').length;
-      counter.textContent = top === 0
-        ? `${GAMES.length} JEUX SÉLECTIONNÉS`
-        : `${visible} / ${GAMES.length} JEUX AFFICHÉS`;
+      } else {
+        // Top 10 ou Top 5 — carrousel
+        showCarousel(top);
+        const ranked = GAMES.filter(g => g.rank > 0 && g.rank <= top);
+        counter.textContent = `${ranked.length} / ${GAMES.length} JEUX AFFICHÉS`;
+      }
     });
   });
 }
@@ -198,6 +223,169 @@ async function fetchImages() {
 }
 
 /* ════════════════════════════════════════════
+   CAROUSEL
+════════════════════════════════════════════ */
+let carouselGames  = [];
+let carouselIndex  = 0;
+let carouselColor  = 0;
+const NEON_COLORS  = [
+  'var(--neon-cyan)', 'var(--neon-pink)', 'var(--neon-green)',
+  'var(--neon-purple)', 'var(--neon-yellow)'
+];
+
+function renderCarousel(games) {
+  carouselGames = [...games].sort((a, b) => a.year - b.year);
+  carouselIndex = 0;
+
+  const wrap = document.getElementById('carousel-view');
+  wrap.innerHTML = '';
+
+  // Build all slides
+  const slidesWrap = document.createElement('div');
+  slidesWrap.id = 'carousel-slides';
+
+  carouselGames.forEach((g, i) => {
+    const alts = ALTS[g.slug] || [];
+    const color = NEON_COLORS[i % NEON_COLORS.length];
+    const altsHtml = alts.length
+      ? `<div class="carousel-alts">
+           <span class="alts-label">Voir aussi</span>
+           ${alts.map(a => `<span class="alt-pill">${a}</span>`).join('')}
+         </div>`
+      : '';
+    const opinionHtml = g.opinion
+      ? `<div class="carousel-opinion-wrap" style="color:${color}">
+           <div class="carousel-opinion-label">Mon avis</div>
+           <div class="carousel-opinion-text">${g.opinion}</div>
+         </div>`
+      : `<div class="carousel-opinion-wrap" style="color:${color}">
+           <div class="carousel-opinion-label">Mon avis</div>
+           <div class="carousel-opinion-text carousel-opinion-empty">— à rédiger —</div>
+         </div>`;
+
+    const slide = document.createElement('div');
+    slide.className = 'carousel-slide' + (i === 0 ? ' active' : '');
+    slide.style.color = color;
+    slide.innerHTML = `
+      <div class="carousel-img-wrap">
+        <div class="img-placeholder">
+          <span class="ph-emoji">${g.emoji}</span>
+          <span class="ph-text">chargement…</span>
+        </div>
+        <img data-slug="${g.slug}" alt="${g.title}" />
+        <div class="carousel-img-badges">
+          <span class="carousel-year-badge">${g.year}</span>
+          <span class="carousel-tag">${g.genre}</span>
+        </div>
+      </div>
+      <div class="carousel-body">
+        <div class="carousel-title">${g.title}</div>
+        <div class="carousel-platform">${g.platform} &nbsp;·&nbsp; ${g.publisher}</div>
+        <div class="carousel-desc">${g.desc}</div>
+        ${opinionHtml}
+        ${altsHtml}
+      </div>`;
+    slidesWrap.appendChild(slide);
+  });
+
+  // Navigation
+  const nav = document.createElement('div');
+  nav.className = 'carousel-nav';
+  nav.innerHTML = `
+    <button class="carousel-btn" id="c-prev">◀ PRÉC</button>
+    <span class="carousel-counter">
+      <strong id="c-cur">1</strong> / ${carouselGames.length}
+    </span>
+    <button class="carousel-btn" id="c-next">SUIV ▶</button>`;
+
+  // Dots
+  const dots = document.createElement('div');
+  dots.className = 'carousel-dots';
+  carouselGames.forEach((_, i) => {
+    const dot = document.createElement('div');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    dot.style.color = NEON_COLORS[i % NEON_COLORS.length];
+    dot.addEventListener('click', () => goTo(i));
+    dots.appendChild(dot);
+  });
+
+  const hint = document.createElement('div');
+  hint.className = 'carousel-hint';
+  hint.textContent = '← → TOUCHES DIRECTIONNELLES';
+
+  wrap.appendChild(slidesWrap);
+  wrap.appendChild(nav);
+  wrap.appendChild(dots);
+  wrap.appendChild(hint);
+
+  // Fetch images for carousel slides
+  wrap.querySelectorAll('img[data-slug]').forEach(img => {
+    const slug = img.dataset.slug;
+    const url  = `https://api.rawg.io/api/games/${encodeURIComponent(slug)}?key=${RAWG_KEY}`;
+    fetch(url)
+      .then(r => r.json())
+      .then(data => {
+        const src = data.background_image || data.background_image_additional;
+        if (!src) return;
+        img.src = src.replace(/\/resize\/\d+\/-\//, '/');
+        img.onload = () => {
+          img.classList.add('loaded');
+          img.previousElementSibling?.classList.add('hidden');
+        };
+      })
+      .catch(() => {});
+  });
+
+  // Click image → modal
+  wrap.querySelectorAll('.carousel-img-wrap').forEach(imgWrap => {
+    imgWrap.addEventListener('click', () => {
+      const img = imgWrap.querySelector('img.loaded');
+      if (!img) return;
+      const slide = imgWrap.closest('.carousel-slide');
+      const title = slide.querySelector('.carousel-title').textContent;
+      const year  = slide.querySelector('.carousel-year-badge').textContent;
+      document.getElementById('modal-title').textContent = title;
+      document.getElementById('modal-year').textContent  = year;
+      document.getElementById('modal-img').src = img.src;
+      document.getElementById('modal').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  document.getElementById('c-prev').addEventListener('click', () => goTo(carouselIndex - 1));
+  document.getElementById('c-next').addEventListener('click', () => goTo(carouselIndex + 1));
+
+  updateCarousel();
+}
+
+function goTo(i) {
+  const slides = document.querySelectorAll('.carousel-slide');
+  const dotEls = document.querySelectorAll('.carousel-dot');
+  slides[carouselIndex].classList.remove('active');
+  dotEls[carouselIndex].classList.remove('active');
+  carouselIndex = Math.max(0, Math.min(i, carouselGames.length - 1));
+  slides[carouselIndex].classList.add('active');
+  dotEls[carouselIndex].classList.add('active');
+  updateCarousel();
+}
+
+function updateCarousel() {
+  document.getElementById('c-cur').textContent = carouselIndex + 1;
+  document.getElementById('c-prev').disabled = carouselIndex === 0;
+  document.getElementById('c-next').disabled = carouselIndex === carouselGames.length - 1;
+}
+
+function initCarouselKeys() {
+  document.addEventListener('keydown', e => {
+    const carouselVisible = document.getElementById('carousel-view').style.display !== 'none';
+    if (!carouselVisible) return;
+    if (e.key === 'ArrowLeft')  goTo(carouselIndex - 1);
+    if (e.key === 'ArrowRight') goTo(carouselIndex + 1);
+  });
+}
+
+
+/* ════════════════════════════════════════════
    INIT
 ════════════════════════════════════════════ */
 document.addEventListener('DOMContentLoaded', () => {
@@ -205,6 +393,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initObserver();
   initModal();
   initFilter();
+  initCarouselKeys();
   document.getElementById('game-count').textContent = `${GAMES.length} JEUX SÉLECTIONNÉS`;
   fetchImages();
 });
