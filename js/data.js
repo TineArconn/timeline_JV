@@ -242,7 +242,7 @@ const GAMES = [
     desc:"SimCity 3000 raffine la formule isométrique avec une gestion des déchets, des négociations avec les villes voisines et une ambiance sonore et visuelle particulièrement soignée. Un épisode souvent sous-estimé entre le légendaire 2000 et le colossal SimCity 4." },
   
   // ── 2000 ──────────────────────────────────
-  { year:2000, slug:"zeus-master-of-olympus", rank: 10,
+  { year:2000, slug:"zeus-master-of-olympus", rank: 5,
     title:"Zeus: Master of Olympus", platform:"PC", publisher:"Impressions Games / Sierra",
     genre:"City Builder", emoji:"🏛️",
     desc:"City builder mythologique dans la Grèce antique. Construisez des cités florissantes, apaisez les dieux de l'Olympe et repoussez les monstres légendaires dans ce titre d'une richesse culturelle sincère." },
@@ -552,7 +552,7 @@ const GAMES = [
     genre:"Platformer", emoji:"🌟",
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
 
-  { year:2015, slug:"her-story", rank: 5,
+  { year:2015, slug:"her-story", rank: 10,
     title:"Her Story", platform:"PC / Mac / iOS", publisher:"Sam Barlow",
     genre:"Aventure narrative", emoji:"📼",
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
