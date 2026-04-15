@@ -663,7 +663,7 @@ const ALTS = {
   "crash-bandicoot-warped":                            ["Crash Bandicoot N. Sane Trilogy (2017)"],
   "medievil":                                          ["MediEvil II (2000)"],
   "the-settlers-3":                                    ["The Settlers II: 10th Anniversary (2006)", "Anno 1602 (1998)"],
-  "populous-the-beginning":                            ["Black & White (2001)"],
+  "populous-the-beginning":                            ["Black & White (2001)", "From Dust (2011)"],
   // ── 1999 ──
   "worms-armageddon":                                  ["Worms World Party (2001)", "Worms W.M.D (2016)"],
   "heroes-of-might-and-magic-3-the-restoration-of-era": ["Age of Wonders II: The Wizard's Throne (2002)"],
