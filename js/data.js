@@ -416,7 +416,8 @@ const GAMES = [
   { year:2006, slug:"okami", rank: 5,
     title:"Ōkami", platform:"PlayStation 2", publisher:"Clover Studio / Capcom",
     genre:"Action-Aventure", emoji:"🌸",
-    desc:"Amaterasu, déesse-loup blanche, restaure la nature dévastée à coups de pinceau divin. Chef-d'œuvre visuel inspiré des estampes ukiyo-e et de Zelda — le Celestial Brush comme mécanique centrale d'une poésie incomparable." },
+    desc:"Amaterasu, déesse-loup blanche, restaure la nature dévastée à coups de pinceau divin. Chef-d'œuvre visuel inspiré des estampes ukiyo-e et de Zelda — le Celestial Brush comme mécanique centrale d'une poésie incomparable.",
+    opinion:"Ōkami est sans aucun doute le plus beau jeu auquel il m'a été donné de jouer. Sa direction artistique en cel-shading est indémodable, rappelant les estampes ukiyo-e et sumi-e provenant du Japon, univers dans lequel le jeu veut nous emmener. Mais s'arrêter à son identité visuelle serait un crime, tant le titre est bourré de qualités. Son gameplay tout d'abord, proposant un système de dessins magiques à peindre soi-même pour agir sur le décor, les énigmes et les combats. Son histoire ensuite, combinant mythologie et folklore japonais, et qui nous amène à jouer la déesse du soleil, Amaterasu. Malgré des critiques dithyrambiques, Ōkami fut un échec commercial à sa sortie, et Clover Studio qui était derrière ce projet a été dissous peu après. Heureux possesseur d'une des 10 000 copies de la version PlayStation 2 seulement distribuées en France, je ne risque pas de m'en séparer !"},
 
   { year:2006, slug:"company-of-heroes",
     title:"Company of Heroes", platform:"PC", publisher:"Relic Entertainment / THQ",
