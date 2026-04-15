@@ -99,7 +99,8 @@ const GAMES = [
   { year:1995, slug:"chrono-trigger-1995", rank: 5,
     title:"Chrono Trigger", platform:"Super Nintendo", publisher:"Square",
     genre:"RPG", emoji:"⚔️",
-    desc:"L'un des plus grands RPG de tous les temps, né de la collaboration Toriyama-Horii-Sakaguchi. Voyage dans le temps, système ATB innovant, fins multiples et compositions légendaires de Mitsuda." },
+    desc:"L'un des plus grands RPG de tous les temps, né de la collaboration Toriyama-Horii-Sakaguchi. Voyage dans le temps, système ATB innovant, fins multiples et compositions légendaires de Mitsuda.",
+    opinion:"Chrono Trigger est considéré par beaucoup comme un des meilleurs RPG de tous les temps, et cette réputation n'est pas volée ! Non seulement le titre sublime des mécaniques déjà existantes comme le système Active Time Battle (ATB) créé pour Final Fantasy 4 à l'origine, mais il innove le genre en proposant des combats non aléatoires directement dans la zone de jeu, les attaques combinées entre personnages, douze fins uniques et même le New Game + ! Son scénario, bien que traitant classiquement du bien et du mal, propose un univers unique divisé en six époques. Les graphismes sont magnifiques et exploitent une SNES en fin de vie. Et que dire de l'OST, simplement sublime avec ses 64 titres variés, composés en grande partie par un Yasunori Mitsuda à ses débuts, épaulé par Nobuo Uematsu lorsque la fatigue l'a contraint à s'arrêter ! Bref, un coup de cœur, qui avait été traduit en français à l'époque par les bénévoles de Terminus Traduction, qu'il convient de saluer ici !"},
 
   { year:1995, slug:"trials-of-mana", rank: 20,
     title:"Seiken Densetsu 3 / Trials of Mana", platform:"Super Nintendo", publisher:"Square",
