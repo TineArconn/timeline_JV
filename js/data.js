@@ -25,7 +25,7 @@ const GAMES = [
 
   // ── 1992 ──────────────────────────────────
   { year:1992, slug:"indiana-jones-and-the-fate-of-atlantis",
-    img:"https://media.rawg.io/media/games/cce/cce8bebe861f295003f5a9fe5b11233f.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/712/712198f0d2e1ccf487db98393f237c45.jpg", rank: 50,
     title:"Indiana Jones and the Fate of Atlantis", platform:"PC / Mac / Amiga", publisher:"LucasArts",
     genre:"Point & Click", emoji:"🎩",
     desc:"Indy et Sofia traquent les secrets du continent perdu d'Atlantide à travers trois voies narratives distinctes. Chef-d'œuvre de LucasArts, souvent considéré comme le meilleur point & click de toute la décennie 90." },
@@ -37,7 +37,7 @@ const GAMES = [
     desc:"Mario doit récupérer six pièces magiques pour reprendre son château à Wario. Un Game Boy d'une variété de design et d'une qualité graphique remarquables, qui offre à Wario son premier grand rôle." },
 
   { year:1992, slug:"kirbys-dream-land",
-    img:"https://media.rawg.io/media/screenshots/fbc/fbc2bca0392e44ee8a817e7d36f10815.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/fac/fac07d83728a3733cf6edc11b478f75a.jpg",
     title:"Kirby's Dream Land", platform:"Game Boy", publisher:"HAL Laboratory / Nintendo",
     genre:"Platformer", emoji:"🌸",
     desc:"L'introduction du petit héros rose de HAL Laboratory au grand public. Simple, attachant et plein de personnalité, ce premier épisode Game Boy lance l'une des licences les plus créatives de Nintendo." },
@@ -50,7 +50,7 @@ const GAMES = [
 
   // ── 1993 ──────────────────────────────────
   { year:1993, slug:"ogre-battle-the-march-of-the-black-queen",
-    img:"https://media.rawg.io/media/games/815/815772f94bc016cd6e67c133bb9d5554.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a9/0a9a8e2bdf29d2e54f96e96485c5ceea.jpg",
     title:"Ogre Battle: The March of the Black Queen", platform:"Super Nintendo", publisher:"Quest / Enix",
     genre:"Tactical RPG", emoji:"♟️",
     desc:"Libérez un continent opprimé en commandant des armées de créatures mythiques dans un système de combats en temps réel unique. Tactical RPG d'une profondeur politique et morale rare, avec un système de réputation qui influe sur chaque fin possible." },
@@ -70,7 +70,7 @@ const GAMES = [
   
   // ── 1994 ──────────────────────────────────
   { year:1994, slug:"theme-park",
-    img:"https://media.rawg.io/media/screenshots/180/180b5f6e5d8c770bbbf941b9875046b6.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/784/784d16e49cf57c9dca0ebf512847fc14.jpg",
     title:"Theme Park", platform:"PC / SNES / Amiga", publisher:"Bullfrog Productions / EA",
     genre:"Gestion", emoji:"🎡",
     desc:"Construisez et gérez un parc d'attractions rentable, des montagnes russes aux stands de restauration. Le jeu de gestion de Bullfrog regorge d'humour britannique et de profondeur stratégique." },
@@ -82,7 +82,7 @@ const GAMES = [
     desc:"Wario, avide et brutal, part à la chasse aux trésors dans ce platformer Game Boy qui redéfinit son personnage en anti-héros jouable. Un level design inventif centré sur l'accumulation de richesses et des capacités liées aux power-ups ennemis." },
 
   { year:1994, slug:"breath-of-fire-ii",
-    img:"https://media.rawg.io/media/screenshots/74d/74d1c979b46dee44569fb8013e676b80.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/176/17686c476d9f638db97b60a4d2df242c.jpg",
     title:"Breath of Fire II", platform:"Super Nintendo", publisher:"Capcom",
     genre:"RPG", emoji:"🐉",
     desc:"Ryu et son équipe enquêtent sur une religion corrompue qui cache une menace démoniaque ancienne. RPG SNES de Capcom au scénario plus sombre et mature que le premier opus, avec un système de fusion de personnages original." },
@@ -94,7 +94,7 @@ const GAMES = [
     desc:"Aventure point & click post-apocalyptique absurde et poétique made in France. Woodruff retrouve son père adoptif dans un univers bariolé loufoque, typiquement français dans son humour décalé." },
 
   { year:1994, slug:"the-firemen",
-    img:"https://media.rawg.io/media/games/a88/a8836f01795b049f497e82c73facceda.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/9ee/9ee80d0d20a4d7194c9f6bedcc78d326.jpg",
     title:"The Firemen", platform:"Super Nintendo", publisher:"Human Entertainment / Nintendo",
     genre:"Action", emoji:"🔥",
     desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue, rarement exporté hors du Japon et du Royaume-Uni — une curiosité exclusive au charme authentique." },
