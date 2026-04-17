@@ -56,7 +56,7 @@ const GAMES = [
     desc:"Libérez un continent opprimé en commandant des armées de créatures mythiques dans un système de combats en temps réel unique. Tactical RPG d'une profondeur politique et morale rare, avec un système de réputation qui influe sur chaque fin possible." },
 
   { year:1993, slug:"maniac-mansion-day-of-the-tentacle",
-    img:"https://media.rawg.io/media/screenshots/f6b/f6b30c8c391dfe473a4f8cd58358f91d.jpg", rank: 5,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/a07/a07f6607545251ecca1bd9162abba7b9.jpg", rank: 5,
     title:"Day of the Tentacle", platform:"PC / Mac", publisher:"LucasArts",
     genre:"Point & Click", emoji:"🖱️",
     desc:"Trois amis naviguent dans le temps pour empêcher un tentacule maléfique de conquérir le monde. Un chef-d'œuvre de l'humour absurde et du design de puzzles, suite directe du cultissime Maniac Mansion.",
@@ -126,26 +126,26 @@ const GAMES = [
     desc:"Suite de Secret of Mana avec 6 personnages jouables et 3 storylines distinctes. Un action-RPG vibrant aux graphismes SNES sublimes, injustement resté exclusif au Japon pendant plus de vingt ans." },
 
   { year:1995, slug:"front-mission",
-    img:"https://media.rawg.io/media/games/fa8/fa8ba0c1adc5ffe0c299d6677ac7a8f5.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/f12/f1253ed454b9ac5937b86057fe8ba844.jpg",
     title:"Front Mission", platform:"Super Nintendo", publisher:"Square",
     genre:"Tactical RPG", emoji:"🤖",
     desc:"Tactical RPG dans un futur proche où des mechas géants s'affrontent pour des enjeux géopolitiques complexes. Un scénario politique sophistiqué et un système de personnalisation profond pour une saga culte." },
 
   { year:1995, slug:"tales-of-phantasia",
-    img:"https://media.rawg.io/media/games/fc5/fc503876ca1ca34e160e88671af86e88.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/baa/baa643978f5d20f2edefd106b0bfbe07.jpg",
     title:"Tales of Phantasia", platform:"Super Nintendo", publisher:"Namco",
     genre:"RPG", emoji:"⚔️",
     desc:"Le premier Tales of, avec un système de combat en temps réel révolutionnaire pour les RPG japonais de l'époque. Une saga fondatrice qui allie nervosité des affrontements et narration épique." },
 
   { year:1995, slug:"terranigma",
-    img:"https://media.rawg.io/media/games/37a/37ab5ca14d8ccd5bd366b06d5a73533f.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/79d/79d183c8da7364db97ce877b0317d114.jpg",
     title:"Terranigma", platform:"Super Nintendo", publisher:"Enix",
     genre:"Action-RPG", emoji:"🌍",
     desc:"Ark ressuscite littéralement la Terre et ses civilisations. Chef-d'œuvre mélancolique sur le cycle de la vie et de la mort, injustement méconnu hors du Japon — clôture magnifique de la trilogie de l'âme d'Enix." },
 
   // ── 1996 ──────────────────────────────────
   { year:1996, slug:"wipeout-2097",
-    img:"https://media.rawg.io/media/screenshots/46e/46efca9f53c940d9a3f4c505aed47dce.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/a96/a964a38d9d0285ac6a53bb3cf56f761b_lskSnmf.jpg", rank: 50,
     title:"Wipeout 2097", platform:"PlayStation / PC / Saturn", publisher:"Psygnosis",
     genre:"Course anti-gravité", emoji:"🚀",
     desc:"Vaisseaux anti-gravitationnels à des vitesses insensées sur des circuits futuristes conçus avec The Designers Republic. La bande-son électronique de The Chemical Brothers et Leftfield en fait une expérience sensorielle totale." },
@@ -170,19 +170,19 @@ const GAMES = [
     desc:"Le RTS historique qui démocratise le genre et façonne une génération entière de joueurs PC. De l'âge de pierre à l'Antiquité, bâtir sa civilisation et mener ses armées à la victoire devient une obsession." },
 
   { year:1997, slug:"crash-bandicoot-2",
-    img:"https://media.rawg.io/media/games/a84/a84dc4980063ce934705ea5d8d241939.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/dbe/dbed9e034f20e4a3623a6a072eaba130.jpg",
     title:"Crash Bandicoot 2: Cortex Strikes Back", platform:"PlayStation", publisher:"Naughty Dog / Sony",
     genre:"Platformer", emoji:"🦊",
     desc:"La série atteint sa pleine maturité avec des niveaux thématiques variés — arctique, égout, espace — et une maniabilité affinée. Crash s'impose comme la mascotte incontestée de la PlayStation originale." },
 
   { year:1997, slug:"oddworld-abes-oddysee",
-    img:"https://media.rawg.io/media/games/2ae/2aedae90b1377a0f3e5ce54d24f8e41a.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/dd2/dd27a11b97197b0c86dab505384edb40.jpg", rank: 50,
     title:"Oddworld: Abe's Oddysee", platform:"PlayStation / PC", publisher:"Oddworld Inhabitants / GT Interactive",
     genre:"Platformer", emoji:"👾",
     desc:"Abe, esclave moudar dans une usine de viande, s'échappe et tente de sauver ses 99 congénères. Platformer sombre et satirique, critique du capitalisme industriel, avec un gameplay de possession mentale unique." },
 
   { year:1997, slug:"theme-hospital",
-    img:"https://media.rawg.io/media/screenshots/fc5/fc52d6a48ea3596563f4853c71ea8028.jpg", rank: 10,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/212/21245891642354f18f76021fb0536d9b.jpg", rank: 10,
     title:"Theme Hospital", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"Gestion", emoji:"🏥",
     desc:"Gérez un hôpital peuplé de maladies absurdes — crâne gonflé, faux docteur, syndrome de la langue de bois. L'humour britannique décapant de Bullfrog en fait un jeu de gestion culte et toujours aussi savoureux." },
