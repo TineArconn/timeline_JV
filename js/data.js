@@ -287,10 +287,9 @@ const GAMES = [
   
   // ── 2000 ──────────────────────────────────
   { year:2000, slug:"zeus-master-of-olympus",
-    img:"https://media.rawg.io/media/screenshots/545/5456fa9ea02cbe32a88be2ccf953508e.jpg", rank: 5,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/2d6/2d64aa7846966280eb449a198ae90693.jpg", rank: 5,
     title:"Zeus: Master of Olympus", platform:"PC", publisher:"Impressions Games / Sierra",
     genre:"City Builder", emoji:"🏛️",
-    image:"https://media.rawg.io/media/resize/1920/-/screenshots/2d6/2d64aa7846966280eb449a198ae90693.jpg",
     desc:"City builder mythologique dans la Grèce antique. Construisez des cités florissantes, apaisez les dieux de l'Olympe et repoussez les monstres légendaires dans ce titre d'une richesse culturelle sincère.",
     opinion: "Le jeu de gestion est clairement un de mes styles de jeu préférés, et se doit d'être représenté dans cette liste. Le choix, encore une fois, est très dur entre God Game à la Populous, jeu de stratégie au tour par tour comme Civilization V qui vous entraîne dans des nuits blanches, ou même gestion d'un hôpital loufoque avec Theme Hospital. Mais il y a un type de jeu que j'apprécie plus que tout : le City Builder, et qui de mieux que Sierra et Impressions Games pour représenter le genre ? Dans leur catalogue de jeux plus géniaux les uns que les autres, beaucoup citeront Caesar 3 ou Pharaon. Mon coup de cœur à moi, grand fan de la mythologie grecque, reste Zeus : le maître de l'Olympe et son extension Poséidon, qui nous permet de bâtir rien de moins que l'Atlantide, tout en participant aux aventures des héros de l'antiquité, qui déambulent dans notre ville pour combattre les Dieux et créatures présents sur la carte. Le gameplay reste semblable aux autres jeux de la licence, quoique sans doute plus accessible. Rares sont les années sans relancer une petite partie, pour le plaisir."},
 
