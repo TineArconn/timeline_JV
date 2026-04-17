@@ -101,26 +101,26 @@ const GAMES = [
     
   // ── 1995 ──────────────────────────────────
   { year:1995, slug:"yoshis-island",
-    img:"https://media.rawg.io/media/games/98d/98d8fbc56c9a322a84ee38128e487bc8.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/afc/afce8ec88233ba99781afab9046f6c8d.jpg", rank: 50,
     title:"Super Mario World 2: Yoshi's Island", platform:"Super Nintendo", publisher:"Nintendo",
     genre:"Platformer", emoji:"🦕",
     desc:"Yoshi transporte bébé Mario à travers des niveaux peints à la craie dans un style aquarelle inédit. Un chef-d'œuvre graphique SNES d'une créativité permanente, avec des boss mémorables et inoubliables." },
 
   { year:1995, slug:"rayman",
-    img:"https://media.rawg.io/media/games/7ca/7ca0df41799243443a4e3887720fdf2a.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/8ad/8adafcbafd9c07d666845f90aa2dd872.jpg", rank: 50,
     title:"Rayman", platform:"PlayStation / SNES / PC", publisher:"Ubisoft Montpellier",
     genre:"Platformer", emoji:"🦊",
     desc:"Premier opus du héros sans membres d'Ubisoft Montpellier. Des mondes oniriques sublimement animés, une bande-son jazzy envoûtante et un level design exigeant pour un platformer 2D parmi les plus ambitieux." },
 
   { year:1995, slug:"chrono-trigger-1995",
-    img:"https://media.rawg.io/media/games/ae4/ae404f4e0f504131199703c09111bb78.jpg", rank: 5,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/e62/e62aae6abeca3f5df601ec2edc920c8e.jpg", rank: 5,
     title:"Chrono Trigger", platform:"Super Nintendo", publisher:"Square",
     genre:"RPG", emoji:"⚔️",
     desc:"L'un des plus grands RPG de tous les temps, né de la collaboration Toriyama-Horii-Sakaguchi. Voyage dans le temps, système ATB innovant, fins multiples et compositions légendaires de Mitsuda.",
     opinion:"Chrono Trigger est considéré par beaucoup comme un des meilleurs RPG de tous les temps, et cette réputation n'est pas volée ! Non seulement le titre sublime des mécaniques déjà existantes comme le système Active Time Battle (ATB) créé pour Final Fantasy 4 à l'origine, mais il innove le genre en proposant des combats non aléatoires directement dans la zone de jeu, les attaques combinées entre personnages, douze fins uniques et même le New Game + ! Son scénario, bien que traitant classiquement du bien et du mal, propose un univers unique divisé en six époques. Les graphismes sont magnifiques et exploitent une SNES en fin de vie. Et que dire de l'OST, simplement sublime avec ses 64 titres variés, composés en grande partie par un Yasunori Mitsuda à ses débuts, épaulé par Nobuo Uematsu lorsque la fatigue l'a contraint à s'arrêter ! Bref, un coup de cœur, qui avait été traduit en français à l'époque par les bénévoles de Terminus Traduction, qu'il convient de saluer ici !"},
 
   { year:1995, slug:"trials-of-mana",
-    img:"https://media.rawg.io/media/games/c94/c94a425492edbb2d22867bd6150bdbc2.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/a0c/a0c30b925827c51f2bd6e88dc36b7a22.jpg", rank: 20,
     title:"Seiken Densetsu 3 / Trials of Mana", platform:"Super Nintendo", publisher:"Square",
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Suite de Secret of Mana avec 6 personnages jouables et 3 storylines distinctes. Un action-RPG vibrant aux graphismes SNES sublimes, injustement resté exclusif au Japon pendant plus de vingt ans." },
