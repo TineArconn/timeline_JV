@@ -213,7 +213,7 @@ const GAMES = [
     desc:"RPG PS1 d'une richesse scénaristique bouleversante avec 108 personnages recrutables. Une histoire de guerre, de trahison et d'amitié brisée d'une intensité rare dans le médium, encore adulée des décennies plus tard." },
 
   { year:1998, slug:"crash-bandicoot-warped",
-    img:"https://media.rawg.io/media/games/837/837a609b0584db5d03534c8e767861b1.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/dc7/dc7fb4fedf8ad8a1754287f6a32a787c_rqbUCMw.jpg", rank: 20,
     title:"Crash Bandicoot 3: Warped", platform:"PlayStation", publisher:"Naughty Dog / Sony",
     genre:"Platformer", emoji:"🦊",
     desc:"Crash et Coco voyagent dans le temps et débloquent de nouvelles capacités spectaculaires — moto, avion biplan, sous-marin. L'apothéose de la trilogie PS1, avec une générosité de contenu exemplaire." },
@@ -300,7 +300,7 @@ const GAMES = [
     desc:"Retour aux sources médiévales-fantastiques de la saga après les opus futuristes. Zidane, Garnet et Vivi vivent une aventure nostalgique et profondément émouvante — un amour déclaré aux RPG japonais classiques." },
 
   { year:2000, slug:"command-conquer-red-alert-2",
-    img:"https://media.rawg.io/media/games/673/67304bfba37b6a18c50a60ab6ba6cebd.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/78d/78d95e05d1bf0bca37ab57168ffdbe62.jpg", rank: 20,
     title:"Command & Conquer: Red Alert 2", platform:"PC", publisher:"Westwood Studios / EA",
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Uchronie de la Guerre Froide où l'URSS envahit les États-Unis avec des esprits contrôlés et des téléporteurs. STR nerveux et charismatique de Westwood avec des cinématiques live-action mémorables." },
@@ -331,7 +331,7 @@ const GAMES = [
     desc:"Naruhodō Ryūichi, avocat maladroit, défend des accusés innocents dans des procès absurdes et dramatiques. Les OBJECTION ! retentissants, l'écriture savoureuse et les twists judiciaires en font une série unique." },
 
   { year:2001, slug:"max-payne",
-    img:"https://media.rawg.io/media/games/2f5/2f5eb72fe45540e93ac2726877551a20.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/fc9/fc9cef07344793d0a5dc7b1eaac1ad5b.jpg", rank: 20,
     title:"Max Payne", platform:"PC / PS2 / Xbox", publisher:"Remedy Entertainment / 3D Realms",
     genre:"TPS", emoji:"🔫",
     desc:"Flic en cavale dans New York sous la neige, Max Payne popularise le bullet time et la narration en roman noir graphique. Remedy livre un shooter atmosphérique d'une intensité dramatique saisissante, hommage au cinéma hard-boiled." },
@@ -368,7 +368,7 @@ const GAMES = [
     desc:"Révolutionne le RTS avec ses héros et ses éléments RPG profonds. Son éditeur donne naissance au genre MOBA via DotA — l'une des influences les plus durables et imprévisibles de l'histoire du jeu vidéo." },
 
   { year:2002, slug:"age-of-mythology",
-    img:"https://media.rawg.io/media/screenshots/584/584f4c934f490c17462cbd43477fa965.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/47c/47c91e762bddd34912d25b9011fe4cfd.jpg", rank: 20,
     title:"Age of Mythology", platform:"PC", publisher:"Ensemble Studios / Microsoft",
     genre:"Stratégie temps réel", emoji:"⚡",
     desc:"Spin-off fantastique d'Age of Empires intégrant les panthéons grec, nordique et égyptien. Pouvoirs divins et créatures mythologiques insufflent une épopée légendaire à la formule RTS bien rodée." },
@@ -405,7 +405,7 @@ const GAMES = [
     desc:"Soma Cruz découvre qu'il est la réincarnation de Dracula dans un château bloqué dans le futur. L'apogée de la formule Metroidvania sur GBA grâce au Tactical Soul — absorber les pouvoirs ennemis." },
 
   { year:2003, slug:"beyond-good-evil",
-    img:"https://media.rawg.io/media/games/ee5/ee5e06ae04f89f0a73b2af9e8015cae2.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/d31/d31a4aecda62d3865b1e2e7be68820ab.jpg", rank: 20,
     title:"Beyond Good & Evil", platform:"PS2 / GameCube / Xbox / PC", publisher:"Ubisoft Montpellier",
     genre:"Action-Aventure", emoji:"📷",
     desc:"Jade, reporter-photographe et combattante, enquête sur une invasion extraterrestre dissimulée par le gouvernement. Jeu culte de Michel Ancel mêlant aventure, infiltration et photographie dans un univers SF vibrant." },
@@ -505,7 +505,7 @@ const GAMES = [
     desc:"RTS tactique ancré dans le débarquement en Normandie, avec une physique destructible révolutionnaire et une gestion des unités d'une profondeur inédite. Considéré par beaucoup comme le meilleur RTS jamais conçu." },
 
   { year:2006, slug:"titan-quest",
-    img:"https://media.rawg.io/media/games/910/910d547965a5c4928ca19112778a1b4f.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/679/67903bfd4f80aab41a2a56e9b79a4180.jpg", rank: 20,
     title:"Titan Quest", platform:"PC", publisher:"Iron Lore Entertainment / THQ",
     genre:"Action-RPG", emoji:"⚡",
     desc:"Hack-and-slash dans la Grèce antique, l'Égypte et la Chine mythologiques face aux Titans déchaînés. Titan Quest s'impose par sa richesse culturelle, ses classes hybrides et son atmosphère somptueuse." },
@@ -530,7 +530,7 @@ const GAMES = [
     desc:"Rush Sykes part à la rescousse de sa sœur dans un monde dominé par d'énigmatiques artéfacts appelés Remnants. RPG de Square Enix au système de batailles en formations d'unités atypique, avec un lore d'une richesse considérable." },
 
   { year:2008, slug:"kings-bounty-the-legend",
-    img:"https://media.rawg.io/media/games/1aa/1aa082df2dbde6940e9ccbee4aac0feb.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a2/0a21b1a17edd9a73865a4b9914999742.jpg", rank: 20,
     title:"King's Bounty: The Legend", platform:"PC", publisher:"Katauri Interactive / 1C Company",
     genre:"Tactical RPG", emoji:"♟️",
     desc:"Un chasseur de primes sillonne un monde de fantasy ouvert à dos de cheval pour lever des armées et combattre au tour par tour. Revival moderne du genre fondateur, King's Bounty séduit par son humour, sa richesse et sa liberté d'exploration." },
@@ -651,7 +651,7 @@ const GAMES = [
     desc:"Max Caulfield peut rembobiner le temps pour changer les événements du présent. Aventure narrative épisodique qui aborde avec sensibilité l'adolescence, l'amitié, le deuil et les conséquences irréversibles de nos choix." },
 
   { year:2015, slug:"ori-and-the-blind-forest",
-    img:"https://media.rawg.io/media/games/f8c/f8c6a262ead4c16b47e1219310210eb3.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/bcb/bcb49e0507f3501823a8e39c15679763.jpg", rank: 20,
     title:"Ori and the Blind Forest", platform:"PC / Xbox One", publisher:"Moon Studios / Microsoft",
     genre:"Platformer", emoji:"🌟",
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
@@ -681,7 +681,7 @@ const GAMES = [
     desc:"Lara Croft traque la légendaire cité de Kitezh dans les steppes sibériennes gelées. Sequel ambitieux qui perfectionne la formule reboot avec des tombeaux facultatifs exemplaires, une survie bien pensée et une narration plus mature." },
 
   { year:2015, slug:"steamworld-heist",
-    img:"https://media.rawg.io/media/games/e49/e49256363789d1dec316edf8ebb27ccf.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/ead/ead0a4f9dcdd1084fbb0da8ea5a26a5e.jpg", rank: 20,
     title:"SteamWorld Heist", platform:"3DS / PC / Switch / PS4", publisher:"Image & Form",
     genre:"Stratégie tour par tour", emoji:"🤖",
     desc:"Des pirates-robots recrutent un équipage hétéroclite pour piller des vaisseaux en apesanteur dans des niveaux générés procéduralement. Tactical tour par tour au gameplay d'une élégance rare où viser manuellement fait toute la différence — une pépite d'Image & Form." },
