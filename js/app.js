@@ -350,6 +350,18 @@ function renderCarousel(games) {
   // Fetch images for carousel slides
   wrap.querySelectorAll('img[data-slug]').forEach(img => {
     const slug = img.dataset.slug;
+
+    // Réutilise l'image déjà chargée dans la frise si disponible
+    const existing = document.querySelector(`#root img[data-slug="${CSS.escape(slug)}"].loaded`);
+    if (existing) {
+      img.src = existing.src;
+      img.onload = () => {
+         img.classList.add('loaded');
+         img.previousElementSibling?.classList.add('hidden');
+       };
+       return; // pas besoin d'appel API
+    }
+     
     const url  = `https://api.rawg.io/api/games/${encodeURIComponent(slug)}?key=${RAWG_KEY}`;
     fetch(url)
       .then(r => r.json())
