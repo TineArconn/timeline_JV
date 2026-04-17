@@ -231,7 +231,7 @@ const GAMES = [
     desc:"Troisième opus de la saga de colonisation Blue Byte. Construire des chaînes de production complexes et mener ses armées à la conquête d'îles colorées — un équilibre parfait entre détente et stratégie." },
 
   { year:1998, slug:"populous-the-beginning",
-    img:"https://media.rawg.io/media/screenshots/6b6/6b6e78d2c701dd1e0c8199383b467ac3.jpg", rank: 10,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/3ee/3ee896cef46b602aa5ee665ae40a1ee1.jpg", rank: 10,
     title:"Populous: The Beginning", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"God Game", emoji:"⚡",
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
@@ -399,7 +399,7 @@ const GAMES = [
     desc:"Gérez un zoo avec des centaines d'espèces animales dans des habitats sur mesure. Blue Fang crée un jeu de simulation accessible et éducatif, véritable bac à sable créatif pour amoureux des animaux." },
 
   { year:2003, slug:"castlevania-aria-of-sorrow-2",
-    img:"https://media.rawg.io/media/games/0fc/0fc9e7cce8ddb4225cfee49b1f928601.jpg", rank: 10,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/328/3283eefc2bb816d8d9eae9e50637242f.jpg", rank: 10,
     title:"Castlevania: Aria of Sorrow", platform:"Game Boy Advance", publisher:"Konami",
     genre:"Metroidvania", emoji:"🏰",
     desc:"Soma Cruz découvre qu'il est la réincarnation de Dracula dans un château bloqué dans le futur. L'apogée de la formule Metroidvania sur GBA grâce au Tactical Soul — absorber les pouvoirs ennemis." },
@@ -537,7 +537,7 @@ const GAMES = [
 
   // ── 2009 ──────────────────────────────────
   { year:2009, slug:"dragon-age-origins",
-    img:"https://media.rawg.io/media/games/dc0/dc0926d3f84ffbcc00968fe8a6f0aed3.jpg", rank: 10,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/7a9/7a9f60d3629dffa088cbef12d262a743.jpg", rank: 10,
     title:"Dragon Age: Origins", platform:"PC / PS3 / Xbox 360", publisher:"BioWare / EA",
     genre:"RPG tactique", emoji:"🛡️",
     desc:"RPG tactique de BioWare avec six origines jouables distinctes. Un monde de heroic fantasy sombre, des choix moraux aux conséquences durables et un niveau d'écriture exceptionnel pour les compagnons et la politique du royaume." },
@@ -657,7 +657,7 @@ const GAMES = [
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
 
   { year:2015, slug:"her-story",
-    img:"https://media.rawg.io/media/games/a9a/a9a4e45ad8e653df2295e8410b7e96fd.jpg", rank: 10,
+    img:"https://media.rawg.io/media/resize/200/-/screenshots/fd4/fd4da6198e718001cd922f13b2e4d5bf.jpeg", rank: 10,
     title:"Her Story", platform:"PC / Mac / iOS", publisher:"Sam Barlow",
     genre:"Aventure narrative", emoji:"📼",
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
