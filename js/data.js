@@ -492,7 +492,7 @@ const GAMES = [
   
   // ── 2006 ──────────────────────────────────
   { year:2006, slug:"okami",
-    img:"https://media.rawg.io/media/games/922/92244532ff3c3f277824c0cf8941f187.jpg", rank: 5,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/8b2/8b20cf8e281f6dd5f87646d61de6c2e9.jpg", rank: 5,
     title:"Ōkami", platform:"PlayStation 2", publisher:"Clover Studio / Capcom",
     genre:"Action-Aventure", emoji:"🌸",
     desc:"Amaterasu, déesse-loup blanche, restaure la nature dévastée à coups de pinceau divin. Chef-d'œuvre visuel inspiré des estampes ukiyo-e et de Zelda — le Celestial Brush comme mécanique centrale d'une poésie incomparable.",
@@ -588,7 +588,7 @@ const GAMES = [
     desc:"Tueur masqué assassine des gangsters au rythme d'une bande-son synthwave hypnotique dans une Miami néon des années 80. Ultra-violent et ultra-nerveux, il questionne notre rapport à la violence dans les jeux vidéo." },
 
   { year:2012, slug:"spec-ops-the-line",
-    img:"https://media.rawg.io/media/games/b49/b4912b5dbfc7ed8927b65f05b8507f6c.jpg", rank: 5,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/9e2/9e26af47a676b061f288ff269e91a8f1.jpg", rank: 5,
     title:"Spec Ops: The Line", platform:"PC / PS3 / Xbox 360", publisher:"Yager Development / 2K",
     genre:"TPS", emoji:"💀",
     desc:"Shooter militaire en apparence, déconstruction lucide du genre en réalité. Inspiré de Au Cœur des Ténèbres de Conrad, il confronte le joueur à ses propres actes dans une Dubaï apocalyptique d'une noirceur rare." },
