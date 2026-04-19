@@ -1,3 +1,7 @@
+// Index slug → URL d'image (construit depuis GAMES au démarrage)
+const imgIndex = {};
+GAMES.forEach(g => { if (g.img) imgIndex[g.slug] = g.img; });
+
 /* ════════════════════════════════════════════
    RENDER
 ════════════════════════════════════════════ */
@@ -176,75 +180,61 @@ function initFilter() {
    RAWG COVER LOADING
    One precise API call per slug, full resolution
 ════════════════════════════════════════════ */
+function loadImageForEl(img, onDone) {
+  const slug = img.dataset.slug;
+  const storedUrl = imgIndex[slug];
+
+  function success() {
+    img.classList.add('loaded');
+    img.previousElementSibling?.classList.add('hidden');
+    if (onDone) onDone();
+  }
+
+  function tryApi() {
+    fetch(`https://api.rawg.io/api/games/${encodeURIComponent(slug)}?key=${RAWG_KEY}`)
+      .then(r => r.json())
+      .then(data => {
+        const src = data.background_image || data.background_image_additional;
+        if (!src) { if (onDone) onDone(); return; }
+        img.src = src.replace(/\/resize\/\d+\/-\//, '/');
+        img.onload  = success;
+        img.onerror = () => { if (onDone) onDone(); };
+      })
+      .catch(() => { if (onDone) onDone(); });
+  }
+
+  if (storedUrl) {
+    img.src = storedUrl;
+    img.onload  = success;
+    img.onerror = () => {
+      console.info(`URL expirée pour "${slug}", fallback API…`);
+      tryApi();
+    };
+  } else {
+    tryApi();
+  }
+}
+
 async function fetchImages() {
-  const imgs  = Array.from(document.querySelectorAll('img[data-slug]'));
+  const imgs  = Array.from(document.querySelectorAll('#root img[data-slug]'));
   const bar   = document.getElementById('img-progress');
   const total = imgs.length;
   let loaded  = 0;
 
-  // Construire un index slug → img depuis GAMES
-  const imgIndex = {};
-  GAMES.forEach(g => { if (g.img) imgIndex[g.slug] = g.img; });
-
   const CONCURRENCY = 3;
   let index = 0;
 
-  function onLoaded(img) {
-    img.classList.add('loaded');
-    img.previousElementSibling?.classList.add('hidden');
-    loaded++;
-    bar.style.width = Math.round((loaded / total) * 100) + '%';
-    if (loaded >= total) setTimeout(() => { bar.style.opacity = '0'; }, 900);
-  }
-
-  function onFailed() {
-    loaded++;
-    bar.style.width = Math.round((loaded / total) * 100) + '%';
-  }
-
-  async function loadFromUrl(img, url) {
-    img.src = url;
-    await new Promise((resolve) => {
-      img.onload  = () => { onLoaded(img); resolve(); };
-      img.onerror = async () => {
-        // URL stockée invalide → fallback API
-        console.info(`URL expirée pour "${img.dataset.slug}", fallback API...`);
-        await loadFromApi(img);
-        resolve();
-      };
-    });
-  }
-
-  async function loadFromApi(img) {
-    const slug = img.dataset.slug;
-    try {
-      const res  = await fetch(`https://api.rawg.io/api/games/${encodeURIComponent(slug)}?key=${RAWG_KEY}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      const src  = data.background_image || data.background_image_additional;
-      if (!src) { onFailed(); return; }
-      const fullSrc = src.replace(/\/resize\/\d+\/-\//, '/');
-      img.src = fullSrc;
-      img.onload  = () => onLoaded(img);
-      img.onerror = () => onFailed();
-    } catch(e) {
-      console.warn(`API fallback échouée pour "${slug}":`, e.message);
-      onFailed();
-    }
-  }
-
   async function fetchNext() {
     while (index < imgs.length) {
-      const img  = imgs[index++];
-      const slug = img.dataset.slug;
-      const storedUrl = imgIndex[slug];
-
-      if (storedUrl) {
-        await loadFromUrl(img, storedUrl);
-      } else {
-        // Pas d'URL stockée → appel API direct
-        await loadFromApi(img);
-      }
+      const img = imgs[index++];
+      await new Promise(resolve => {
+        loadImageForEl(img, () => {
+          loaded++;
+          bar.style.width = Math.round((loaded / total) * 100) + '%';
+          if (loaded >= total) setTimeout(() => { bar.style.opacity = '0'; }, 900);
+          resolve();
+        });
+      });
     }
   }
 
@@ -349,32 +339,7 @@ function renderCarousel(games) {
 
   // Fetch images for carousel slides
   wrap.querySelectorAll('img[data-slug]').forEach(img => {
-    const slug = img.dataset.slug;
-
-    // Réutilise l'image déjà chargée dans la frise si disponible
-    const existing = document.querySelector(`#root img[data-slug="${CSS.escape(slug)}"].loaded`);
-    if (existing) {
-      img.src = existing.src;
-      img.onload = () => {
-         img.classList.add('loaded');
-         img.previousElementSibling?.classList.add('hidden');
-       };
-       return; // pas besoin d'appel API
-    }
-     
-    const url  = `https://api.rawg.io/api/games/${encodeURIComponent(slug)}?key=${RAWG_KEY}`;
-    fetch(url)
-      .then(r => r.json())
-      .then(data => {
-        const src = data.background_image || data.background_image_additional;
-        if (!src) return;
-        img.src = src.replace(/\/resize\/\d+\/-\//, '/');
-        img.onload = () => {
-          img.classList.add('loaded');
-          img.previousElementSibling?.classList.add('hidden');
-        };
-      })
-      .catch(() => {});
+    loadImageForEl(img, null);
   });
 
   // Click image → modal
