@@ -530,7 +530,7 @@ const GAMES = [
     desc:"Rush Sykes part à la rescousse de sa sœur dans un monde dominé par d'énigmatiques artéfacts appelés Remnants. RPG de Square Enix au système de batailles en formations d'unités atypique, avec un lore d'une richesse considérable." },
 
   { year:2008, slug:"kings-bounty-the-legend",
-    img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a2/0a21b1a17edd9a73865a4b9914999742.jpg", rank: 20,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a2/0a21b1a17edd9a73865a4b9914999742.jpg", rank: 10,
     title:"King's Bounty: The Legend", platform:"PC", publisher:"Katauri Interactive / 1C Company",
     genre:"Tactical RPG", emoji:"♟️",
     desc:"Un chasseur de primes sillonne un monde de fantasy ouvert à dos de cheval pour lever des armées et combattre au tour par tour. Revival moderne du genre fondateur, King's Bounty séduit par son humour, sa richesse et sa liberté d'exploration." },
@@ -658,7 +658,7 @@ const GAMES = [
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
 
   { year:2015, slug:"her-story",
-    img:"https://media.rawg.io/media/resize/200/-/screenshots/fd4/fd4da6198e718001cd922f13b2e4d5bf.jpeg", rank: 10,
+    img:"https://media.rawg.io/media/resize/200/-/screenshots/fd4/fd4da6198e718001cd922f13b2e4d5bf.jpeg", rank: 20,
     title:"Her Story", platform:"PC / Mac / iOS", publisher:"Sam Barlow",
     genre:"Aventure narrative", emoji:"📼",
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
