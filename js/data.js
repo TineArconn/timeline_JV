@@ -98,7 +98,13 @@ const GAMES = [
     title:"The Firemen", platform:"Super Nintendo", publisher:"Human Entertainment / Nintendo",
     genre:"Action", emoji:"🔥",
     desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue, rarement exporté hors du Japon et du Royaume-Uni — une curiosité exclusive au charme authentique." },
-    
+
+  { year:1994, slug:"the-incredible-machine-3", 
+   img:null,
+    title:"The Incredible Machine 3", platform:"PC / Mac", publisher:"Sierra On-Line",
+    genre:"Puzzle", emoji:"⚙️",
+    desc:"Construisez des machines de Rube Goldberg délirantes en enchaînant trampolines, poulie, ballons et dynamite pour accomplir des objectifs absurdes. Sierra pousse la série à son apogée avec des centaines de puzzles et un éditeur de niveaux généreux — un classique du puzzle créatif qui n'a jamais vraiment vieilli." },
+  
   // ── 1995 ──────────────────────────────────
   { year:1995, slug:"yoshis-island",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/afc/afce8ec88233ba99781afab9046f6c8d.jpg", rank: 50,
@@ -142,6 +148,12 @@ const GAMES = [
     title:"Terranigma", platform:"Super Nintendo", publisher:"Enix",
     genre:"Action-RPG", emoji:"🌍",
     desc:"Ark ressuscite littéralement la Terre et ses civilisations. Chef-d'œuvre mélancolique sur le cycle de la vie et de la mort, injustement méconnu hors du Japon — clôture magnifique de la trilogie de l'âme d'Enix." },
+
+  { year:1995, slug:"discworld", 
+    img:null,
+    title:"Discworld", platform:"PC / PlayStation / Saturn", publisher:"Psygnosis / GT Interactive",
+    genre:"Point & Click", emoji:"🐢",
+    desc:"Rincevent, sorcier incompétent de Terry Pratchett, doit sauver Ankh-Morpork d'un dragon dans cette adaptation point & click du Disque-Monde. L'humour british absurde de Pratchett transcrit à la perfection, avec des puzzles farfelus et la voix inoubliable de Tony Robinson dans le rôle de Rincevent." },
 
   // ── 1996 ──────────────────────────────────
   { year:1996, slug:"wipeout-2097",
@@ -561,6 +573,12 @@ const GAMES = [
     genre:"Platformer", emoji:"🔄",
     desc:"Captain Viridian ne peut pas sauter — il inverse la gravité. Platformer minimaliste d'une difficulté redoutable, avec une bande-son chiptune de SoulEye inoubliable et un game design d'une élégance absolue." },
 
+  { year:2010, slug:"gray-matter", 
+    img:null,
+    title:"Gray Matter", platform:"PC / Xbox 360", publisher:"Lace Mamba Global",
+    genre:"Point & Click", emoji:"🎩",
+    desc:"Samantha Everett, magicienne de rue, se retrouve mêlée aux expériences neurologiques troublantes du Dr David Styles dans un Oxford gothique et mystérieux. Adventure game signé Jane Jensen, créatrice de Gabriel Knight, avec une atmosphère envoûtante, une écriture soignée et des puzzles de prestidigitation originaux." },
+
   // ── 2011 ──────────────────────────────────
   { year:2011, slug:"rayman-origins",
     img:"https://media.rawg.io/media/screenshots/375/375f84d018242d7519a230f623981217.jpg",
@@ -605,7 +623,13 @@ const GAMES = [
     title:"Dust: An Elysian Tail", platform:"PC / Xbox 360 / PS4", publisher:"Humble Hearts",
     genre:"Action-RPG", emoji:"🌀",
     desc:"Dust, guerrier amnésique accompagné de l'épée parlante Ahrah et de la fée Fidget, explore un monde animé d'une beauté stupéfiante. Action-RPG développé quasi entièrement par une seule personne, Dean Dodrill, avec un système de combat fluide et spectaculaire d'une générosité remarquable." },
-    
+
+  { year:2012, slug:"mark-of-the-ninja", 
+    img:null,
+    title:"Mark of the Ninja", platform:"PC / Xbox 360 / PS4 / Switch", publisher:"Klei Entertainment",
+    genre:"Stealth / Platformer", emoji:"🥷",
+    desc:"Un ninja tatoué de symboles maudits infiltre des complexes ennemis dans un jeu de furtivité 2D d'une précision absolue. Klei Entertainment signe le meilleur jeu de ninja jamais conçu — chaque élément sonore et visuel communique l'information au joueur avec une clarté et une intelligence de design exemplaires." },
+  
   // ── 2013 ──────────────────────────────────
   { year:2013, slug:"the-stanley-parable",
     img:"https://media.rawg.io/media/screenshots/8f0/8f0b94922ad5e59968852649697b2643.jpg",
@@ -643,6 +667,12 @@ const GAMES = [
     title:"Lumino City", platform:"PC / Mac / iOS", publisher:"State of Play Games",
     genre:"Point & Click", emoji:"🏙️",
     desc:"Lumi part à la recherche de son grand-père dans une ville construite entièrement à la main en maquettes de papier, carton et bois. Point & click d'une beauté artisanale époustouflante, récompensé pour son design et son univers incomparable." },
+
+  { year:2014, slug:"child-of-light", 
+    img:null,
+    title:"Child of Light", platform:"Multi-plateformes", publisher:"Ubisoft Montréal",
+    genre:"RPG", emoji:"🌙",
+    desc:"Aurora, petite princesse autrichienne, s'éveille dans le royaume fantastique d'Lemuria et doit ramener le soleil, la lune et les étoiles dérobés. RPG de combat au tour par tour au rendu aquarelle somptueux signé Ubisoft Montréal, avec un système de combat basé sur la jauge d'initiative et des dialogues entièrement en vers." },
 
   // ── 2015 ──────────────────────────────────
   { year:2015, slug:"life-is-strange-episode-1-2",
@@ -692,6 +722,12 @@ const GAMES = [
     title:"RONIN", platform:"PC / Mac / Linux", publisher:"Devolver Digital",
     genre:"Action / Tactique", emoji:"⚔️",
     desc:"Une vindicatrice enchaîne des infiltrations nocturnes contre cinq cibles dans un système de combat au tour par tour déclenché au contact. RONIN fascine par sa tension unique entre action fluide en temps réel et réflexion tactique instantanée — une perle discrète éditée par Devolver." },
+
+  { year:2015, slug:"hard-west", 
+    img:null,
+    title:"Hard West", platform:"PC / Switch", publisher:"CreativeForge Games / Gambitious",
+    genre:"Tactical RPG", emoji:"🤠",
+    desc:"Surnaturel et Far West s'entremêlent dans ce tactical tour par tour où démons, pactes diaboliques et vengeance s'affrontent sous un ciel de soufre. Hard West séduit par son ambiance de western noir unique, ses mécaniques de ricochets et sa narration fragmentée en huit histoires indépendantes." },
   
   // ── 2016 ──────────────────────────────────
   { year:2016, slug:"inside",
@@ -712,12 +748,31 @@ const GAMES = [
     genre:"Platformer", emoji:"🦉",
     desc:"Otus, jeune hibou sourd-muet, sauve son village pirate des envahisseurs à dos de ses amis tireurs. Dix ans de développement pour un pixel art monumental et un récit d'amitié et d'estime de soi d'une sensibilité touchante." },
 
+  { year:2016, slug:"the-final-station", 
+    img:null,
+    title:"The Final Station", platform:"PC / PS4 / Xbox / Switch", publisher:"tinyBuild",
+    genre:"Action / Survie", emoji:"🚂",
+    desc:"Conduisez un train à travers un monde apocalyptique, gérez vos rescapés et combattez les infectés dans les gares dévastées. Pixel art atmosphérique signé Do My Best Games — le voyage lui-même est aussi mélancolique que les arrêts, dans un récit post-apocalyptique avare en explications et riche en sous-entendus." },
+  
   // ── 2017 ──────────────────────────────────
   { year:2017, slug:"doki-doki-literature-club",
     img:"https://media.rawg.io/media/games/972/972aea3c9eb253e893947bec2d2cfbb9.jpg", rank: 50,
     title:"Doki Doki Literature Club!", platform:"PC / Mac / Linux", publisher:"Team Salvato",
     genre:"Visual Novel", emoji:"📖",
     desc:"Un club de lecture lycéen en apparence mignon qui déconstruit les codes du visual novel japonais dans une spirale psychologique de plus en plus dérangeante. Expérience gratuite sur Steam, à déconseiller aux âmes sensibles." },
+
+  { year:2017, slug:"hob", 
+    img:null,
+    title:"Hob", platform:"PC / PS4 / Switch", publisher:"Runic Games",
+    genre:"Action-Aventure", emoji:"⚙️",
+    desc:"Un personnage mutique explore et répare un monde mécanique vivant sans un mot de dialogue ni d'interface. Dernier jeu de Runic Games avant leur fermeture, Hob fascine par sa direction artistique organique-mécanique unique et sa manière de révéler son univers par l'exploration pure — une lettre d'amour silencieuse au médium." },
+
+  { year:2017, slug:"splasher", 
+    img:null,
+    title:"Splasher", platform:"PC / PS4 / Xbox / Switch", publisher:"Plug In Digital",
+    genre:"Platformer", emoji:"🎨",
+    desc:"Un ouvrier d'usine armé d'un canon à peinture s'échappe des griffes de son patron tyrannique dans un platformer 2D frénétique. Jeu français de Splashteam au level design ciselé, avec trois types de peinture aux effets radicalement différents — adhésive, répulsive et protectrice — qui composent des puzzles d'une inventivité constante." },
+  
 
   // ── 2018 ──────────────────────────────────
   { year:2018, slug:"monster-boy-and-the-cursed-kingdom",
@@ -744,6 +799,19 @@ const GAMES = [
     genre:"RPG", emoji:"🏰",
     desc:"Le jeune roi Evan reconstruit son royaume après un coup d'État dans un monde de conte de fées animé façon Ghibli. RPG d'action généreux et lumineux de Level-5, avec un système de construction de royaume addictif et une bande-son enchanteresse." },
 
+  // ── 2019 ──────────────────────────────────  
+  { year:2019, slug:"a-short-hike", 
+    img:null,
+    title:"A Short Hike", platform:"PC / Mac / Switch / PS4 / Xbox", publisher:"adamgryu",
+    genre:"Aventure", emoji:"🏔️",
+    desc:"Claire l'oiseau grimpe au sommet d'une montagne insulaire en explorant librement, pêchant, discutant avec les habitants et collectant des plumes dorées. Jeu indépendant d'une heure et demie d'une douceur et d'une sincérité rares — A Short Hike est une méditation paisible sur le voyage, la déconnexion et la satisfaction simple d'atteindre un sommet." },
+
+  { year:2019, slug:"cat-quest-ii", 
+    img:null,
+    title:"Cat Quest II", platform:"PC / PS4 / Xbox / Switch / Mobile", publisher:"The Gentlebros",
+    genre:"Action-RPG", emoji:"🐱",
+    desc:"Un chat et un chien doivent s'allier pour sauver leurs royaumes rivaux dans ce RPG d'action accessible et délicieusement félin. The Gentlebros double la mise avec un mode coopératif en local, un monde ouvert généreux truffé de calembours félins et de donjons bien rythmés — un jeu parfait pour débuter le RPG." },
+  
 ];
 
 // ─────────────────────────────────────────────
@@ -762,6 +830,8 @@ const ALTS = {
   "theme-park":                                        ["Theme Park World (2000)"],
   "wario-land-super-mario-land-3":                     ["Wario Land II (1998)", "Wario Land 4 (2001)"],
   "woodruff-and-the-schnibble-of-azimuth":             ["Gobliins 2: Le Prince Bouffon (1992)"],
+  "the-incredible-machine-3":                          ["World of Goo (2008)"],
+
   // ── 1995 ──
   "rayman":                                            ["Rayman Forever (1998)", "Rayman 3: Hoodlum Havoc (2003)"],
   "trials-of-mana":                                    ["Secret of Mana (1993)", "Mystic Quest (1991)"],
@@ -857,4 +927,6 @@ const ALTS = {
   // ── 2018 ──
   "monster-boy-and-the-cursed-kingdom":                 ["Wonder Boy in Monster World (1991)"],
   "chuchel":                                            ["Machinarium (2009)", "Botanicula (2012)"],
+  // ── 2019 ──
+  "cat-quest-ii":                                       ["Cat Quest (2017)", "Cat Quest III (2024)"],
 };
