@@ -210,7 +210,17 @@ const GAMES = [
     title:"Dungeon Keeper", platform:"PC", publisher:"Bullfrog Productions / EA",
     genre:"God Game / Gestion", emoji:"😈",
     desc:"Incarnez le Gardien du Donjon : creusez, piégez, recrutez des créatures maléfiques et repoussez les héros envahisseurs. Chef-d'œuvre absolu de Peter Molyneux et Bullfrog, Dungeon Keeper renverse les conventions du genre avec un humour noir irrésistible et une profondeur de gestion redoutable." },
+
+  { year:1997, slug:"beasts-bumpkins", img:null,
+    title:"Démons et Manants", platform:"PC", publisher:"Worldscape / Electronic Arts",
+    genre:"Stratégie / Gestion", emoji:"🏡",
+    desc:"Gérez un village médiéval en assignant vos paysans à la construction, l'agriculture et la chasse, tout en repoussant les créatures monstrueuses qui rôdent autour de vos terres. Mélange attachant de gestion de ressources et de tower defense avant l'heure, avec un humour bucolique british et une accessibilité qui en fait un charme discret des années 90." },
   
+  { year:1997, slug:"america-no-peace-beyond-the-line", img:null,
+    title:"America: No Peace Beyond the Line", platform:"PC", publisher:"Sunflowers",
+    genre:"Stratégie temps réel", emoji:"⚓",
+    desc:"Incarnez pirates, flibustiers ou marines royales dans les Caraïbes du XVIIe siècle, pillant convois et assiégeant ports dans un RTS naval et terrestre peu connu. Sunflowers livre une simulation historique ambitieuse à l'ambiance boucanière authentique, mêlant gestion de flotte, diplomatie et conquête coloniale dans un contexte rarement exploité." },
+    
   // ── 1998 ──────────────────────────────────
   { year:1998, slug:"the-legend-of-zelda-links-awakening-dx",
     img:"https://media.rawg.io/media/games/a1b/a1b2af4caa3c61f9922431baf1fca447.jpg", rank: 50,
@@ -248,6 +258,11 @@ const GAMES = [
     genre:"God Game", emoji:"⚡",
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
 
+  { year:1998, slug:"rage-of-mages", img:null,
+    title:"Rage of Mages", platform:"PC", publisher:"Buka Entertainment",
+    genre:"Action-RPG", emoji:"🔮",
+    desc:"Menez une troupe de guerriers et de mages dans des combats en temps réel à travers un monde de fantasy médiéval dans cet action-RPG russe méconnu en Occident. Rage of Mages séduit par son système de magie élaboré, son mode multijoueur coopératif et une profondeur de personnalisation surprenante pour son époque." },
+    
   // ── 1999 ──────────────────────────────────
   { year:1999, slug:"heroes-of-might-and-magic-3-the-restoration-of-era",
     img:"https://media.rawg.io/media/games/e65/e657ac377c02e7f26403dc0e308f2757.jpg", rank: 50,
@@ -296,7 +311,12 @@ const GAMES = [
     title:"SimCity 3000", platform:"PC / Mac", publisher:"Maxis / EA",
     genre:"City Builder", emoji:"🏙️",
     desc:"SimCity 3000 raffine la formule isométrique avec une gestion des déchets, des négociations avec les villes voisines et une ambiance sonore et visuelle particulièrement soignée. Un épisode souvent sous-estimé entre le légendaire 2000 et le colossal SimCity 4." },
-  
+
+  { year:1999, slug:"warzone-2100", img:null,
+    title:"Warzone 2100", platform:"PC / PlayStation", publisher:"Eidos Interactive / Pumpkin Studios",
+    genre:"Stratégie temps réel", emoji:"🤖",
+    desc:"Dans un monde post-apocalyptique, reconstituez la civilisation humaine en commandant des véhicules de combat entièrement personnalisables châssis par châssis, propulsion par propulsion, armement par armement. RTS d'une profondeur technique rare, devenu open source en 2004 et encore activement développé par sa communauté aujourd'hui." },
+    
   // ── 2000 ──────────────────────────────────
   { year:2000, slug:"zeus-master-of-olympus",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/2d6/2d64aa7846966280eb449a198ae90693.jpg", rank: 5,
@@ -322,7 +342,12 @@ const GAMES = [
     title:"Time Crisis 2", platform:"Arcade / PlayStation 2", publisher:"Namco",
     genre:"Rail Shooter", emoji:"🔫",
     desc:"Deux agents affrontent une organisation terroriste dans un shooter sur rail en coopération, avec le système de pédale de mise à couvert emblématique de la série. Time Crisis 2 perfectionne la formule arcade de Namco et reste l'un des meilleurs rail shooters jamais conçus, aussi jouissif en solo qu'à deux." },
-  
+
+  { year:2000, slug:"fear-effect", img:null,
+    title:"Fear Effect", platform:"PlayStation", publisher:"Eidos Interactive",
+    genre:"Action-Aventure", emoji:"😱",
+    desc:"Hana et ses coéquipiers s'infiltrent dans une mégalopole asiatique futuriste pour retrouver la fille d'un boss de la triade, dans un thriller cyberpunk à l'atmosphère oppressante. Fear Effect se distingue par ses cinématiques animées style cell-shading pionnières et son système de jauge de peur qui remplace les points de vie classiques." },
+    
   // ── 2001 ──────────────────────────────────
   { year:2001, slug:"golden-sun",
     img:"https://media.rawg.io/media/games/00c/00c36514a5db26f48f47425ddf40767d.jpg",
@@ -365,7 +390,17 @@ const GAMES = [
     title:"Ring of Red", platform:"PlayStation 2", publisher:"Konami",
     genre:"Tactical RPG", emoji:"🤖",
     desc:"Dans une Japon alternatif des années 60 où la guerre froide se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
+
+  { year:2001, slug:"advance-wars", img:null,
+    title:"Advance Wars", platform:"Game Boy Advance", publisher:"Nintendo / Intelligent Systems",
+    genre:"Tactical RPG", emoji:"🪖",
+    desc:"Deux nations s'affrontent sur des cartes quadrillées avec des unités terrestres, aériennes et maritimes commandées par des CO aux capacités uniques. Intelligent Systems livre le tactical tour par tour portatif de référence — accessible en surface, d'une profondeur stratégique redoutable, avec un mode multijoueur sur une seule cartouche mémorable." },
   
+  { year:2001, slug:"klonoa-empire-of-dreams", img:null,
+    title:"Klonoa: Empire of Dreams", platform:"Game Boy Advance", publisher:"Namco",
+    genre:"Platformer / Puzzle", emoji:"🌙",
+    desc:"Klonoa est mystérieusement attiré dans le royaume d'Empiria où dormir est devenu interdit, dans ce platformer-puzzle GBA d'une ingéniosité remarquable. La mécanique signature de saisir et lancer les ennemis comme tremplin est parfaitement adaptée au format portable, pour des niveaux denses et satisfaisants." },
+    
   // ── 2002 ──────────────────────────────────
   { year:2002, slug:"dark-cloud-2",
     img:"https://media.rawg.io/media/screenshots/e3e/e3ed9222eb6f4e95a04c9f0f8e5ff3fd.jpg", rank: 50,
@@ -397,6 +432,11 @@ const GAMES = [
     genre:"Point & Click", emoji:"🚂",
     desc:"Kate Walker part en mission commerciale et se retrouve embarquée dans un voyage onirique à travers une Europe de l'Est steampunk. Une œuvre graphiquement sublime signée Benoît Sokal, avec des automates d'une poésie unique." },
 
+  { year:2002, slug:"napoleon-gba", img:null,
+    title:"L'Aigle de Guerre (Napoleon)", platform:"Game Boy Advance", publisher:"Koei",
+    genre:"Tactical RPG", emoji:"🎖️",
+    desc:"Revivez les grandes campagnes napoléoniennes dans ce tactical RPG au tour par tour signé Koei, spécialiste des simulations historiques japonaises. Déployez infanterie, cavalerie et artillerie sur des cartes fidèles aux batailles d'Austerlitz, Iéna et Wagram dans un titre d'une rigueur historique rare sur Game Boy Advance." },
+  
   // ── 2003 ──────────────────────────────────
   { year:2003, slug:"tropico-2-pirate-cove",
     img:"https://media.rawg.io/media/screenshots/f1e/f1eac23f3d55564a3e932b8f803c4ad7.jpg",
@@ -483,6 +523,11 @@ const GAMES = [
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Hack-and-slash dans le vaste monde d'Ancaria avec six classes jouables. Sacred se distingue par son monde ouvert immense et continu, ses quêtes secondaires foisonnantes et sa rejouabilité redoutable." },
 
+  { year:2004, slug:"the-lord-of-the-rings-the-third-age", img:null,
+    title:"Le Seigneur des Anneaux : Le Tiers Âge", platform:"PS2 / Xbox / GameCube / GBA", publisher:"EA Games",
+    genre:"RPG", emoji:"💍",
+    desc:"Un groupe de héros suit les traces de la Communauté de l'Anneau et revis ses batailles épiques dans ce RPG au tour par tour inspiré de Final Fantasy. Beregond et ses compagnons traversent la Moria, le Gouffre de Helm et les Plaines du Pelennor dans un hommage jouissif à la trilogie de Peter Jackson." },
+    
   // ── 2005 ──────────────────────────────────
   { year:2005, slug:"shadow-of-the-colossus",
     img:"https://media.rawg.io/media/games/6ac/6ac602e70c837ababdf025e997391d9c.jpg", rank: 50,
@@ -527,6 +572,17 @@ const GAMES = [
     title:"Elite Beat Agents", platform:"Nintendo DS", publisher:"Nintendo",
     genre:"Rythme", emoji:"🕺",
     desc:"Des agents en costumes noirs sauvent des civils en difficulté grâce à la puissance de la musique, entièrement joué au stylet sur l'écran tactile du DS. Adaptation occidentale d'Osu! Tatakae! Ouendan, Elite Beat Agents est un jeu de rythme d'une énergie communicative et d'un humour visuel absolument irrésistibles." },
+
+  { year:2006, slug:"paraworld", img:null,
+    title:"ParaWorld", platform:"PC", publisher:"SEK / Aspyr",
+    genre:"Stratégie temps réel", emoji:"🦕",
+    desc:"Trois scientifiques se retrouvent propulsés dans un monde parallèle peuplé de dinosaures et de civilisations primitives qui les ont domestiqués. RTS de SEK au concept enthousiasmant — construire des armées de ptérodactyles, brachiosaures et T-Rex au service de tribus vikings ou aztèques — avec un système de héros montés sur créatures géantes." },
+  
+  // ── 2007 ──────────────────────────────────
+  { year:2007, slug:"professor-layton-and-the-curious-village", img:null,
+    title:"Professeur Layton et l'Étrange Village", platform:"Nintendo DS", publisher:"Level-5 / Nintendo",
+    genre:"Puzzle / Aventure", emoji:"🎩",
+    desc:"Le Professeur Layton et son jeune assistant Luke enquêtent sur un mystérieux héritage dans le village de Saint-Mystère, résolvant plus de 130 énigmes logiques en chemin. Level-5 invente un genre à part entière — l'aventure puzzle narrative — avec une écriture charmante, des twists mémorables et une musique enchanteresse." },
   
   // ── 2008 ──────────────────────────────────
   { year:2008, slug:"spore",
@@ -559,6 +615,16 @@ const GAMES = [
     title:"DJ Hero", platform:"PS3 / Xbox 360 / Wii", publisher:"Activision / FreeStyleGames",
     genre:"Rythme", emoji:"🎧",
     desc:"Mixez des mashups de morceaux iconiques sur une platine vinyle périphérique dans ce spinoff musical de Guitar Hero. FreeStyleGames livre une expérience de rythme unique en son genre, avec une tracklist soignée mêlant hip-hop, électro et pop — un objet culte sous-estimé de la grande époque des jeux musicaux." },
+
+  { year:2009, slug:"the-whispered-world", img:null,
+    title:"The Whispered World", platform:"PC / Mac", publisher:"Daedalic Entertainment",
+    genre:"Point & Click", emoji:"🎪",
+    desc:"Sadwick le clown mélancolique et son chenille Spot parcourent un monde onirique voué à la destruction dans cette aventure point & click de Daedalic à l'aquarelle somptueuse. Une atmosphère mélancolique et poétique unique dans le genre, avec des puzzles inventifs et une direction artistique digne des grands contes illustrés." },
+  
+  { year:2009, slug:"majesty-2-the-fantasy-kingdom-sim", img:null,
+    title:"Majesty 2 : The Fantasy Kingdom Sim", platform:"PC", publisher:"Paradox Interactive",
+    genre:"Stratégie / God Game", emoji:"👑",
+    desc:"Régnez sur un royaume de fantasy en plaçant des primes pour motiver vos héros autonomes à explorer, combattre et commercer selon leur propre volonté. Majesty 2 conserve le concept unique et délicieux de son prédécesseur — vous ne contrôlez pas directement vos unités — dans une réalisation modernisée avec une courbe de difficulté corsée." },
   
   // ── 2010 ──────────────────────────────────
   { year:2010, slug:"xenoblade-chronicles",
@@ -629,6 +695,11 @@ const GAMES = [
     title:"Mark of the Ninja", platform:"PC / Xbox 360 / PS4 / Switch", publisher:"Klei Entertainment",
     genre:"Stealth / Platformer", emoji:"🥷",
     desc:"Un ninja tatoué de symboles maudits infiltre des complexes ennemis dans un jeu de furtivité 2D d'une précision absolue. Klei Entertainment signe le meilleur jeu de ninja jamais conçu — chaque élément sonore et visuel communique l'information au joueur avec une clarté et une intelligence de design exemplaires." },
+
+  { year:2012, slug:"thomas-was-alone", img:null,
+    title:"Thomas Was Alone", platform:"PC / PS3 / PS Vita / Mobile", publisher:"Mike Bithell",
+    genre:"Puzzle-Platformer", emoji:"🟥",
+    desc:"Des rectangles colorés aux personnalités distinctes s'entraident pour traverser des niveaux minimalistes, guidés par la narration de Danny Wallace. Mike Bithell prouve qu'empathie et émotion ne nécessitent pas de visuels élaborés — Thomas Was Alone est une démonstration magistrale de narration vidéoludique par le level design pur." },
   
   // ── 2013 ──────────────────────────────────
   { year:2013, slug:"the-stanley-parable",
@@ -643,6 +714,21 @@ const GAMES = [
     genre:"Point & Click", emoji:"🗑️",
     desc:"Rufus tente désespérément de quitter la planète-décharge Deponia pour rejoindre Elysium. Compilation de la trilogie de Daedalic, avec un humour absurde à l'allemande, des puzzles inventifs et une histoire d'amour délicieusement chaotique." },
 
+  { year:2013, slug:"shadowrun-returns", img:null,
+    title:"Shadowrun Returns", platform:"PC / Mac / Linux / Mobile", publisher:"Harebrained Schemes",
+    genre:"RPG tactique", emoji:"🔮",
+    desc:"Dans un Seattle cyberpunk de 2054 où magie et technologie coexistent, un runner des ombres enquête sur le meurtre d'un vieil ami. Résurrection fidèle et financée en crowdfunding de la saga SNES/Mega Drive, Shadowrun Returns offre un RPG tactique au tour par tour riche en écriture et en ambiance cyberpunk-fantasy unique." },
+  
+  { year:2013, slug:"reus", img:null,
+    title:"Reus", platform:"PC / Mac", publisher:"Abbey Games",
+    genre:"God Game", emoji:"🌍",
+    desc:"Quatre géants élémentaires façonnent une planète vierge en y plaçant océans, forêts, déserts et marécages pour faire prospérer des civilisations humaines qui, inévitablement, deviennent cupides. God game néerlandais d'Abbey Games à la direction artistique épurée et au système de synergies entre ressources d'une profondeur surprenante." },
+  
+  { year:2013, slug:"ittle-dew", img:null,
+    title:"Ittle Dew", platform:"PC / Mac / Linux / Wii U", publisher:"Ludosity",
+    genre:"Action-Aventure", emoji:"⚔️",
+    desc:"Ittle Dew et sa renarde Tippsie sont naufragées sur une île dont le manoir central regorge de coffres à ouvrir. Hommage décomplexé et hilarant à la saga Zelda, Ittle Dew dénonce avec humour les conventions du genre tout en livrant des puzzles et donjons d'une ingéniosité réelle — compact, drôle et malin." },
+  
   // ── 2014 ──────────────────────────────────
   { year:2014, slug:"this-war-of-mine",
     img:"https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg",
