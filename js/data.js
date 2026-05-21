@@ -409,7 +409,7 @@ const GAMES = [
     desc:"Monica et Max voyagent dans le temps pour reconstruire un monde détruit, en combinant dungeon crawling et construction de villes. Un jeu généreux et touchant — vitrine de l'excellence naissante de Level-5." },
 
   { year:2002, slug:"warcraft-3-reign-of-chaos",
-    img:"https://media.rawg.io/media/games/667/667b4447a90c4896bfd48400ae76af28.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/d9c/d9ce4ca9397e66796fda7e520286e459.jpg", rank: 50,
     title:"Warcraft III: Reign of Chaos", platform:"PC / Mac", publisher:"Blizzard Entertainment",
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Révolutionne le RTS avec ses héros et ses éléments RPG profonds. Son éditeur donne naissance au genre MOBA via DotA — l'une des influences les plus durables et imprévisibles de l'histoire du jeu vidéo." },
@@ -421,18 +421,18 @@ const GAMES = [
     desc:"Spin-off fantastique d'Age of Empires intégrant les panthéons grec, nordique et égyptien. Pouvoirs divins et créatures mythologiques insufflent une épopée légendaire à la formule RTS bien rodée." },
 
   { year:2002, slug:"metroid-fusion",
-    img:"https://media.rawg.io/media/games/43d/43dc073be8443e5f39e5d02f8d344127.jpg", 
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/f9a/f9a6e5a702f6c42a2ac5c080c3830e28.jpg", 
     title:"Metroid Fusion", platform:"Game Boy Advance", publisher:"Nintendo",
     genre:"Metroidvania", emoji:"🪐",
     desc:"Samus, infectée par le parasite X, explore la station BSL sous la menace d'une version d'elle-même corrompue — le SA-X. Metroidvania GBA d'une tension exemplaire, avec un scénario nettement plus narratif que ses prédécesseurs." },
 
   { year:2002, slug:"syberia",
-    img:"https://media.rawg.io/media/games/852/8522935d8ab27b610a254b52de0da212.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/917/917d99d86a5dffa00ab7b0f2c9f62507.jpg", rank: 50,
     title:"Syberia", platform:"PC / Mac", publisher:"Microïds / Benoît Sokal",
     genre:"Point & Click", emoji:"🚂",
     desc:"Kate Walker part en mission commerciale et se retrouve embarquée dans un voyage onirique à travers une Europe de l'Est steampunk. Une œuvre graphiquement sublime signée Benoît Sokal, avec des automates d'une poésie unique." },
 
-  { year:2002, slug:"napoleon-gba", img:null,
+  { year:2002, slug:"napoleon-gba", img:"https://image.jeuxvideo.com/images/ga/a/i/aiguga002.jpg",
     title:"L'Aigle de Guerre (Napoleon)", platform:"Game Boy Advance", publisher:"Koei",
     genre:"Tactical RPG", emoji:"🎖️",
     desc:"Revivez les grandes campagnes napoléoniennes dans ce tactical RPG au tour par tour signé Koei, spécialiste des simulations historiques japonaises. Déployez infanterie, cavalerie et artillerie sur des cartes fidèles aux batailles d'Austerlitz, Iéna et Wagram dans un titre d'une rigueur historique rare sur Game Boy Advance." },
@@ -463,7 +463,7 @@ const GAMES = [
     desc:"Jade, reporter-photographe et combattante, enquête sur une invasion extraterrestre dissimulée par le gouvernement. Jeu culte de Michel Ancel mêlant aventure, infiltration et photographie dans un univers SF vibrant." },
 
   { year:2003, slug:"xiii",
-    img:"https://media.rawg.io/media/games/33b/33b8837b3f396612d458414798524897.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/35e/35e8788e2b153e8de8ebbdc86bead1d4.jpg",
     title:"XIII", platform:"PS2 / Xbox / GameCube / PC", publisher:"Ubisoft",
     genre:"FPS", emoji:"🔫",
     desc:"FPS à l'esthétique bande dessinée où un amnésique découvre son passé d'assassin au cœur d'une conspiration présidentielle. Les onomatopées visuelles et son adaptation de la BD de Van Hamme en font un ovni PS2." },
@@ -475,38 +475,38 @@ const GAMES = [
     desc:"Hybride audacieux mêlant RTS de construction de base et RPG en temps réel où vous incarnez un Rune Warrior immortel. SpellForce fusionne deux genres avec une cohérence surprenante dans un univers fantasy riche." },
 
   { year:2003, slug:"final-fantasy-tactics-advance",
-    img:"https://media.rawg.io/media/games/41c/41cc14db7be0e01c0e1995f56ee8043b.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/9aa/9aacfee4cf759e79d68fd78c075be847.jpg",
     title:"Final Fantasy Tactics Advance", platform:"Game Boy Advance", publisher:"Square Enix",
     genre:"Tactical RPG", emoji:"⚔️",
     desc:"Marche et ses amis sont aspirés dans le monde d'Ivalice, univers fait de règles et de lois à respecter sous peine de prison. Tactical RPG GBA d'une profondeur de gameplay et d'un système de jobs remarquables." },
 
   { year:2003, slug:"prince-of-persia-the-sands-of-time",
-    img:"https://media.rawg.io/media/games/99b/99b39612e864d6ddfdb2c407fd9010a1.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/e08/e08431ffe9a4cb5ebc3b3a77bbabebea.jpg",
     title:"Prince of Persia: The Sands of Time", platform:"PS2 / Xbox / GameCube / PC", publisher:"Ubisoft Montréal",
     genre:"Action-Aventure", emoji:"⏳",
     desc:"Le Prince manipule le temps pour corriger ses erreurs dans un palais envahi de créatures de sable. Reboot magistral d'Ubisoft Montréal qui réinvente l'action-aventure avec une fluidité acrobatique et un charme narratif inégalé." },
 
   { year:2003, slug:"impossible-creatures",
-    img:"https://media.rawg.io/media/screenshots/3f9/3f96a02f9764e562743637fd86beeaa6.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/faf/faf3081a75d826fe1558a4b212a223a4.jpg",
     title:"Impossible Creatures", platform:"PC", publisher:"Relic Entertainment / Microsoft",
     genre:"Stratégie temps réel", emoji:"🧬",
     desc:"Rex Chance fusionne des animaux pour créer des créatures hybrides uniques constituant son armée. RTS de Relic au concept totalement original où chaque unité est une combinaison personnalisée de deux espèces — un bac à sable créatif fascinant, injustement tombé dans l'oubli." },
 
   { year:2003, slug:"warioware-inc-mega-microgame",
-    img:"https://media.rawg.io/media/games/c6c/c6c1adc70a9204cd43a0fbff05f053d1.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/1b7/1b7930c4cc7fa8b08b7836b0af43c1b4.jpg",
     title:"WarioWare, Inc.", platform:"Game Boy Advance", publisher:"Nintendo",
     genre:"Party Game", emoji:"🕹️",
     desc:"Wario lance sa boîte de jeux vidéo avec des centaines de microjeux de cinq secondes enchaînés à vitesse croissante. Nintendo invente un genre à part entière — frénétique, absurde et infiniment rejouable, WarioWare est l'une des expériences les plus originales et jubilatoires jamais produites sur GBA." },
   
   // ── 2004 ──────────────────────────────────
   { year:2004, slug:"dragon-quest-viii",
-    img:"https://media.rawg.io/media/screenshots/90b/90b54298e3285fd474bf27877e0c8a89.jpg",
+    img:"https://image.jeuxvideo.com/images/p2/d/r/drq8p2033.jpg",
     title:"Dragon Quest VIII", platform:"PlayStation 2", publisher:"Level-5 / Square Enix",
     genre:"RPG", emoji:"⚔️",
     desc:"Premier opus PS2 du monument japonais avec un cel-shading lumineux révélant un monde immense signé Level-5. Yangus, Angelo et Jessica accompagnent le héros silencieux dans une aventure épique mémorable." },
 
   { year:2004, slug:"sly-2-band-of-thieves",
-    img:"https://media.rawg.io/media/games/b5b/b5b1243abc5dbbc441dcde08409cf8c7.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/07f/07fb6f66c4fad0b269ae5de6e9c5efff.jpg",
     title:"Sly 2: Band of Thieves", platform:"PlayStation 2", publisher:"Sucker Punch / Sony",
     genre:"Platformer", emoji:"🎭",
     desc:"Sly Cooper et sa bande démantèlent le KLAWW Gang. Plus ambitieux que son prédécesseur avec ses niveaux bacs à sable, il brille par son humour, sa générosité et l'alchimie de ses trois héros." },
@@ -523,7 +523,7 @@ const GAMES = [
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Hack-and-slash dans le vaste monde d'Ancaria avec six classes jouables. Sacred se distingue par son monde ouvert immense et continu, ses quêtes secondaires foisonnantes et sa rejouabilité redoutable." },
 
-  { year:2004, slug:"the-lord-of-the-rings-the-third-age", img:null,
+  { year:2004, slug:"the-lord-of-the-rings-the-third-age", img:"https://image.jeuxvideo.com/images/p2/l/o/lotap2016.jpg",
     title:"Le Seigneur des Anneaux : Le Tiers Âge", platform:"PS2 / Xbox / GameCube / GBA", publisher:"EA Games",
     genre:"RPG", emoji:"💍",
     desc:"Un groupe de héros suit les traces de la Communauté de l'Anneau et revis ses batailles épiques dans ce RPG au tour par tour inspiré de Final Fantasy. Beregond et ses compagnons traversent la Moria, le Gouffre de Helm et les Plaines du Pelennor dans un hommage jouissif à la trilogie de Peter Jackson." },
