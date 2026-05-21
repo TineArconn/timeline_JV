@@ -211,12 +211,12 @@ const GAMES = [
     genre:"God Game / Gestion", emoji:"😈",
     desc:"Incarnez le Gardien du Donjon : creusez, piégez, recrutez des créatures maléfiques et repoussez les héros envahisseurs. Chef-d'œuvre absolu de Peter Molyneux et Bullfrog, Dungeon Keeper renverse les conventions du genre avec un humour noir irrésistible et une profondeur de gestion redoutable." },
 
-  { year:1997, slug:"beasts-bumpkins", img:null,
+  { year:1997, slug:"beasts-bumpkins", img:"https://media.rawg.io/media/resize/1920/-/screenshots/1f7/1f73d29f633222adc0b2de2822216a8c.jpg",
     title:"Démons et Manants", platform:"PC", publisher:"Worldscape / Electronic Arts",
     genre:"Stratégie / Gestion", emoji:"🏡",
     desc:"Gérez un village médiéval en assignant vos paysans à la construction, l'agriculture et la chasse, tout en repoussant les créatures monstrueuses qui rôdent autour de vos terres. Mélange attachant de gestion de ressources et de tower defense avant l'heure, avec un humour bucolique british et une accessibilité qui en fait un charme discret des années 90." },
   
-  { year:1997, slug:"america-no-peace-beyond-the-line", img:null,
+  { year:1997, slug:"america-no-peace-beyond-the-line", img:"https://media.rawg.io/media/screenshots/4cb/4cbe15046f43253a9ad28e3b8435e0e6.jpg",
     title:"America: No Peace Beyond the Line", platform:"PC", publisher:"Sunflowers",
     genre:"Stratégie temps réel", emoji:"⚓",
     desc:"Incarnez pirates, flibustiers ou marines royales dans les Caraïbes du XVIIe siècle, pillant convois et assiégeant ports dans un RTS naval et terrestre peu connu. Sunflowers livre une simulation historique ambitieuse à l'ambiance boucanière authentique, mêlant gestion de flotte, diplomatie et conquête coloniale dans un contexte rarement exploité." },
@@ -265,25 +265,25 @@ const GAMES = [
     
   // ── 1999 ──────────────────────────────────
   { year:1999, slug:"heroes-of-might-and-magic-3-the-restoration-of-era",
-    img:"https://media.rawg.io/media/games/e65/e657ac377c02e7f26403dc0e308f2757.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/2dd/2dd7c4d52074686006dd021e6556417b.jpg", rank: 50,
     title:"Heroes of Might and Magic III", platform:"PC", publisher:"New World Computing / 3DO",
     genre:"Tour par tour", emoji:"♟️",
     desc:"Le sommet absolu de la saga HoMM, encore joué compétitivement vingt-cinq ans après sa sortie. Exploration de cartes gigantesques, recrutement de créatures légendaires et sièges de châteaux en heroic fantasy." },
 
   { year:1999, slug:"grandia",
-    img:"https://media.rawg.io/media/games/2ea/2eae39c3858a1c10ffcf4dd56eeb0b38.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/bbb/bbbf97481daba5c6796764cbed85f951.jpg", rank: 50,
     title:"Grandia", platform:"PlayStation / Saturn", publisher:"Game Arts / Sony",
     genre:"RPG", emoji:"⚔️",
     desc:"Justin, fils d'aventurier, part à la découverte des mystères d'une civilisation ancienne dans un monde en pleine révolution industrielle. RPG de Game Arts au système de combat dynamique révolutionnaire, vibrant d'optimisme et d'esprit d'aventure." },
 
   { year:1999, slug:"chrono-cross-2011",
-    img:"https://media.rawg.io/media/games/2ad/2ad33347237cdc941ba5312787dbe3f8.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/406/4062adf347cc900c146266434a34ed33.jpg",
     title:"Chrono Cross", platform:"PlayStation", publisher:"Square",
     genre:"RPG", emoji:"⚔️",
     desc:"Suite spirituelle de Chrono Trigger dans un univers de mondes parallèles avec 45 personnages jouables. Une bande-son magistrale de Mitsuda et un système de combat en éléments chromatiques composent une œuvre fascinante." },
 
   { year:1999, slug:"metal-gear-solid-vr-missions",
-    img:"https://media.rawg.io/media/games/2de/2dee5c075d0b1333ba2a544831037be7.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/41b/41bf8f30f7e091004415c1c81439c84d.jpg",
     title:"Metal Gear Solid: VR Missions", platform:"PlayStation", publisher:"Konami",
     genre:"Action Furtive", emoji:"👁️",
     desc:"Extension de MGS avec plus de 300 missions de simulation virtuelle pour Solid Snake. Un bac à sable d'entraînement qui approfondit toutes les mécaniques de furtivité dans des décors polygonaux hypnotiques." },
@@ -301,18 +301,18 @@ const GAMES = [
     desc:"Le sommet absolu de la saga Worms, avec ses centaines d'armes absurdes et son humour britannique irrésistible. Dix modes de jeu, un éditeur de niveaux et un multijoueur dévastateur qui réunit encore des communautés entières." },
 
   { year:1999, slug:"ape-escape",
-    img:"https://media.rawg.io/media/games/eb7/eb752b66d0060b832e5037c743850ab7.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/5d6/5d6c63685e18c908bbc0e0a27cfccc96.jpg",
     title:"Ape Escape", platform:"PlayStation", publisher:"Sony",
     genre:"Platformer", emoji:"🐒",
     desc:"Spike doit capturer une horde de singes espièges disséminés à travers le temps après qu'ils se soient emparés de casques de contrôle mental. Premier jeu PlayStation à rendre l'usage des deux sticks analogiques obligatoire, Ape Escape est un platformer inventif et plein de charme." },
 
   { year:1999, slug:"simcity-3000",
-    img:"https://media.rawg.io/media/games/14d/14d33f0280b87e614864bfa33daddcbc.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/777/7774fc3d7a687e6f80d6969a3d97ea81_W19feVa.jpg",
     title:"SimCity 3000", platform:"PC / Mac", publisher:"Maxis / EA",
     genre:"City Builder", emoji:"🏙️",
     desc:"SimCity 3000 raffine la formule isométrique avec une gestion des déchets, des négociations avec les villes voisines et une ambiance sonore et visuelle particulièrement soignée. Un épisode souvent sous-estimé entre le légendaire 2000 et le colossal SimCity 4." },
 
-  { year:1999, slug:"warzone-2100", img:null,
+  { year:1999, slug:"warzone-2100", img:"https://media.rawg.io/media/resize/1920/-/screenshots/320/320bebdd4aeff014f77005cfdccaf218.jpg",
     title:"Warzone 2100", platform:"PC / PlayStation", publisher:"Eidos Interactive / Pumpkin Studios",
     genre:"Stratégie temps réel", emoji:"🤖",
     desc:"Dans un monde post-apocalyptique, reconstituez la civilisation humaine en commandant des véhicules de combat entièrement personnalisables châssis par châssis, propulsion par propulsion, armement par armement. RTS d'une profondeur technique rare, devenu open source en 2004 et encore activement développé par sa communauté aujourd'hui." },
@@ -326,7 +326,7 @@ const GAMES = [
     opinion: "Le jeu de gestion est clairement un de mes styles de jeu préférés, et se doit d'être représenté dans cette liste. Le choix, encore une fois, est très dur entre God Game à la Populous, jeu de stratégie au tour par tour comme Civilization V qui vous entraîne dans des nuits blanches, ou même gestion d'un hôpital loufoque avec Theme Hospital. Mais il y a un type de jeu que j'apprécie plus que tout : le City Builder, et qui de mieux que Sierra et Impressions Games pour représenter le genre ? Dans leur catalogue de jeux plus géniaux les uns que les autres, beaucoup citeront Caesar 3 ou Pharaon. Mon coup de cœur à moi, grand fan de la mythologie grecque, reste Zeus : le maître de l'Olympe et son extension Poséidon, qui nous permet de bâtir rien de moins que l'Atlantide, tout en participant aux aventures des héros de l'antiquité, qui déambulent dans notre ville pour combattre les Dieux et créatures présents sur la carte. Le gameplay reste semblable aux autres jeux de la licence, quoique sans doute plus accessible. Rares sont les années sans relancer une petite partie, pour le plaisir."},
 
   { year:2000, slug:"final-fantasy-ix",
-    img:"https://media.rawg.io/media/games/826/82626e2d7ee7d96656fb9838c2ef7302.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a4/0a48b53ae59dbc343660e6af9aa2bda2.jpg",
     title:"Final Fantasy IX", platform:"PlayStation", publisher:"Square",
     genre:"RPG", emoji:"⚔️",
     desc:"Retour aux sources médiévales-fantastiques de la saga après les opus futuristes. Zidane, Garnet et Vivi vivent une aventure nostalgique et profondément émouvante — un amour déclaré aux RPG japonais classiques." },
@@ -343,26 +343,26 @@ const GAMES = [
     genre:"Rail Shooter", emoji:"🔫",
     desc:"Deux agents affrontent une organisation terroriste dans un shooter sur rail en coopération, avec le système de pédale de mise à couvert emblématique de la série. Time Crisis 2 perfectionne la formule arcade de Namco et reste l'un des meilleurs rail shooters jamais conçus, aussi jouissif en solo qu'à deux." },
 
-  { year:2000, slug:"fear-effect", img:null,
+  { year:2000, slug:"fear-effect", img:"https://media.rawg.io/media/resize/1920/-/screenshots/088/088a59afc661f80c19c47897a7afa614.jpg",
     title:"Fear Effect", platform:"PlayStation", publisher:"Eidos Interactive",
     genre:"Action-Aventure", emoji:"😱",
     desc:"Hana et ses coéquipiers s'infiltrent dans une mégalopole asiatique futuriste pour retrouver la fille d'un boss de la triade, dans un thriller cyberpunk à l'atmosphère oppressante. Fear Effect se distingue par ses cinématiques animées style cell-shading pionnières et son système de jauge de peur qui remplace les points de vie classiques." },
     
   // ── 2001 ──────────────────────────────────
   { year:2001, slug:"golden-sun",
-    img:"https://media.rawg.io/media/games/00c/00c36514a5db26f48f47425ddf40767d.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/05b/05b8834559573639c2217f8815be591a.jpg",
     title:"Golden Sun", platform:"Game Boy Advance", publisher:"Camelot / Nintendo",
     genre:"RPG", emoji:"☀️",
     desc:"Isaac et ses compagnons Psynergistes partent empêcher l'allumage des quatre phares d'Alchemy dans un monde de fantasy coloré. RPG GBA de Camelot aux puzzles environnementaux ingénieux, vitrine technique absolue de la portable." },
 
   { year:2001, slug:"baldurs-gate-dark-alliance",
-    img:"https://media.rawg.io/media/games/a0d/a0d24e2e37d0710a63df12df089e71f6.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/e7e/e7e810281dfc12c520282c434dee0de9.jpg",
     title:"Baldur's Gate: Dark Alliance", platform:"PS2 / Xbox / GameCube", publisher:"Snowblind Studios / Interplay",
     genre:"Action-RPG", emoji:"⚔️",
     desc:"Hack-and-slash dans les Royaumes Oubliés pour trois héros qui démantèlent une alliance criminelle. Snowblind livre un dungeon crawler fluide et spectaculaire, pionnier du genre sur consoles, avec un mode coopératif particulièrement addictif." },
 
   { year:2001, slug:"phoenix-wright-ace-attorney-2001",
-    img:"https://media.rawg.io/media/games/02d/02da3c4a7c5cd335a9d45e24cdf1df6f.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/490/4909dbd7737beb10f196e96d01ad3a6f.jpg", rank: 50,
     title:"Phoenix Wright: Ace Attorney", platform:"Game Boy Advance", publisher:"Capcom",
     genre:"Visual Novel", emoji:"⚖️",
     desc:"Naruhodō Ryūichi, avocat maladroit, défend des accusés innocents dans des procès absurdes et dramatiques. Les OBJECTION ! retentissants, l'écriture savoureuse et les twists judiciaires en font une série unique." },
@@ -374,13 +374,13 @@ const GAMES = [
     desc:"Flic en cavale dans New York sous la neige, Max Payne popularise le bullet time et la narration en roman noir graphique. Remedy livre un shooter atmosphérique d'une intensité dramatique saisissante, hommage au cinéma hard-boiled." },
 
   { year:2001, slug:"commandos-2-men-of-courage",
-    img:"https://media.rawg.io/media/screenshots/39b/39beb43bceb3dcca896c128ddeccec48.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/eac/eac3e201a178a5a59a8f461610610297.jpg",
     title:"Commandos 2: Men of Courage", platform:"PC", publisher:"Pyro Studios / Eidos",
     genre:"Tactique", emoji:"🪖",
     desc:"Six commandos aux compétences complémentaires infiltrent des bases ennemies dans des environnements en 3D isométrique. Pyro Studios signe le sommet de la série avec une richesse de missions et de possibilités tactiques inégalées." },
 
   { year:2001, slug:"arcanum-of-steamworks-and-magick-obscura",
-    img:"https://media.rawg.io/media/games/47d/47d430ae4a1e433cca041057ae3dd3da.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/3c2/3c21edd11fc29c0096ba8a9323a2d15e.jpg",
     title:"Arcanum: Of Steamworks and Magick Obscura", platform:"PC", publisher:"Troika Games / Sierra",
     genre:"RPG", emoji:"⚙️",
     desc:"Un monde steampunk où magie et technologie industrielle s'affrontent. RPG isométrique de Troika d'une liberté narrative vertigineuse — race, classe, réputation et compétences recomposent entièrement l'expérience." },
@@ -391,12 +391,12 @@ const GAMES = [
     genre:"Tactical RPG", emoji:"🤖",
     desc:"Dans une Japon alternatif des années 60 où la guerre froide se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
 
-  { year:2001, slug:"advance-wars", img:null,
+  { year:2001, slug:"advance-wars", img:"https://media.rawg.io/media/games/bdf/bdfb7a864a840aa5ead6cbd58e786b26.jpg",
     title:"Advance Wars", platform:"Game Boy Advance", publisher:"Nintendo / Intelligent Systems",
     genre:"Tactical RPG", emoji:"🪖",
     desc:"Deux nations s'affrontent sur des cartes quadrillées avec des unités terrestres, aériennes et maritimes commandées par des CO aux capacités uniques. Intelligent Systems livre le tactical tour par tour portatif de référence — accessible en surface, d'une profondeur stratégique redoutable, avec un mode multijoueur sur une seule cartouche mémorable." },
   
-  { year:2001, slug:"klonoa-empire-of-dreams", img:null,
+  { year:2001, slug:"klonoa-empire-of-dreams", img:"https://media.rawg.io/media/resize/1920/-/screenshots/feb/febe71ca992fd9738bb1954699a185b2.jpg",
     title:"Klonoa: Empire of Dreams", platform:"Game Boy Advance", publisher:"Namco",
     genre:"Platformer / Puzzle", emoji:"🌙",
     desc:"Klonoa est mystérieusement attiré dans le royaume d'Empiria où dormir est devenu interdit, dans ce platformer-puzzle GBA d'une ingéniosité remarquable. La mécanique signature de saisir et lancer les ennemis comme tremplin est parfaitement adaptée au format portable, pour des niveaux denses et satisfaisants." },
