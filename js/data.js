@@ -100,7 +100,7 @@ const GAMES = [
     desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue, rarement exporté hors du Japon et du Royaume-Uni — une curiosité exclusive au charme authentique." },
 
   { year:1994, slug:"the-incredible-machine-3", 
-   img:null,
+   img:"https://media.rawg.io/media/resize/1920/-/screenshots/684/6849cb499e1403517fa5d57d2f20514e.jpg",
     title:"The Incredible Machine 3", platform:"PC / Mac", publisher:"Sierra On-Line",
     genre:"Puzzle", emoji:"⚙️",
     desc:"Construisez des machines de Rube Goldberg délirantes en enchaînant trampolines, poulie, ballons et dynamite pour accomplir des objectifs absurdes. Sierra pousse la série à son apogée avec des centaines de puzzles et un éditeur de niveaux généreux — un classique du puzzle créatif qui n'a jamais vraiment vieilli." },
@@ -200,7 +200,7 @@ const GAMES = [
     desc:"Gérez un hôpital peuplé de maladies absurdes — crâne gonflé, faux docteur, syndrome de la langue de bois. L'humour britannique décapant de Bullfrog en fait un jeu de gestion culte et toujours aussi savoureux." },
 
   { year:1997, slug:"the-lost-vikings-2",
-    img:"https://media.rawg.io/media/screenshots/d3f/d3f1297c63859cad53b6db943bf79643.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/17d/17d8992f64915cd395f09a68ade8aa34.jpg",
     title:"The Lost Vikings 2", platform:"Super Nintendo / PS1 / PC", publisher:"Blizzard Entertainment",
     genre:"Platformer / Puzzle", emoji:"🪓",
     desc:"Erik, Baleog et Olaf sont de retour, accompagnés de deux nouveaux compagnons aux capacités inédites. Suite du cultissime premier opus de Blizzard, The Lost Vikings 2 pousse encore plus loin l'ingéniosité des puzzles en coopération asynchrone." },
@@ -223,13 +223,13 @@ const GAMES = [
     
   // ── 1998 ──────────────────────────────────
   { year:1998, slug:"the-legend-of-zelda-links-awakening-dx",
-    img:"https://media.rawg.io/media/games/a1b/a1b2af4caa3c61f9922431baf1fca447.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/6dd/6ddf87569555f650bbdcc5f94f286a04.jpg", rank: 50,
     title:"The Legend of Zelda: Link's Awakening DX", platform:"Game Boy Color", publisher:"Nintendo",
     genre:"Action-Aventure", emoji:"🗡️",
     desc:"Link naufragé sur l'île mystérieuse de Cocolint doit réveiller le Poisson-Vent. Un Zelda atypique, mélancolique et poétique, avec une conclusion émotionnelle inattendue et des emprunts savoureux à d'autres licences." },
 
   { year:1998, slug:"suikoden-ii-2014",
-    img:"https://media.rawg.io/media/games/bf3/bf312ce4aec593cd4d58f8aebee8eb35.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/6f7/6f7406e216cd41a506dad5e311889a11.jpg", rank: 50,
     title:"Suikoden II", platform:"PlayStation", publisher:"Konami",
     genre:"RPG", emoji:"⚔️",
     desc:"RPG PS1 d'une richesse scénaristique bouleversante avec 108 personnages recrutables. Une histoire de guerre, de trahison et d'amitié brisée d'une intensité rare dans le médium, encore adulée des décennies plus tard." },
@@ -241,7 +241,7 @@ const GAMES = [
     desc:"Crash et Coco voyagent dans le temps et débloquent de nouvelles capacités spectaculaires — moto, avion biplan, sous-marin. L'apothéose de la trilogie PS1, avec une générosité de contenu exemplaire." },
 
   { year:1998, slug:"medievil",
-    img:"https://media.rawg.io/media/screenshots/1a8/1a870c422546de20efd4b0477aed1846.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/dea/dea30b29ca620a94d644dda271dfe4bd.jpg",
     title:"MediEvil", platform:"PlayStation", publisher:"SCE Cambridge Studio / Sony",
     genre:"Action-Aventure", emoji:"💀",
     desc:"Sir Daniel Fortesque, chevalier lâche ressuscité par accident, doit sauver le royaume de Gallowmere. Une aventure gothique et humoristique, exclusive PlayStation d'un charme noir irrésistible." },
@@ -258,7 +258,7 @@ const GAMES = [
     genre:"God Game", emoji:"⚡",
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
 
-  { year:1998, slug:"rage-of-mages", img:null,
+  { year:1998, slug:"rage-of-mages", img:"https://media.rawg.io/media/resize/1920/-/screenshots/8db/8dbb2505af2cb6d39309d02d40238b60.jpg",
     title:"Rage of Mages", platform:"PC", publisher:"Buka Entertainment",
     genre:"Action-RPG", emoji:"🔮",
     desc:"Menez une troupe de guerriers et de mages dans des combats en temps réel à travers un monde de fantasy médiéval dans cet action-RPG russe méconnu en Occident. Rage of Mages séduit par son système de magie élaboré, son mode multijoueur coopératif et une profondeur de personnalisation surprenante pour son époque." },
