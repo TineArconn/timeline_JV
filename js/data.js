@@ -835,7 +835,7 @@ const GAMES = [
     desc:"Otus, jeune hibou sourd-muet, sauve son village pirate des envahisseurs à dos de ses amis tireurs. Dix ans de développement pour un pixel art monumental et un récit d'amitié et d'estime de soi d'une sensibilité touchante." },
 
   { year:2016, slug:"the-final-station", 
-    img:null,
+    img:"https://media.rawg.io/media/screenshots/acb/acb4f324aeb126cf5816ea0f4a9d8325.jpg",
     title:"The Final Station", platform:"PC / PS4 / Xbox / Switch", publisher:"tinyBuild",
     genre:"Action / Survie", emoji:"🚂",
     desc:"Conduisez un train à travers un monde apocalyptique, gérez vos rescapés et combattez les infectés dans les gares dévastées. Pixel art atmosphérique signé Do My Best Games — le voyage lui-même est aussi mélancolique que les arrêts, dans un récit post-apocalyptique avare en explications et riche en sous-entendus." },
@@ -887,7 +887,7 @@ const GAMES = [
 
   // ── 2019 ──────────────────────────────────  
   { year:2019, slug:"a-short-hike", 
-    img:null,
+    img:"https://media.rawg.io/media/games/c38/c38deeb8f331a78c89e64ad71a1db361.jpg",
     title:"A Short Hike", platform:"PC / Mac / Switch / PS4 / Xbox", publisher:"adamgryu",
     genre:"Aventure", emoji:"🏔️",
     desc:"Claire l'oiseau grimpe au sommet d'une montagne insulaire en explorant librement, pêchant, discutant avec les habitants et collectant des plumes dorées. Jeu indépendant d'une heure et demie d'une douceur et d'une sincérité rares — A Short Hike est une méditation paisible sur le voyage, la déconnexion et la satisfaction simple d'atteindre un sommet." },
