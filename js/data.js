@@ -762,7 +762,7 @@ const GAMES = [
 
   // ── 2015 ──────────────────────────────────
   { year:2015, slug:"life-is-strange-episode-1-2",
-    img:"https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/4c6/4c6da2f36396d4ed51f82ba6159fa39b.jpg",
     title:"Life is Strange", platform:"Multi-plateformes", publisher:"Dontnod Entertainment / Square Enix",
     genre:"Aventure narrative", emoji:"📷",
     desc:"Max Caulfield peut rembobiner le temps pour changer les événements du présent. Aventure narrative épisodique qui aborde avec sensibilité l'adolescence, l'amitié, le deuil et les conséquences irréversibles de nos choix." },
@@ -780,19 +780,19 @@ const GAMES = [
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
 
   { year:2015, slug:"evoland-legendary-edition",
-    img:"https://media.rawg.io/media/games/7d6/7d6d8bbcdec1a1ad14cd6bbca325a8c0.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/2d8/2d89a2f2e853c2b610cc2577fd5caecf.jpg", rank: 50,
     title:"Evoland: Legendary Edition", platform:"PC / Mobile / Switch", publisher:"Shiro Games",
     genre:"RPG", emoji:"🎮",
     desc:"Méta-RPG français qui voyage à travers l'histoire du jeu vidéo en débloquant ses propres mécaniques et graphismes au fil de la progression. Un hommage ludique et érudit signé Shiro Games aux grandes sagas du RPG japonais." },
 
   { year:2015, slug:"the-incredible-adventures-of-van-helsing-final-cut",
-    img:"https://media.rawg.io/media/games/8be/8be1d2c12a8ff3fdb693d4df128f50f0.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/f49/f4992dbdce9d44c9be3e650de5480640.jpg",
     title:"Van Helsing: Final Cut", platform:"PC", publisher:"NeocoreGames",
     genre:"Action-RPG", emoji:"🧛",
     desc:"Le fils du célèbre chasseur de monstres traque créatures et conspirateurs dans une Borgovie victorienne alternative. Hack-and-slash gothique à l'atmosphère soignée, avec un système de tours-défense original et un humour mordant." },
 
   { year:2015, slug:"rise-of-the-tomb-raider",
-    img:"https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/fbf/fbff1fe1f3cbe33dec8b2fc98bbad4a4.jpg",
     title:"Rise of the Tomb Raider", platform:"Xbox One / PC / PS4", publisher:"Crystal Dynamics / Square Enix",
     genre:"Action-Aventure", emoji:"🏹",
     desc:"Lara Croft traque la légendaire cité de Kitezh dans les steppes sibériennes gelées. Sequel ambitieux qui perfectionne la formule reboot avec des tombeaux facultatifs exemplaires, une survie bien pensée et une narration plus mature." },
@@ -810,7 +810,7 @@ const GAMES = [
     desc:"Une vindicatrice enchaîne des infiltrations nocturnes contre cinq cibles dans un système de combat au tour par tour déclenché au contact. RONIN fascine par sa tension unique entre action fluide en temps réel et réflexion tactique instantanée — une perle discrète éditée par Devolver." },
 
   { year:2015, slug:"hard-west", 
-    img:null,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/827/8278d750adf9d7f186610c33f890657b.jpg",
     title:"Hard West", platform:"PC / Switch", publisher:"CreativeForge Games / Gambitious",
     genre:"Tactical RPG", emoji:"🤠",
     desc:"Surnaturel et Far West s'entremêlent dans ce tactical tour par tour où démons, pactes diaboliques et vengeance s'affrontent sous un ciel de soufre. Hard West séduit par son ambiance de western noir unique, ses mécaniques de ricochets et sa narration fragmentée en huit histoires indépendantes." },
@@ -829,7 +829,7 @@ const GAMES = [
     desc:"Le temps ne bouge que quand vous bougez — en réalité virtuelle. Une expérience VR transformative où esquiver des balles au ralenti et neutraliser des ennemis devient un ballet stratégique physique et euphorigène." },
 
   { year:2016, slug:"owlboy",
-    img:"https://media.rawg.io/media/games/0fc/0fc933e3dfbbf4306840ef429d73fa9a.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/03d/03dba5dfdb250f46db34fd742221e2a2.jpg", rank: 50,
     title:"Owlboy", platform:"PC / Switch / PS4 / Xbox", publisher:"D-Pad Studio",
     genre:"Platformer", emoji:"🦉",
     desc:"Otus, jeune hibou sourd-muet, sauve son village pirate des envahisseurs à dos de ses amis tireurs. Dix ans de développement pour un pixel art monumental et un récit d'amitié et d'estime de soi d'une sensibilité touchante." },
@@ -842,19 +842,19 @@ const GAMES = [
   
   // ── 2017 ──────────────────────────────────
   { year:2017, slug:"doki-doki-literature-club",
-    img:"https://media.rawg.io/media/games/972/972aea3c9eb253e893947bec2d2cfbb9.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/bbc/bbc0e3592246160b0d937ac6d5f389fc.jpg", rank: 50,
     title:"Doki Doki Literature Club!", platform:"PC / Mac / Linux", publisher:"Team Salvato",
     genre:"Visual Novel", emoji:"📖",
     desc:"Un club de lecture lycéen en apparence mignon qui déconstruit les codes du visual novel japonais dans une spirale psychologique de plus en plus dérangeante. Expérience gratuite sur Steam, à déconseiller aux âmes sensibles." },
 
   { year:2017, slug:"hob", 
-    img:null,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/348/3480519694911be8f4fe310f83081a61.jpg",
     title:"Hob", platform:"PC / PS4 / Switch", publisher:"Runic Games",
     genre:"Action-Aventure", emoji:"⚙️",
     desc:"Un personnage mutique explore et répare un monde mécanique vivant sans un mot de dialogue ni d'interface. Dernier jeu de Runic Games avant leur fermeture, Hob fascine par sa direction artistique organique-mécanique unique et sa manière de révéler son univers par l'exploration pure — une lettre d'amour silencieuse au médium." },
 
   { year:2017, slug:"splasher", 
-    img:null,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/347/34745dcdb781feb9ccc745d89e3bf9fd.jpg",
     title:"Splasher", platform:"PC / PS4 / Xbox / Switch", publisher:"Plug In Digital",
     genre:"Platformer", emoji:"🎨",
     desc:"Un ouvrier d'usine armé d'un canon à peinture s'échappe des griffes de son patron tyrannique dans un platformer 2D frénétique. Jeu français de Splashteam au level design ciselé, avec trois types de peinture aux effets radicalement différents — adhésive, répulsive et protectrice — qui composent des puzzles d'une inventivité constante." },
