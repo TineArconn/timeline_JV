@@ -97,26 +97,26 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/9ee/9ee80d0d20a4d7194c9f6bedcc78d326.jpg",
     title:"The Firemen", platform:"Super Nintendo", publisher:"Human Entertainment / Nintendo",
     genre:"Action", emoji:"🔥",
-    desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue, rarement exporté hors du Japon et du Royaume-Uni — une curiosité exclusive au charme authentique." },
+    desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue — une curiosité exclusive au charme authentique." },
 
-  { year:1994, slug:"the-incredible-machine-3", 
+  // ── 1995 ──────────────────────────────────
+  { year:1995, slug:"the-incredible-machine-3", 
    img:"https://media.rawg.io/media/resize/1920/-/screenshots/684/6849cb499e1403517fa5d57d2f20514e.jpg",
     title:"The Incredible Machine 3", platform:"PC / Mac", publisher:"Sierra On-Line",
     genre:"Puzzle", emoji:"⚙️",
     desc:"Construisez des machines de Rube Goldberg délirantes en enchaînant trampolines, poulie, ballons et dynamite pour accomplir des objectifs absurdes. Sierra pousse la série à son apogée avec des centaines de puzzles et un éditeur de niveaux généreux — un classique du puzzle créatif qui n'a jamais vraiment vieilli." },
-  
-  // ── 1995 ──────────────────────────────────
+    
   { year:1995, slug:"yoshis-island",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/afc/afce8ec88233ba99781afab9046f6c8d.jpg", rank: 50,
     title:"Super Mario World 2: Yoshi's Island", platform:"Super Nintendo", publisher:"Nintendo",
     genre:"Platformer", emoji:"🦕",
-    desc:"Yoshi transporte bébé Mario à travers des niveaux peints à la craie dans un style aquarelle inédit. Un chef-d'œuvre graphique SNES d'une créativité permanente, avec des boss mémorables et inoubliables." },
+    desc:"Yoshi transporte bébé Mario à travers des niveaux évoquant les dessins aux pastels. Un chef-d'œuvre graphique SNES d'une créativité permanente, avec des boss mémorables et inoubliables." },
 
   { year:1995, slug:"rayman",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/8ad/8adafcbafd9c07d666845f90aa2dd872.jpg", rank: 50,
     title:"Rayman", platform:"PlayStation / SNES / PC", publisher:"Ubisoft Montpellier",
     genre:"Platformer", emoji:"🦊",
-    desc:"Premier opus du héros sans membres d'Ubisoft Montpellier. Des mondes oniriques sublimement animés, une bande-son jazzy envoûtante et un level design exigeant pour un platformer 2D parmi les plus ambitieux." },
+    desc:"Premier opus du héros sans membres d'Ubisoft Montpellier. Des mondes oniriques sublimement animés, une bande-son féérique envoûtante et un level design exigeant pour un platformer 2D parmi les plus ambitieux." },
 
   { year:1995, slug:"chrono-trigger-1995",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/e62/e62aae6abeca3f5df601ec2edc920c8e.jpg", rank: 5,
@@ -153,7 +153,7 @@ const GAMES = [
     img:null,
     title:"Discworld", platform:"PC / PlayStation / Saturn", publisher:"Psygnosis / GT Interactive",
     genre:"Point & Click", emoji:"🐢",
-    desc:"Rincevent, sorcier incompétent de Terry Pratchett, doit sauver Ankh-Morpork d'un dragon dans cette adaptation point & click du Disque-Monde. L'humour british absurde de Pratchett transcrit à la perfection, avec des puzzles farfelus et la voix inoubliable de Tony Robinson dans le rôle de Rincevent." },
+    desc:"Rincevent, sorcier incompétent de Terry Pratchett, doit sauver Ankh-Morpork d'un dragon dans cette adaptation point & click du Disque-Monde. L'humour british absurde de Pratchett transcrit à la perfection, avec des puzzles farfelus et la voix inoubliable de Eric Idle (Monty Python) dans le rôle de Rincevent." },
 
   // ── 1996 ──────────────────────────────────
   { year:1996, slug:"wipeout-2097",
@@ -191,7 +191,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/dd2/dd27a11b97197b0c86dab505384edb40.jpg", rank: 50,
     title:"Oddworld: Abe's Oddysee", platform:"PlayStation / PC", publisher:"Oddworld Inhabitants / GT Interactive",
     genre:"Platformer", emoji:"👾",
-    desc:"Abe, esclave moudar dans une usine de viande, s'échappe et tente de sauver ses 99 congénères. Platformer sombre et satirique, critique du capitalisme industriel, avec un gameplay de possession mentale unique." },
+    desc:"Abe, esclave mudokon dans une usine de viande, s'échappe et tente de sauver ses 99 congénères. Platformer sombre et satirique, critique du capitalisme industriel, avec un gameplay de possession mentale unique." },
 
   { year:1997, slug:"theme-hospital",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/212/21245891642354f18f76021fb0536d9b.jpg", rank: 10,
@@ -201,7 +201,7 @@ const GAMES = [
 
   { year:1997, slug:"the-lost-vikings-2",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/17d/17d8992f64915cd395f09a68ade8aa34.jpg",
-    title:"The Lost Vikings 2", platform:"Super Nintendo / PS1 / PC", publisher:"Blizzard Entertainment",
+    title:"The Lost Vikings 2", platform:"Super Nintendo / PS1 / PC", publisher:"Beam Software / Interplay",
     genre:"Platformer / Puzzle", emoji:"🪓",
     desc:"Erik, Baleog et Olaf sont de retour, accompagnés de deux nouveaux compagnons aux capacités inédites. Suite du cultissime premier opus de Blizzard, The Lost Vikings 2 pousse encore plus loin l'ingéniosité des puzzles en coopération asynchrone." },
 
@@ -337,18 +337,18 @@ const GAMES = [
     genre:"Stratégie temps réel", emoji:"🏰",
     desc:"Uchronie de la Guerre Froide où l'URSS envahit les États-Unis avec des esprits contrôlés et des téléporteurs. STR nerveux et charismatique de Westwood avec des cinématiques live-action mémorables." },
 
-  { year:2000, slug:"time-crisis-ii",
-    img:"https://media.rawg.io/media/games/4e4/4e4f224ee22d7d5df0482f366661ba5c.jpg",
-    title:"Time Crisis 2", platform:"Arcade / PlayStation 2", publisher:"Namco",
-    genre:"Rail Shooter", emoji:"🔫",
-    desc:"Deux agents affrontent une organisation terroriste dans un shooter sur rail en coopération, avec le système de pédale de mise à couvert emblématique de la série. Time Crisis 2 perfectionne la formule arcade de Namco et reste l'un des meilleurs rail shooters jamais conçus, aussi jouissif en solo qu'à deux." },
-
   { year:2000, slug:"fear-effect", img:"https://media.rawg.io/media/resize/1920/-/screenshots/088/088a59afc661f80c19c47897a7afa614.jpg",
     title:"Fear Effect", platform:"PlayStation", publisher:"Eidos Interactive",
     genre:"Action-Aventure", emoji:"😱",
     desc:"Hana et ses coéquipiers s'infiltrent dans une mégalopole asiatique futuriste pour retrouver la fille d'un boss de la triade, dans un thriller cyberpunk à l'atmosphère oppressante. Fear Effect se distingue par ses cinématiques animées style cell-shading pionnières et son système de jauge de peur qui remplace les points de vie classiques." },
     
   // ── 2001 ──────────────────────────────────
+  { year:2001, slug:"time-crisis-ii",
+    img:"https://media.rawg.io/media/games/4e4/4e4f224ee22d7d5df0482f366661ba5c.jpg",
+    title:"Time Crisis 2", platform:"Arcade / PlayStation 2", publisher:"Namco",
+    genre:"Rail Shooter", emoji:"🔫",
+    desc:"Deux agents affrontent une organisation terroriste dans un shooter sur rail en coopération, avec le système de pédale de mise à couvert emblématique de la série. Time Crisis 2 perfectionne la formule arcade de Namco et reste l'un des meilleurs rail shooters jamais conçus, aussi jouissif en solo qu'à deux." },
+  
   { year:2001, slug:"golden-sun",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/05b/05b8834559573639c2217f8815be591a.jpg",
     title:"Golden Sun", platform:"Game Boy Advance", publisher:"Camelot / Nintendo",
@@ -389,7 +389,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/screenshots/4e9/4e9193b5aaf87873538a1b85ca2c7006.jpg",
     title:"Ring of Red", platform:"PlayStation 2", publisher:"Konami",
     genre:"Tactical RPG", emoji:"🤖",
-    desc:"Dans une Japon alternatif des années 60 où la guerre froide se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
+    desc:"Dans une Japon alternatif des années 60 où la partition du pays se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
 
   { year:2001, slug:"advance-wars", img:"https://media.rawg.io/media/games/bdf/bdfb7a864a840aa5ead6cbd58e786b26.jpg",
     title:"Advance Wars", platform:"Game Boy Advance", publisher:"Nintendo / Intelligent Systems",
@@ -631,7 +631,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/e01/e014a674d56b971d2fff9caa077230d6.jpg",
     title:"Xenoblade Chronicles", platform:"Wii", publisher:"Monolith Soft / Nintendo",
     genre:"RPG", emoji:"⚔️",
-    desc:"Shulk armé du Monado affronte les Mechon sur le dos de deux titans pétrifiés depuis l'aube des temps. RPG d'une ambition narrative rare, avec un monde ouvert saisissant et la bande-son magistrale de Yoko Shimomura." },
+    desc:"Shulk armé du Monado affronte les Mechon sur le dos de deux titans pétrifiés depuis l'aube des temps. RPG d'une ambition narrative rare, avec un monde ouvert saisissant et une bande-son magistrale." },
 
   { year:2010, slug:"vvvvvv",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/65e/65eb0b3caeb86a4f3feb86d3c827ff7a.jpg",
@@ -708,12 +708,6 @@ const GAMES = [
     genre:"Aventure narrative", emoji:"📖",
     desc:"Stanley suit — ou non — les instructions d'un narrateur omniscient. Expérience métafictionnelle sur le libre arbitre et la condition du joueur. Drôle, philosophique et proprement fascinant — un objet vidéoludique unique." },
 
-  { year:2013, slug:"deponia-the-complete-journey",
-    img:"https://media.rawg.io/media/resize/1920/-/screenshots/16d/16dfb5004b32b60083881757707d70c0.jpg",
-    title:"Deponia: The Complete Journey", platform:"PC / Mac / Linux", publisher:"Daedalic Entertainment",
-    genre:"Point & Click", emoji:"🗑️",
-    desc:"Rufus tente désespérément de quitter la planète-décharge Deponia pour rejoindre Elysium. Compilation de la trilogie de Daedalic, avec un humour absurde à l'allemande, des puzzles inventifs et une histoire d'amour délicieusement chaotique." },
-
   { year:2013, slug:"shadowrun-returns", img:"https://media.rawg.io/media/resize/1920/-/screenshots/3f1/3f173a2c6f59d0c4a4abe8c91dd24273.jpg",
     title:"Shadowrun Returns", platform:"PC / Mac / Linux / Mobile", publisher:"Harebrained Schemes",
     genre:"RPG tactique", emoji:"🔮",
@@ -730,6 +724,12 @@ const GAMES = [
     desc:"Ittle Dew et sa renarde Tippsie sont naufragées sur une île dont le manoir central regorge de coffres à ouvrir. Hommage décomplexé et hilarant à la saga Zelda, Ittle Dew dénonce avec humour les conventions du genre tout en livrant des puzzles et donjons d'une ingéniosité réelle — compact, drôle et malin." },
   
   // ── 2014 ──────────────────────────────────
+  { year:2014, slug:"deponia-the-complete-journey",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/16d/16dfb5004b32b60083881757707d70c0.jpg",
+    title:"Deponia: The Complete Journey", platform:"PC / Mac / Linux", publisher:"Daedalic Entertainment",
+    genre:"Point & Click", emoji:"🗑️",
+    desc:"Rufus tente désespérément de quitter la planète-décharge Deponia pour rejoindre Elysium. Compilation de la trilogie de Daedalic, avec un humour absurde à l'allemande, des puzzles inventifs et une histoire d'amour délicieusement chaotique." },
+  
   { year:2014, slug:"this-war-of-mine",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/9e8/9e8b0c791f6dfc516a29e8b03d4fc7c3.jpg",
     title:"This War of Mine", platform:"PC / Mobile / Consoles", publisher:"11 bit studios",
@@ -758,7 +758,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/f83/f83657eaf6a4495727438d85d8998406.jpg",
     title:"Child of Light", platform:"Multi-plateformes", publisher:"Ubisoft Montréal",
     genre:"RPG", emoji:"🌙",
-    desc:"Aurora, petite princesse autrichienne, s'éveille dans le royaume fantastique d'Lemuria et doit ramener le soleil, la lune et les étoiles dérobés. RPG de combat au tour par tour au rendu aquarelle somptueux signé Ubisoft Montréal, avec un système de combat basé sur la jauge d'initiative et des dialogues entièrement en vers." },
+    desc:"Aurora, petite princesse autrichienne, s'éveille dans le royaume fantastique de Lemuria et doit ramener le soleil, la lune et les étoiles dérobés. RPG de combat au tour par tour au rendu aquarelle somptueux signé Ubisoft Montréal, avec un système de combat basé sur la jauge d'initiative et des dialogues entièrement en vers." },
 
   // ── 2015 ──────────────────────────────────
   { year:2015, slug:"life-is-strange-episode-1-2",
@@ -781,7 +781,7 @@ const GAMES = [
 
   { year:2015, slug:"evoland-legendary-edition",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/2d8/2d89a2f2e853c2b610cc2577fd5caecf.jpg", rank: 50,
-    title:"Evoland: Legendary Edition", platform:"PC / Mobile / Switch", publisher:"Shiro Games",
+    title:"Evoland 2", platform:"PC / Mobile / Switch", publisher:"Shiro Games",
     genre:"RPG", emoji:"🎮",
     desc:"Méta-RPG français qui voyage à travers l'histoire du jeu vidéo en débloquant ses propres mécaniques et graphismes au fil de la progression. Un hommage ludique et érudit signé Shiro Games aux grandes sagas du RPG japonais." },
 
@@ -883,7 +883,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/72e/72efa8017c58ee36c07250b5675f62f7.jpg", rank: 50,
     title:"Ni no Kuni II: Revenant Kingdom", platform:"PC / PS4", publisher:"Level-5",
     genre:"RPG", emoji:"🏰",
-    desc:"Le jeune roi Evan reconstruit son royaume après un coup d'État dans un monde de conte de fées animé façon Ghibli. RPG d'action généreux et lumineux de Level-5, avec un système de construction de royaume addictif et une bande-son enchanteresse." },
+    desc:"Le jeune roi Evan reconstruit son royaume après un coup d'État dans un monde de conte de fées animé inspiré du style Ghibli. RPG d'action généreux et lumineux de Level-5, avec un système de construction de royaume addictif et une bande-son enchanteresse." },
 
   // ── 2019 ──────────────────────────────────  
   { year:2019, slug:"a-short-hike", 
