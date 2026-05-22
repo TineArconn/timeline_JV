@@ -15,12 +15,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/games/951/951f914b28b246835a811894bbc38403.jpeg", rank: 50,
     title:"The Secret of Monkey Island", platform:"PC / Amiga / Mac", publisher:"LucasArts",
     tags:["Point & Click", "Cartoon / Humour"], emoji:"🖱️",
+    alts:["Monkey Island 2: LeChuck's Revenge (1991)", "The Curse of Monkey Island (1997)"],
     desc:"Guybrush Threepwood rêve de devenir le pirate le plus redouté des Caraïbes. Un classique absolu signé LucasArts avec ses duels d'insultes cultes, son humour irrésistible et sa direction artistique intemporelle." },
 
   { year:1990, slug:"actraiser",
     img:"https://media.rawg.io/media/screenshots/8d5/8d5c15fd894d8f8d06bb69b3059b14d7.jpg",
     title:"ActRaiser", platform:"Super Nintendo", publisher:"Enix",
     tags:["Action-Aventure", "Mythologie"], emoji:"⚡",
+    alts:["Soul Blazer (1994)"],
     desc:"Hybride unique mêlant action-plateforme et simulation de ville, où vous incarnez un dieu guidant l'évolution de ses fidèles tout en combattant des monstres. Une perle méconnue d'une ambition remarquable." },
 
   // ── 1992 ──────────────────────────────────
@@ -40,6 +42,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/fac/fac07d83728a3733cf6edc11b478f75a.jpg",
     title:"Kirby's Dream Land", platform:"Game Boy", publisher:"HAL Laboratory / Nintendo",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🌸",
+    alts:["Kirby's Dream Land 3 (1997)"],
     desc:"L'introduction du petit héros rose de HAL Laboratory au grand public. Simple, attachant et plein de personnalité, ce premier épisode Game Boy lance l'une des licences les plus créatives de Nintendo." },
 
   { year:1992, slug:"evo-search-for-eden",
@@ -53,12 +56,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a9/0a9a8e2bdf29d2e54f96e96485c5ceea.jpg",
     title:"Ogre Battle: The March of the Black Queen", platform:"Super Nintendo", publisher:"Quest / Enix",
     tags:["Tactical RPG", "Heroic Fantasy"], emoji:"♟️",
+    alts:["Tactics Ogre: Let Us Cling Together (1995)"],
     desc:"Libérez un continent opprimé en commandant des armées de créatures mythiques dans un système de combats en temps réel unique. Tactical RPG d'une profondeur politique et morale rare, avec un système de réputation qui influe sur chaque fin possible." },
 
   { year:1993, slug:"maniac-mansion-day-of-the-tentacle",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/a07/a07f6607545251ecca1bd9162abba7b9.jpg", rank: 5,
     title:"Day of the Tentacle", platform:"PC / Mac", publisher:"LucasArts",
     tags:["Point & Click", "Cartoon / Humour"], emoji:"🖱️",
+    alts:["Thimbleweed Park (2017)"],
     desc:"Trois amis naviguent dans le temps pour empêcher un tentacule maléfique de conquérir le monde. Un chef-d'œuvre de l'humour absurde et du design de puzzles, suite directe du cultissime Maniac Mansion.",
     opinion:"Années 90 oblige, il faut un point & click dans cette liste. Le choix est très dur, entre un The Secret of Monkey Island au combat d'insultes cultissime, un Indiana Jones and the Fate of Atlantis qui propose 3 styles de jeux et une rejouabilité exceptionnelle pour un point & click, ou encore un Woodruff and the Schnibble of Azimuth avec son scénario singulier et son doublage soigné. Mais s'il n'en fallait garder qu'un, cela ne pourrait être que le titanesque Day Of The Tentacle, avec son humour absurde intemporel, ses voyages dans le temps réellement impliqués dans le gameplay, ses énigmes \"à l\'ancienne\" qui nous obligent à réfléchir, apportant une telle satisfaction lorsque l\'on trouve la réponse et ses graphismes cartoon qui vieillissent très bien, même si aujourd\'hui le remaster sublime davantage le style. Bref, un classique de chez classique, qui se joue à tout âge ou presque, et qui mérite amplement sa place dans ma ludothèque." },
 
@@ -73,12 +78,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/784/784d16e49cf57c9dca0ebf512847fc14.jpg",
     title:"Theme Park", platform:"PC / SNES / Amiga", publisher:"Bullfrog Productions / EA",
     tags:["Gestion / God Game", "Cartoon / Humour"], emoji:"🎡",
+    alts:["Theme Park World (2000)"],
     desc:"Construisez et gérez un parc d'attractions rentable, des montagnes russes aux stands de restauration. Le jeu de gestion de Bullfrog regorge d'humour britannique et de profondeur stratégique." },
 
   { year:1994, slug:"wario-land-super-mario-land-3",
     img:"https://media.rawg.io/media/screenshots/497/497c61d332ad52995c00d027bc9bea72.jpg", rank: 50,
     title:"Wario Land: Super Mario Land 3", platform:"Game Boy", publisher:"Nintendo",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🪙",
+    alts:["Wario Land II (1998)", "Wario Land 4 (2001)"],
     desc:"Wario, avide et brutal, part à la chasse aux trésors dans ce platformer Game Boy qui redéfinit son personnage en anti-héros jouable. Un level design inventif centré sur l'accumulation de richesses et des capacités liées aux power-ups ennemis." },
 
   { year:1994, slug:"breath-of-fire-ii",
@@ -91,6 +98,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/screenshots/0b2/0b2b4aee363e2c55fdfd6790da13a89e.jpg", rank: 50,
     title:"Woodruff and the Schnibble of Azimuth", platform:"PC", publisher:"Coktel Vision / Sierra",
     tags:["Point & Click", "Post-apocalyptique"], emoji:"🖱️",
+    alts:["Gobliins 2: Le Prince Bouffon (1992)"],
     desc:"Aventure point & click post-apocalyptique absurde et poétique made in France. Woodruff retrouve son père adoptif dans un univers bariolé loufoque, typiquement français dans son humour décalé." },
 
   { year:1994, slug:"the-firemen",
@@ -104,6 +112,7 @@ const GAMES = [
    img:"https://media.rawg.io/media/resize/1920/-/screenshots/684/6849cb499e1403517fa5d57d2f20514e.jpg",
     title:"The Incredible Machine 3", platform:"PC / Mac", publisher:"Sierra On-Line",
     tags:["Puzzle", "Cartoon / Humour"], emoji:"⚙️",
+    alts:["World of Goo (2008)"],
     desc:"Construisez des machines de Rube Goldberg délirantes en enchaînant trampolines, poulie, ballons et dynamite pour accomplir des objectifs absurdes. Sierra pousse la série à son apogée avec des centaines de puzzles et un éditeur de niveaux généreux — un classique du puzzle créatif qui n'a jamais vraiment vieilli." },
     
   { year:1995, slug:"yoshis-island",
@@ -116,12 +125,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/8ad/8adafcbafd9c07d666845f90aa2dd872.jpg", rank: 50,
     title:"Rayman", platform:"PlayStation / SNES / PC", publisher:"Ubisoft Montpellier",
     tags:["Plateforme", "Onirique / Poétique"], emoji:"🦊",
+    alts:["Rayman Forever (1998)", "Rayman 3: Hoodlum Havoc (2003)"],
     desc:"Premier opus du héros sans membres d'Ubisoft Montpellier. Des mondes oniriques sublimement animés, une bande-son féérique envoûtante et un level design exigeant pour un platformer 2D parmi les plus ambitieux." },
 
   { year:1995, slug:"chrono-trigger-1995",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/e62/e62aae6abeca3f5df601ec2edc920c8e.jpg", rank: 5,
     title:"Chrono Trigger", platform:"Super Nintendo", publisher:"Square",
     tags:["RPG", "Heroic Fantasy"], emoji:"⚔️",
+    alts:["Chained Echoes (2022)"],
     desc:"L'un des plus grands RPG de tous les temps, né de la collaboration Toriyama-Horii-Sakaguchi. Voyage dans le temps, système ATB innovant, fins multiples et compositions légendaires de Mitsuda.",
     opinion:"Chrono Trigger est considéré par beaucoup comme un des meilleurs RPG de tous les temps, et cette réputation n'est pas volée ! Non seulement le titre sublime des mécaniques déjà existantes comme le système Active Time Battle (ATB) créé pour Final Fantasy 4 à l'origine, mais il innove le genre en proposant des combats non aléatoires directement dans la zone de jeu, les attaques combinées entre personnages, douze fins uniques et même le New Game + ! Son scénario, bien que traitant classiquement du bien et du mal, propose un univers unique divisé en six époques. Les graphismes sont magnifiques et exploitent une SNES en fin de vie. Et que dire de l'OST, simplement sublime avec ses 64 titres variés, composés en grande partie par un Yasunori Mitsuda à ses débuts, épaulé par Nobuo Uematsu lorsque la fatigue l'a contraint à s'arrêter ! Bref, un coup de cœur, qui avait été traduit en français à l'époque par les bénévoles de Terminus Traduction, qu'il convient de saluer ici !"},
 
@@ -129,24 +140,28 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/a0c/a0c30b925827c51f2bd6e88dc36b7a22.jpg", rank: 20,
     title:"Seiken Densetsu 3 / Trials of Mana", platform:"Super Nintendo", publisher:"Square",
     tags:["Action-RPG", "Heroic Fantasy"], emoji:"⚔️",
+    alts:["Secret of Mana (1993)", "Mystic Quest (1991)"],
     desc:"Suite de Secret of Mana avec 6 personnages jouables et 3 storylines distinctes. Un action-RPG vibrant aux graphismes SNES sublimes, injustement resté exclusif au Japon pendant plus de vingt ans." },
 
   { year:1995, slug:"front-mission",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/f12/f1253ed454b9ac5937b86057fe8ba844.jpg",
     title:"Front Mission", platform:"Super Nintendo", publisher:"Square",
     tags:["Tactical RPG", "Sci-Fi"], emoji:"🤖",
+    alts:["Valkyria Chronicles (2008)"],
     desc:"Tactical RPG dans un futur proche où des mechas géants s'affrontent pour des enjeux géopolitiques complexes. Un scénario politique sophistiqué et un système de personnalisation profond pour une saga culte." },
 
   { year:1995, slug:"tales-of-phantasia",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/baa/baa643978f5d20f2edefd106b0bfbe07.jpg",
     title:"Tales of Phantasia", platform:"Super Nintendo", publisher:"Namco",
     tags:["RPG", "Heroic Fantasy"], emoji:"⚔️",
+    alts:["Tales of Berseria (2016)"],
     desc:"Le premier Tales of, avec un système de combat en temps réel révolutionnaire pour les RPG japonais de l'époque. Une saga fondatrice qui allie nervosité des affrontements et narration épique." },
 
   { year:1995, slug:"terranigma",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/79d/79d183c8da7364db97ce877b0317d114.jpg",
     title:"Terranigma", platform:"Super Nintendo", publisher:"Enix",
     tags:["Action-RPG", "Onirique / Poétique"], emoji:"🌍",
+    alts:["Terra Nil (2023)"],
     desc:"Ark ressuscite littéralement la Terre et ses civilisations. Chef-d'œuvre mélancolique sur le cycle de la vie et de la mort, injustement méconnu hors du Japon — clôture magnifique de la trilogie de l'âme d'Enix." },
 
   { year:1995, slug:"discworld", 
@@ -160,12 +175,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/a96/a964a38d9d0285ac6a53bb3cf56f761b_lskSnmf.jpg", rank: 50,
     title:"Wipeout 2097", platform:"PlayStation / PC / Saturn", publisher:"Psygnosis",
     tags:["Course", "Sci-Fi"], emoji:"🚀",
+    alts:["Wipeout 3 (1999)", "Wipeout Fusion (2002)"],
     desc:"Vaisseaux anti-gravitationnels à des vitesses insensées sur des circuits futuristes conçus avec The Designers Republic. La bande-son électronique de The Chemical Brothers et Leftfield en fait une expérience sensorielle totale." },
 
   { year:1996, slug:"donkey-kong-country-3-dixies-double-trouble",
     img:"https://media.rawg.io/media/screenshots/89e/89e8e75cfae65a24b478e0382a841b9d.jpg",
     title:"Donkey Kong Country 3", platform:"Super Nintendo", publisher:"Rare / Nintendo",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🦍",
+    alts:["Donkey Kong Country (1994)", "Donkey Kong Country 2: Diddy's Kong Quest (1995)"],
     desc:"Troisième volet de la trilogie SNES avec Dixie et Kiddy Kong à la rescousse. La technique graphique pré-rendue de Rare reste bluffante et la richesse des niveaux confirme l'excellence d'une série souvent sous-estimée." },
 
   // ── 1997 ──────────────────────────────────
@@ -173,59 +190,62 @@ const GAMES = [
     img:"https://media.rawg.io/media/screenshots/f45/f452d35dd61574ce038358618531e511.jpg", rank: 50,
     title:"Broken Sword 2: The Smoking Mirror", platform:"PC / PlayStation", publisher:"Revolution Software",
     tags:["Point & Click", "Aventure / Pulp"], emoji:"🗡️",
+    alts:["Broken Sword: The Shadow of the Templars (1996)", "Broken Sword 5: The Serpent's Curse (2013)"],
     desc:"George et Nico s'embarquent dans une enquête sur un culte maya et un miroir aux pouvoirs obscurs. Plus rythmé que son prédécesseur, il perfectionne la formule point & click avec des décors caraïbes et mésoaméricains somptueux." },
 
   { year:1997, slug:"age-of-empires",
     img:"https://media.rawg.io/media/screenshots/323/323dac3cdfdc40cd87dd4b2582578afe.jpg",
     title:"Age of Empires", platform:"PC", publisher:"Ensemble Studios / Microsoft",
     tags:["Stratégie temps réel", "Historique / Militaire"], emoji:"🏰",
+    alts:["Age of Empires II (1999)"],
     desc:"Le RTS historique qui démocratise le genre et façonne une génération entière de joueurs PC. De l'âge de pierre à l'Antiquité, bâtir sa civilisation et mener ses armées à la victoire devient une obsession." },
 
   { year:1997, slug:"crash-bandicoot-2",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/dbe/dbed9e034f20e4a3623a6a072eaba130.jpg",
     title:"Crash Bandicoot 2: Cortex Strikes Back", platform:"PlayStation", publisher:"Naughty Dog / Sony",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🦊",
+    alts:["Spyro the Dragon (1998)"],
     desc:"La série atteint sa pleine maturité avec des niveaux thématiques variés — arctique, égout, espace — et une maniabilité affinée. Crash s'impose comme la mascotte incontestée de la PlayStation originale." },
 
   { year:1997, slug:"oddworld-abes-oddysee",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/dd2/dd27a11b97197b0c86dab505384edb40.jpg", rank: 50,
     title:"Oddworld: Abe's Oddysee", platform:"PlayStation / PC", publisher:"Oddworld Inhabitants / GT Interactive",
     tags:["Plateforme", "Sci-Fi"], emoji:"👾",
+    alts:["Oddworld: Abe's Exoddus (1998)", "Oddworld: New 'n' Tasty (2014)"],
     desc:"Abe, esclave mudokon dans une usine de viande, s'échappe et tente de sauver ses 99 congénères. Platformer sombre et satirique, critique du capitalisme industriel, avec un gameplay de possession mentale unique." },
 
   { year:1997, slug:"theme-hospital",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/212/21245891642354f18f76021fb0536d9b.jpg", rank: 10,
     title:"Theme Hospital", platform:"PC", publisher:"Bullfrog Productions / EA",
     tags:["Gestion / God Game", "Cartoon / Humour"], emoji:"🏥",
+    alts:["Two Point Hospital (2018)"],
     desc:"Gérez un hôpital peuplé de maladies absurdes — crâne gonflé, faux docteur, syndrome de la langue de bois. L'humour britannique décapant de Bullfrog en fait un jeu de gestion culte et toujours aussi savoureux." },
 
   { year:1997, slug:"the-lost-vikings-2",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/17d/17d8992f64915cd395f09a68ade8aa34.jpg",
     title:"The Lost Vikings 2", platform:"Super Nintendo / PS1 / PC", publisher:"Beam Software / Interplay",
     tags:["Puzzle-Plateforme", "Cartoon / Humour"], emoji:"🪓",
+    alts:["The Lost Vikings (1993)", "Trine Enchanted Edition (2009)"],
     desc:"Erik, Baleog et Olaf sont de retour, accompagnés de deux nouveaux compagnons aux capacités inédites. Suite du cultissime premier opus de Blizzard, The Lost Vikings 2 pousse encore plus loin l'ingéniosité des puzzles en coopération asynchrone." },
 
   { year:1997, slug:"dungeon-keeper-gold",
     img:"https://media.rawg.io/media/screenshots/b33/b3302320b181022698309395f415d1cc.jpg",
     title:"Dungeon Keeper", platform:"PC", publisher:"Bullfrog Productions / EA",
     tags:["Gestion / God Game", "Heroic Fantasy"], emoji:"😈",
+    alts:["Dungeons 2 (2015)"],
     desc:"Incarnez le Gardien du Donjon : creusez, piégez, recrutez des créatures maléfiques et repoussez les héros envahisseurs. Chef-d'œuvre absolu de Peter Molyneux et Bullfrog, Dungeon Keeper renverse les conventions du genre avec un humour noir irrésistible et une profondeur de gestion redoutable." },
 
   { year:1997, slug:"beasts-bumpkins", img:"https://media.rawg.io/media/resize/1920/-/screenshots/1f7/1f73d29f633222adc0b2de2822216a8c.jpg",
     title:"Démons et Manants", platform:"PC", publisher:"Worldscape / Electronic Arts",
-    tags:["", ""], emoji:"🏡",
+    tags:["Gestion / God Game", "Cartoon / Humour"], emoji:"🏡",
     desc:"Gérez un village médiéval en assignant vos paysans à la construction, l'agriculture et la chasse, tout en repoussant les créatures monstrueuses qui rôdent autour de vos terres. Mélange attachant de gestion de ressources et de tower defense avant l'heure, avec un humour bucolique british et une accessibilité qui en fait un charme discret des années 90." },
-  
-  { year:1997, slug:"america-no-peace-beyond-the-line", img:"https://media.rawg.io/media/screenshots/4cb/4cbe15046f43253a9ad28e3b8435e0e6.jpg",
-    title:"America: No Peace Beyond the Line", platform:"PC", publisher:"Sunflowers",
-    tags:["", ""], emoji:"⚓",
-    desc:"Incarnez pirates, flibustiers ou marines royales dans les Caraïbes du XVIIe siècle, pillant convois et assiégeant ports dans un RTS naval et terrestre peu connu. Sunflowers livre une simulation historique ambitieuse à l'ambiance boucanière authentique, mêlant gestion de flotte, diplomatie et conquête coloniale dans un contexte rarement exploité." },
-    
+
   // ── 1998 ──────────────────────────────────
   { year:1998, slug:"the-legend-of-zelda-links-awakening-dx",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/6dd/6ddf87569555f650bbdcc5f94f286a04.jpg", rank: 50,
     title:"The Legend of Zelda: Link's Awakening DX", platform:"Game Boy Color", publisher:"Nintendo",
     tags:["Action-Aventure", "Onirique / Poétique"], emoji:"🗡️",
+    alts:["The Legend of Zelda: A Link to the Past (1991)", "The Legend of Zelda: A Link Between Worlds (2013)"],
     desc:"Link naufragé sur l'île mystérieuse de Cocolint doit réveiller le Poisson-Vent. Un Zelda atypique, mélancolique et poétique, avec une conclusion émotionnelle inattendue et des emprunts savoureux à d'autres licences." },
 
   { year:1998, slug:"suikoden-ii-2014",
@@ -238,29 +258,33 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/dc7/dc7fb4fedf8ad8a1754287f6a32a787c_rqbUCMw.jpg", rank: 20,
     title:"Crash Bandicoot 3: Warped", platform:"PlayStation", publisher:"Naughty Dog / Sony",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🦊",
+    alts:["Crash Bandicoot N. Sane Trilogy (2017)"],
     desc:"Crash et Coco voyagent dans le temps et débloquent de nouvelles capacités spectaculaires — moto, avion biplan, sous-marin. L'apothéose de la trilogie PS1, avec une générosité de contenu exemplaire." },
 
   { year:1998, slug:"medievil",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/dea/dea30b29ca620a94d644dda271dfe4bd.jpg",
     title:"MediEvil", platform:"PlayStation", publisher:"SCE Cambridge Studio / Sony",
     tags:["Action-Aventure", "Horreur / Sombre"], emoji:"💀",
+    alts:["MediEvil II (2000)"],
     desc:"Sir Daniel Fortesque, chevalier lâche ressuscité par accident, doit sauver le royaume de Gallowmere. Une aventure gothique et humoristique, exclusive PlayStation d'un charme noir irrésistible." },
 
   { year:1998, slug:"the-settlers-3",
     img:"https://media.rawg.io/media/screenshots/99a/99a9f3c06d4ab1f3344939fd5177978e.jpg",
     title:"The Settlers III", platform:"PC", publisher:"Blue Byte",
     tags:["Gestion / God Game", "Heroic Fantasy"], emoji:"🏗️",
+    alts:["The Settlers II: 10th Anniversary (2006)", "Anno 1602 (1998)"],
     desc:"Troisième opus de la saga de colonisation Blue Byte. Construire des chaînes de production complexes et mener ses armées à la conquête d'îles colorées — un équilibre parfait entre détente et stratégie." },
 
   { year:1998, slug:"populous-the-beginning",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/3ee/3ee896cef46b602aa5ee665ae40a1ee1.jpg", rank: 10,
     title:"Populous: The Beginning", platform:"PC", publisher:"Bullfrog Productions / EA",
     tags:["Gestion / God Game", "Mythologie"], emoji:"⚡",
+    alts:["Black & White (2001)", "From Dust (2011)"],
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
 
   { year:1998, slug:"rage-of-mages", img:"https://media.rawg.io/media/resize/1920/-/screenshots/8db/8dbb2505af2cb6d39309d02d40238b60.jpg",
     title:"Rage of Mages", platform:"PC", publisher:"Buka Entertainment",
-    tags:['',''], emoji:"🔮",
+    tags:["Stratégie temps réel", "Heroic Fantasy"], emoji:"🔮",
     desc:"Menez une troupe de guerriers et de mages dans des combats en temps réel à travers un monde de fantasy médiéval dans cet action-RPG russe méconnu en Occident. Rage of Mages séduit par son système de magie élaboré, son mode multijoueur coopératif et une profondeur de personnalisation surprenante pour son époque." },
     
   // ── 1999 ──────────────────────────────────
@@ -268,6 +292,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/2dd/2dd7c4d52074686006dd021e6556417b.jpg", rank: 50,
     title:"Heroes of Might and Magic III", platform:"PC", publisher:"New World Computing / 3DO",
     tags:["Stratégie tour par tour", "Heroic Fantasy"], emoji:"♟️",
+    alts:["Age of Wonders II: The Wizard's Throne (2002)"],
     desc:"Le sommet absolu de la saga HoMM, encore joué compétitivement vingt-cinq ans après sa sortie. Exploration de cartes gigantesques, recrutement de créatures légendaires et sièges de châteaux en heroic fantasy." },
 
   { year:1999, slug:"grandia",
@@ -286,35 +311,40 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/41b/41bf8f30f7e091004415c1c81439c84d.jpg",
     title:"Metal Gear Solid: VR Missions", platform:"PlayStation", publisher:"Konami",
     tags:["Furtivité / Tactique", "Sci-Fi"], emoji:"👁️",
+    alts:["Metal Gear Solid 2: Sons of Liberty (2001)", "Metal Gear Solid (1998)"],
     desc:"Extension de MGS avec plus de 300 missions de simulation virtuelle pour Solid Snake. Un bac à sable d'entraînement qui approfondit toutes les mécaniques de furtivité dans des décors polygonaux hypnotiques." },
 
   { year:1999, slug:"civilization-call-to-power",
     img:"https://media.rawg.io/media/screenshots/335/3351dac5aa3422dccd0e8afb7fac417c.jpg", rank: 50,
     title:"Civilization: Call to Power", platform:"PC", publisher:"Activision",
     tags:["Stratégie tour par tour", "Historique / Militaire"], emoji:"🌍",
+    alts:["Civilization V (2010)"],
     desc:"Spin-off de la saga Civilization qui guide une civilisation de l'Antiquité jusqu'au futur lointain, avec des ères science-fiction inédites incluant la conquête spatiale et les fonds marins." },
 
   { year:1999, slug:"worms-armageddon",
     img:"https://media.rawg.io/media/games/96a/96a48ac7487d9db9179d83170afcb16a.jpg",
     title:"Worms Armageddon", platform:"PC / PlayStation / N64 / DC", publisher:"Team17",
     tags:["Stratégie tour par tour", "Cartoon / Humour"], emoji:"💣",
+    alts:["Worms World Party (2001)", "Worms W.M.D (2016)"],
     desc:"Le sommet absolu de la saga Worms, avec ses centaines d'armes absurdes et son humour britannique irrésistible. Dix modes de jeu, un éditeur de niveaux et un multijoueur dévastateur qui réunit encore des communautés entières." },
 
   { year:1999, slug:"ape-escape",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/5d6/5d6c63685e18c908bbc0e0a27cfccc96.jpg",
     title:"Ape Escape", platform:"PlayStation", publisher:"Sony",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🐒",
+    alts:["Ape Escape 2 (2002)", "Ape Escape 3 (2005)"],
     desc:"Spike doit capturer une horde de singes espièges disséminés à travers le temps après qu'ils se soient emparés de casques de contrôle mental. Premier jeu PlayStation à rendre l'usage des deux sticks analogiques obligatoire, Ape Escape est un platformer inventif et plein de charme." },
 
   { year:1999, slug:"simcity-3000",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/777/7774fc3d7a687e6f80d6969a3d97ea81_W19feVa.jpg",
     title:"SimCity 3000", platform:"PC / Mac", publisher:"Maxis / EA",
     tags:["Gestion / God Game", "Contemporain / Réaliste"], emoji:"🏙️",
+    alts:["Les Sims 2: Castaway (2007)"],
     desc:"SimCity 3000 raffine la formule isométrique avec une gestion des déchets, des négociations avec les villes voisines et une ambiance sonore et visuelle particulièrement soignée. Un épisode souvent sous-estimé entre le légendaire 2000 et le colossal SimCity 4." },
 
   { year:1999, slug:"warzone-2100", img:"https://media.rawg.io/media/resize/1920/-/screenshots/320/320bebdd4aeff014f77005cfdccaf218.jpg",
     title:"Warzone 2100", platform:"PC / PlayStation", publisher:"Eidos Interactive / Pumpkin Studios",
-    tags:['',''], emoji:"🤖",
+    tags:["Stratégie temps réel", "Post-apocalyptique"], emoji:"🤖",
     desc:"Dans un monde post-apocalyptique, reconstituez la civilisation humaine en commandant des véhicules de combat entièrement personnalisables châssis par châssis, propulsion par propulsion, armement par armement. RTS d'une profondeur technique rare, devenu open source en 2004 et encore activement développé par sa communauté aujourd'hui." },
     
   // ── 2000 ──────────────────────────────────
@@ -322,6 +352,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/2d6/2d64aa7846966280eb449a198ae90693.jpg", rank: 5,
     title:"Zeus: Master of Olympus", platform:"PC", publisher:"Impressions Games / Sierra",
     tags:["Gestion / God Game", "Mythologie"], emoji:"🏛️",
+    alts:["Pharaon (1999)", "Caesar III (1998)", "Emperor: Rise of the Middle Kingdom (2002)"],
     desc:"City builder mythologique dans la Grèce antique. Construisez des cités florissantes, apaisez les dieux de l'Olympe et repoussez les monstres légendaires dans ce titre d'une richesse culturelle sincère.",
     opinion: "Le jeu de gestion est clairement un de mes styles de jeu préférés, et se doit d'être représenté dans cette liste. Le choix, encore une fois, est très dur entre God Game à la Populous, jeu de stratégie au tour par tour comme Civilization V qui vous entraîne dans des nuits blanches, ou même gestion d'un hôpital loufoque avec Theme Hospital. Mais il y a un type de jeu que j'apprécie plus que tout : le City Builder, et qui de mieux que Sierra et Impressions Games pour représenter le genre ? Dans leur catalogue de jeux plus géniaux les uns que les autres, beaucoup citeront Caesar 3 ou Pharaon. Mon coup de cœur à moi, grand fan de la mythologie grecque, reste Zeus : le maître de l'Olympe et son extension Poséidon, qui nous permet de bâtir rien de moins que l'Atlantide, tout en participant aux aventures des héros de l'antiquité, qui déambulent dans notre ville pour combattre les Dieux et créatures présents sur la carte. Le gameplay reste semblable aux autres jeux de la licence, quoique sans doute plus accessible. Rares sont les années sans relancer une petite partie, pour le plaisir."},
 
@@ -329,17 +360,19 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a4/0a48b53ae59dbc343660e6af9aa2bda2.jpg",
     title:"Final Fantasy IX", platform:"PlayStation", publisher:"Square",
     tags:["RPG", "Heroic Fantasy"], emoji:"⚔️",
+    alts:["Final Fantasy X (2001)", "Final Fantasy V (1992)"],
     desc:"Retour aux sources médiévales-fantastiques de la saga après les opus futuristes. Zidane, Garnet et Vivi vivent une aventure nostalgique et profondément émouvante — un amour déclaré aux RPG japonais classiques." },
 
   { year:2000, slug:"command-conquer-red-alert-2",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/78d/78d95e05d1bf0bca37ab57168ffdbe62.jpg", rank: 20,
     title:"Command & Conquer: Red Alert 2", platform:"PC", publisher:"Westwood Studios / EA",
     tags:["Stratégie temps réel", "Historique / Militaire"], emoji:"🏰",
+    alts:["Tiberian Sun (1999)", "Command & Conquer Remastered Collection (2020)"],
     desc:"Uchronie de la Guerre Froide où l'URSS envahit les États-Unis avec des esprits contrôlés et des téléporteurs. STR nerveux et charismatique de Westwood avec des cinématiques live-action mémorables." },
 
   { year:2000, slug:"fear-effect", img:"https://media.rawg.io/media/resize/1920/-/screenshots/088/088a59afc661f80c19c47897a7afa614.jpg",
     title:"Fear Effect", platform:"PlayStation", publisher:"Eidos Interactive",
-    tags:['',''], emoji:"😱",
+    tags:["Action-Aventure", "Sci-Fi"], emoji:"😱",
     desc:"Hana et ses coéquipiers s'infiltrent dans une mégalopole asiatique futuriste pour retrouver la fille d'un boss de la triade, dans un thriller cyberpunk à l'atmosphère oppressante. Fear Effect se distingue par ses cinématiques animées style cell-shading pionnières et son système de jauge de peur qui remplace les points de vie classiques." },
     
   // ── 2001 ──────────────────────────────────
@@ -347,8 +380,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/games/4e4/4e4f224ee22d7d5df0482f366661ba5c.jpg",
     title:"Time Crisis 2", platform:"Arcade / PlayStation 2", publisher:"Namco",
     tags:["Tir", "Contemporain / Réaliste"], emoji:"🔫",
+    alts:["Point Blank 2 (1999)", "Crisis Zone (2004)"],
     desc:"Deux agents affrontent une organisation terroriste dans un shooter sur rail en coopération, avec le système de pédale de mise à couvert emblématique de la série. Time Crisis 2 perfectionne la formule arcade de Namco et reste l'un des meilleurs rail shooters jamais conçus, aussi jouissif en solo qu'à deux." },
-  
+
+  { year:2001, slug:"america-no-peace-beyond-the-line", img:"https://media.rawg.io/media/screenshots/4cb/4cbe15046f43253a9ad28e3b8435e0e6.jpg",
+    title:"America: No Peace Beyond the Line", platform:"PC", publisher:"Sunflowers",
+    tags:["Stratégie temps réel", "Aventure / Pulp"], emoji:"⚓",
+    desc:"Incarnez pirates, flibustiers ou marines royales dans les Caraïbes du XVIIe siècle, pillant convois et assiégeant ports dans un RTS naval et terrestre peu connu. Sunflowers livre une simulation historique ambitieuse à l'ambiance boucanière authentique, mêlant gestion de flotte, diplomatie et conquête coloniale dans un contexte rarement exploité." },
+      
   { year:2001, slug:"golden-sun",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/05b/05b8834559573639c2217f8815be591a.jpg",
     title:"Golden Sun", platform:"Game Boy Advance", publisher:"Camelot / Nintendo",
@@ -359,24 +398,28 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/e7e/e7e810281dfc12c520282c434dee0de9.jpg",
     title:"Baldur's Gate: Dark Alliance", platform:"PS2 / Xbox / GameCube", publisher:"Snowblind Studios / Interplay",
     tags:["Action-RPG", "Heroic Fantasy"], emoji:"⚔️",
+    alts:["Champions of Norrath (2004)", "Champions: Return to Arms (2005)"],
     desc:"Hack-and-slash dans les Royaumes Oubliés pour trois héros qui démantèlent une alliance criminelle. Snowblind livre un dungeon crawler fluide et spectaculaire, pionnier du genre sur consoles, avec un mode coopératif particulièrement addictif." },
 
   { year:2001, slug:"phoenix-wright-ace-attorney-2001",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/490/4909dbd7737beb10f196e96d01ad3a6f.jpg", rank: 50,
     title:"Phoenix Wright: Ace Attorney", platform:"Game Boy Advance", publisher:"Capcom",
     tags:["Visual Novel", "Contemporain / Réaliste"], emoji:"⚖️",
+    alts:["Phoenix Wright: Ace Attorney Trilogy (2014)"],
     desc:"Naruhodō Ryūichi, avocat maladroit, défend des accusés innocents dans des procès absurdes et dramatiques. Les OBJECTION ! retentissants, l'écriture savoureuse et les twists judiciaires en font une série unique." },
 
   { year:2001, slug:"max-payne",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/fc9/fc9cef07344793d0a5dc7b1eaac1ad5b.jpg", rank: 20,
     title:"Max Payne", platform:"PC / PS2 / Xbox", publisher:"Remedy Entertainment / 3D Realms",
     tags:["Tir", "Horreur / Sombre"], emoji:"🔫",
+    alts:["Max Payne 2: The Fall of Max Payne (2003)"],
     desc:"Flic en cavale dans New York sous la neige, Max Payne popularise le bullet time et la narration en roman noir graphique. Remedy livre un shooter atmosphérique d'une intensité dramatique saisissante, hommage au cinéma hard-boiled." },
 
   { year:2001, slug:"commandos-2-men-of-courage",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/eac/eac3e201a178a5a59a8f461610610297.jpg",
     title:"Commandos 2: Men of Courage", platform:"PC", publisher:"Pyro Studios / Eidos",
     tags:["Furtivité / Tactique", "Historique / Militaire"], emoji:"🪖",
+    alts:["Shadow Gambit: The Cursed Crew (2023)"],
     desc:"Six commandos aux compétences complémentaires infiltrent des bases ennemies dans des environnements en 3D isométrique. Pyro Studios signe le sommet de la série avec une richesse de missions et de possibilités tactiques inégalées." },
 
   { year:2001, slug:"arcanum-of-steamworks-and-magick-obscura",
@@ -389,16 +432,17 @@ const GAMES = [
     img:"https://media.rawg.io/media/screenshots/4e9/4e9193b5aaf87873538a1b85ca2c7006.jpg",
     title:"Ring of Red", platform:"PlayStation 2", publisher:"Konami",
     tags:["Tactical RPG", "Sci-Fi"], emoji:"🤖",
+    alts:["Valkyria Chronicles (2008)"],
     desc:"Dans une Japon alternatif des années 60 où la partition du pays se joue à coups de mechas AFW, chaque combat au tour par tour se double d'une phase d'action en temps réel au cœur du cockpit. Ring of Red fascine par sa profondeur tactique atypique et son uchronie historique soignée, injustement ignoré à sa sortie." },
 
   { year:2001, slug:"advance-wars", img:"https://media.rawg.io/media/games/bdf/bdfb7a864a840aa5ead6cbd58e786b26.jpg",
     title:"Advance Wars", platform:"Game Boy Advance", publisher:"Nintendo / Intelligent Systems",
-    tags:['',''], emoji:"🪖",
+    tags:["Stratégie tour par tour", "Cartoon / Humour"], emoji:"🪖",
     desc:"Deux nations s'affrontent sur des cartes quadrillées avec des unités terrestres, aériennes et maritimes commandées par des CO aux capacités uniques. Intelligent Systems livre le tactical tour par tour portatif de référence — accessible en surface, d'une profondeur stratégique redoutable, avec un mode multijoueur sur une seule cartouche mémorable." },
   
   { year:2001, slug:"klonoa-empire-of-dreams", img:"https://media.rawg.io/media/resize/1920/-/screenshots/feb/febe71ca992fd9738bb1954699a185b2.jpg",
     title:"Klonoa: Empire of Dreams", platform:"Game Boy Advance", publisher:"Namco",
-    tags:['',''], emoji:"🌙",
+    tags:["Plateforme", "Onirique / Poétique"], emoji:"🌙",
     desc:"Klonoa est mystérieusement attiré dans le royaume d'Empiria où dormir est devenu interdit, dans ce platformer-puzzle GBA d'une ingéniosité remarquable. La mécanique signature de saisir et lancer les ennemis comme tremplin est parfaitement adaptée au format portable, pour des niveaux denses et satisfaisants." },
     
   // ── 2002 ──────────────────────────────────
@@ -406,35 +450,40 @@ const GAMES = [
     img:"https://media.rawg.io/media/screenshots/e3e/e3ed9222eb6f4e95a04c9f0f8e5ff3fd.jpg", rank: 50,
     title:"Dark Chronicle", platform:"PlayStation 2", publisher:"Level-5 / Sony",
     tags:["Action-RPG", "Heroic Fantasy"], emoji:"⚔️",
+    alts:["Dark Cloud (2000)", "Rogue Galaxy (2005)"],
     desc:"Monica et Max voyagent dans le temps pour reconstruire un monde détruit, en combinant dungeon crawling et construction de villes. Un jeu généreux et touchant — vitrine de l'excellence naissante de Level-5." },
 
   { year:2002, slug:"warcraft-3-reign-of-chaos",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/d9c/d9ce4ca9397e66796fda7e520286e459.jpg", rank: 50,
     title:"Warcraft III: Reign of Chaos", platform:"PC / Mac", publisher:"Blizzard Entertainment",
     tags:["Stratégie temps réel", "Heroic Fantasy"], emoji:"🏰",
+    alts:["Warcraft III: The Frozen Throne (2003)", "Warcraft II: Tides of Darkness (1995)"],
     desc:"Révolutionne le RTS avec ses héros et ses éléments RPG profonds. Son éditeur donne naissance au genre MOBA via DotA — l'une des influences les plus durables et imprévisibles de l'histoire du jeu vidéo." },
 
   { year:2002, slug:"age-of-mythology",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/47c/47c91e762bddd34912d25b9011fe4cfd.jpg", rank: 20,
     title:"Age of Mythology", platform:"PC", publisher:"Ensemble Studios / Microsoft",
     tags:["Stratégie temps réel", "Mythologie"], emoji:"⚡",
+    alts:["Age of Mythology: The Titans (2003)"],
     desc:"Spin-off fantastique d'Age of Empires intégrant les panthéons grec, nordique et égyptien. Pouvoirs divins et créatures mythologiques insufflent une épopée légendaire à la formule RTS bien rodée." },
 
   { year:2002, slug:"metroid-fusion",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/f9a/f9a6e5a702f6c42a2ac5c080c3830e28.jpg", 
     title:"Metroid Fusion", platform:"Game Boy Advance", publisher:"Nintendo",
     tags:["Metroidvania", "Sci-Fi"], emoji:"🪐",
+    alts:["Metroid Dread (2021)"],
     desc:"Samus, infectée par le parasite X, explore la station BSL sous la menace d'une version d'elle-même corrompue — le SA-X. Metroidvania GBA d'une tension exemplaire, avec un scénario nettement plus narratif que ses prédécesseurs." },
 
   { year:2002, slug:"syberia",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/917/917d99d86a5dffa00ab7b0f2c9f62507.jpg", rank: 50,
     title:"Syberia", platform:"PC / Mac", publisher:"Microïds / Benoît Sokal",
     tags:["Point & Click", "Steampunk"], emoji:"🚂",
+    alts:["L'Amerzone (1999)", "Syberia II (2004)", "Syberia: The World Before (2022)"],
     desc:"Kate Walker part en mission commerciale et se retrouve embarquée dans un voyage onirique à travers une Europe de l'Est steampunk. Une œuvre graphiquement sublime signée Benoît Sokal, avec des automates d'une poésie unique." },
 
   { year:2002, slug:"napoleon-gba", img:"https://image.jeuxvideo.com/images/ga/a/i/aiguga002.jpg",
     title:"L'Aigle de Guerre (Napoleon)", platform:"Game Boy Advance", publisher:"Koei",
-    tags:['',''], emoji:"🎖️",
+    tags:["Stratégie tour par tour", "Historique / Militaire"], emoji:"🎖️",
     desc:"Revivez les grandes campagnes napoléoniennes dans ce tactical RPG au tour par tour signé Koei, spécialiste des simulations historiques japonaises. Déployez infanterie, cavalerie et artillerie sur des cartes fidèles aux batailles d'Austerlitz, Iéna et Wagram dans un titre d'une rigueur historique rare sur Game Boy Advance." },
   
   // ── 2003 ──────────────────────────────────
@@ -442,12 +491,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/screenshots/f1e/f1eac23f3d55564a3e932b8f803c4ad7.jpg",
     title:"Tropico 2: Pirate Cove", platform:"PC", publisher:"Frog City Software / Gathering",
     tags:["Gestion / God Game", "Aventure / Pulp"], emoji:"🏴‍☠️",
+    alts:["Tropico 6 (2019)"],
     desc:"Vous dirigez une île de pirates avec une poignée de forbans à contenter et des captifs à exploiter pour maintenir l'économie. Suite décalée du Tropico original, avec un humour mordant et une profondeur de gestion surprenante." },
 
   { year:2003, slug:"zoo-tycoon-2001",
     img:"https://media.rawg.io/media/screenshots/142/1422e6852cc5018df504de4045551b03.jpg",
     title:"Zoo Tycoon: Complete Collection", platform:"PC", publisher:"Blue Fang Games / Microsoft",
     tags:["Gestion / God Game", "Contemporain / Réaliste"], emoji:"🦁",
+    alts:["Jurassic World Evolution (2018)"],
     desc:"Gérez un zoo avec des centaines d'espèces animales dans des habitats sur mesure. Blue Fang crée un jeu de simulation accessible et éducatif, véritable bac à sable créatif pour amoureux des animaux." },
 
   { year:2003, slug:"castlevania-aria-of-sorrow-2",
@@ -466,30 +517,35 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/35e/35e8788e2b153e8de8ebbdc86bead1d4.jpg",
     title:"XIII", platform:"PS2 / Xbox / GameCube / PC", publisher:"Ubisoft",
     tags:["Tir", "Aventure / Pulp"], emoji:"🔫",
+    alts:["Command & Conquer: Renegade (2002)"],
     desc:"FPS à l'esthétique bande dessinée où un amnésique découvre son passé d'assassin au cœur d'une conspiration présidentielle. Les onomatopées visuelles et son adaptation de la BD de Van Hamme en font un ovni PS2." },
 
   { year:2003, slug:"spellforce-the-order-of-dawn",
     img:"https://media.rawg.io/media/screenshots/695/695e583bd1586005a3ccc4fe25e56210.jpg", rank: 50,
     title:"SpellForce: The Order of Dawn", platform:"PC", publisher:"Phenomic / JoWooD",
     tags:["Stratégie temps réel", "Heroic Fantasy"], emoji:"🧙",
+    alts:["SpellForce 2: Shadow Wars (2006)", "SpellForce - Platinum Edition (2005)"],
     desc:"Hybride audacieux mêlant RTS de construction de base et RPG en temps réel où vous incarnez un Rune Warrior immortel. SpellForce fusionne deux genres avec une cohérence surprenante dans un univers fantasy riche." },
 
   { year:2003, slug:"final-fantasy-tactics-advance",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/9aa/9aacfee4cf759e79d68fd78c075be847.jpg",
     title:"Final Fantasy Tactics Advance", platform:"Game Boy Advance", publisher:"Square Enix",
     tags:["Tactical RPG", "Heroic Fantasy"], emoji:"⚔️",
+    alts:["Fire Emblem: The Blazing Blade (2003)"],
     desc:"Marche et ses amis sont aspirés dans le monde d'Ivalice, univers fait de règles et de lois à respecter sous peine de prison. Tactical RPG GBA d'une profondeur de gameplay et d'un système de jobs remarquables." },
 
   { year:2003, slug:"prince-of-persia-the-sands-of-time",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/e08/e08431ffe9a4cb5ebc3b3a77bbabebea.jpg",
     title:"Prince of Persia: The Sands of Time", platform:"PS2 / Xbox / GameCube / PC", publisher:"Ubisoft Montréal",
     tags:["Action-Aventure", "Aventure / Pulp"], emoji:"⏳",
+    alts:["Prince of Persia 2: The Shadow and the Flame (1993)"],
     desc:"Le Prince manipule le temps pour corriger ses erreurs dans un palais envahi de créatures de sable. Reboot magistral d'Ubisoft Montréal qui réinvente l'action-aventure avec une fluidité acrobatique et un charme narratif inégalé." },
 
   { year:2003, slug:"impossible-creatures",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/faf/faf3081a75d826fe1558a4b212a223a4.jpg",
     title:"Impossible Creatures", platform:"PC", publisher:"Relic Entertainment / Microsoft",
     tags:["Stratégie temps réel", "Aventure / Pulp"], emoji:"🧬",
+    alts:["Paraworld (2006)"],
     desc:"Rex Chance fusionne des animaux pour créer des créatures hybrides uniques constituant son armée. RTS de Relic au concept totalement original où chaque unité est une combinaison personnalisée de deux espèces — un bac à sable créatif fascinant, injustement tombé dans l'oubli." },
 
   { year:2003, slug:"warioware-inc-mega-microgame",
@@ -509,12 +565,14 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/07f/07fb6f66c4fad0b269ae5de6e9c5efff.jpg",
     title:"Sly 2: Band of Thieves", platform:"PlayStation 2", publisher:"Sucker Punch / Sony",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🎭",
+    alts:["Sly 3: Honor Among Thieves (2005)"],
     desc:"Sly Cooper et sa bande démantèlent le KLAWW Gang. Plus ambitieux que son prédécesseur avec ses niveaux bacs à sable, il brille par son humour, sa générosité et l'alchimie de ses trois héros." },
 
   { year:2004, slug:"the-lord-of-the-rings-the-battle-for-middle-earth",
     img:"https://media.rawg.io/media/screenshots/3e8/3e81bd749511c8a841e65da9375efb5c.jpg",
     title:"The Lord of the Rings: The Battle for Middle-earth", platform:"PC", publisher:"EA Games",
     tags:["Stratégie temps réel", "Heroic Fantasy"], emoji:"🏰",
+    alts:["The Battle for Middle-earth II (2006)"],
     desc:"Revivez les batailles épiques de la trilogie Jackson en commandant les armées du Bien ou du Mal. RTS accessible et spectaculaire d'EA, avec des unités héroïques emblématiques et des assauts de Minas Tirith mémorables." },
 
   { year:2004, slug:"sacred",
@@ -525,8 +583,8 @@ const GAMES = [
 
   { year:2004, slug:"the-lord-of-the-rings-the-third-age", img:"https://image.jeuxvideo.com/images/p2/l/o/lotap2016.jpg",
     title:"Le Seigneur des Anneaux : Le Tiers Âge", platform:"PS2 / Xbox / GameCube / GBA", publisher:"EA Games",
-    tags:["", ""], emoji:"💍",
-    desc:"Un groupe de héros suit les traces de la Communauté de l'Anneau et revis ses batailles épiques dans ce RPG au tour par tour inspiré de Final Fantasy. Beregond et ses compagnons traversent la Moria, le Gouffre de Helm et les Plaines du Pelennor dans un hommage jouissif à la trilogie de Peter Jackson." },
+    tags:["RPG", "Heroic Fantasy"], emoji:"💍",
+    desc:"Un groupe de héros suit les traces de la Communauté de l'Anneau et revis ses batailles épiques dans ce RPG au tour par tour inspiré de Final Fantasy. Berethor et ses compagnons traversent la Moria, le Gouffre de Helm et les Plaines du Pelennor dans un hommage jouissif à la trilogie de Peter Jackson." },
     
   // ── 2005 ──────────────────────────────────
   { year:2005, slug:"shadow-of-the-colossus",
@@ -551,312 +609,333 @@ const GAMES = [
   { year:2006, slug:"okami",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/8b2/8b20cf8e281f6dd5f87646d61de6c2e9.jpg", rank: 5,
     title:"Ōkami", platform:"PlayStation 2", publisher:"Clover Studio / Capcom",
-    genre:"Action-Aventure", emoji:"🌸",
+    tags:["Action-Aventure", "Mythologie"], emoji:"🌸",
     desc:"Amaterasu, déesse-loup blanche, restaure la nature dévastée à coups de pinceau divin. Chef-d'œuvre visuel inspiré des estampes ukiyo-e et de Zelda — le Celestial Brush comme mécanique centrale d'une poésie incomparable.",
     opinion:"Ōkami est sans aucun doute le plus beau jeu auquel il m'a été donné de jouer. Sa direction artistique en cel-shading est indémodable, rappelant les estampes ukiyo-e et sumi-e provenant du Japon, univers dans lequel le jeu veut nous emmener. Mais s'arrêter à son identité visuelle serait un crime, tant le titre est bourré de qualités. Son gameplay tout d'abord, proposant un système de dessins magiques à peindre soi-même pour agir sur le décor, les énigmes et les combats. Son histoire ensuite, combinant mythologie et folklore japonais, et qui nous amène à jouer la déesse du soleil, Amaterasu. Malgré des critiques dithyrambiques, Ōkami fut un échec commercial à sa sortie, et Clover Studio qui était derrière ce projet a été dissous peu après. Heureux possesseur d'une des 10 000 copies de la version PlayStation 2 seulement distribuées en France, je ne risque pas de m'en séparer !"},
 
   { year:2006, slug:"company-of-heroes",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/1c8/1c8cf5141e6f1abc99b164c8c7c58f30.jpg",
     title:"Company of Heroes", platform:"PC", publisher:"Relic Entertainment / THQ",
-    genre:"Stratégie temps réel", emoji:"🪖",
+    tags:["Stratégie temps réel", "Historique / Militaire"], emoji:"🪖",
+    alts:["Act of War: Direct Action (2004)"],
     desc:"RTS tactique ancré dans le débarquement en Normandie, avec une physique destructible révolutionnaire et une gestion des unités d'une profondeur inédite. Considéré par beaucoup comme le meilleur RTS jamais conçu." },
 
   { year:2006, slug:"titan-quest",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/679/67903bfd4f80aab41a2a56e9b79a4180.jpg", rank: 20,
     title:"Titan Quest", platform:"PC", publisher:"Iron Lore Entertainment / THQ",
-    genre:"Action-RPG", emoji:"⚡",
+    tags:["Action-RPG", "Mythologie"], emoji:"⚡",
+    alts:["Titan Quest: Immortal Throne (2007)", "Titan Quest Anniversary Edition (2016)"],
     desc:"Hack-and-slash dans la Grèce antique, l'Égypte et la Chine mythologiques face aux Titans déchaînés. Titan Quest s'impose par sa richesse culturelle, ses classes hybrides et son atmosphère somptueuse." },
 
   { year:2006, slug:"elite-beat-agents",
     img:"https://media.rawg.io/media/screenshots/2f6/2f69c4dfbbdd4006b41e8b536b81ad46.jpg",
     title:"Elite Beat Agents", platform:"Nintendo DS", publisher:"Nintendo",
-    genre:"Rythme", emoji:"🕺",
+    tags:["Rythme", "Cartoon / Humour"], emoji:"🕺",
     desc:"Des agents en costumes noirs sauvent des civils en difficulté grâce à la puissance de la musique, entièrement joué au stylet sur l'écran tactile du DS. Adaptation occidentale d'Osu! Tatakae! Ouendan, Elite Beat Agents est un jeu de rythme d'une énergie communicative et d'un humour visuel absolument irrésistibles." },
 
   { year:2006, slug:"paraworld", img:"https://media.rawg.io/media/resize/1920/-/screenshots/b8e/b8ebd458b1bb0cd648b29f05d3a8243e.jpg",
-    title:"ParaWorld", platform:"PC", publisher:"SEK / Aspyr",
-    genre:"Stratégie temps réel", emoji:"🦕",
-    desc:"Trois scientifiques se retrouvent propulsés dans un monde parallèle peuplé de dinosaures et de civilisations primitives qui les ont domestiqués. RTS de SEK au concept enthousiasmant — construire des armées de ptérodactyles, brachiosaures et T-Rex au service de tribus vikings ou aztèques — avec un système de héros montés sur créatures géantes." },
+    title:"ParaWorld", platform:"PC", publisher:"Spellbound Entertainment / Aspyr",
+    tags:["Stratégie temps réel", "Aventure / Pulp"], emoji:"🦕",
+    desc:"Trois scientifiques se retrouvent propulsés dans un monde parallèle peuplé de dinosaures et de civilisations primitives qui les ont domestiqués. RTS de Spellbound au concept enthousiasmant — construire des armées de ptérodactyles, brachiosaures et T-Rex au service de tribus vikings ou aztèques — avec un système de héros montés sur créatures géantes." },
   
   // ── 2007 ──────────────────────────────────
   { year:2007, slug:"professor-layton-and-the-curious-village", img:"https://media.rawg.io/media/resize/1920/-/screenshots/eda/edab0890d9a1f972481cd7abbafdafba.jpg",
     title:"Professeur Layton et l'Étrange Village", platform:"Nintendo DS", publisher:"Level-5 / Nintendo",
-    genre:"Puzzle / Aventure", emoji:"🎩",
+    tags:["Puzzle", "Cartoon / Humour"], emoji:"🎩",
     desc:"Le Professeur Layton et son jeune assistant Luke enquêtent sur un mystérieux héritage dans le village de Saint-Mystère, résolvant plus de 130 énigmes logiques en chemin. Level-5 invente un genre à part entière — l'aventure puzzle narrative — avec une écriture charmante, des twists mémorables et une musique enchanteresse." },
   
   // ── 2008 ──────────────────────────────────
   { year:2008, slug:"spore",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/a25/a2541c78aabe1d3c95eec5f96483d4c8.jpg",
     title:"Spore", platform:"PC / Mac", publisher:"Maxis / EA",
-    genre:"Simulation / Dieu", emoji:"🦠",
+    tags:["Gestion / God Game", "Sci-Fi"], emoji:"🦠",
     desc:"Guidez une créature de cellule unicellulaire jusqu'à la conquête spatiale à travers cinq phases d'évolution distinctes. La vision de Will Wright pour un jeu de création infini — ambitieux, créatif et débordant de possibilités." },
 
   { year:2008, slug:"the-last-remnant",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/1ad/1ad6d749b3db3880e2b3d5d4fc7693d1.jpg",
     title:"The Last Remnant", platform:"PC / Xbox 360", publisher:"Square Enix",
-    genre:"RPG", emoji:"⚔️",
+    tags:["RPG", "Heroic Fantasy"], emoji:"⚔️",
     desc:"Rush Sykes part à la rescousse de sa sœur dans un monde dominé par d'énigmatiques artéfacts appelés Remnants. RPG de Square Enix au système de batailles en formations d'unités atypique, avec un lore d'une richesse considérable." },
 
   { year:2008, slug:"kings-bounty-the-legend",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/0a2/0a21b1a17edd9a73865a4b9914999742.jpg", rank: 10,
     title:"King's Bounty: The Legend", platform:"PC", publisher:"Katauri Interactive / 1C Company",
-    genre:"Tactical RPG", emoji:"♟️",
+    tags:["Tactical RPG", "Heroic Fantasy"], emoji:"♟️",
+    alts:["King's Bounty: Armored Princess (2009)"],
     desc:"Un chasseur de primes sillonne un monde de fantasy ouvert à dos de cheval pour lever des armées et combattre au tour par tour. Revival moderne du genre fondateur, King's Bounty séduit par son humour, sa richesse et sa liberté d'exploration." },
 
   // ── 2009 ──────────────────────────────────
   { year:2009, slug:"dragon-age-origins",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/7a9/7a9f60d3629dffa088cbef12d262a743.jpg", rank: 10,
     title:"Dragon Age: Origins", platform:"PC / PS3 / Xbox 360", publisher:"BioWare / EA",
-    genre:"RPG tactique", emoji:"🛡️",
+    tags:["Tactical RPG", "Heroic Fantasy"], emoji:"🛡️",
+    alts:["Dragon Age: Origins - Ultimate Edition (2010)"],
     desc:"RPG tactique de BioWare avec six origines jouables distinctes. Un monde de heroic fantasy sombre, des choix moraux aux conséquences durables et un niveau d'écriture exceptionnel pour les compagnons et la politique du royaume." },
 
   { year:2009, slug:"dj-hero",
     img:"https://media.rawg.io/media/screenshots/96b/96b568d8834c1d11bb40e0806c93e625.jpg",
     title:"DJ Hero", platform:"PS3 / Xbox 360 / Wii", publisher:"Activision / FreeStyleGames",
-    genre:"Rythme", emoji:"🎧",
+    tags:["Rythme", "Néon / Rétro"], emoji:"🎧",
     desc:"Mixez des mashups de morceaux iconiques sur une platine vinyle périphérique dans ce spinoff musical de Guitar Hero. FreeStyleGames livre une expérience de rythme unique en son genre, avec une tracklist soignée mêlant hip-hop, électro et pop — un objet culte sous-estimé de la grande époque des jeux musicaux." },
 
   { year:2009, slug:"the-whispered-world", img:"https://media.rawg.io/media/resize/1920/-/screenshots/cf0/cf01f00ef102ac54dc03f13b56041358.jpg",
     title:"The Whispered World", platform:"PC / Mac", publisher:"Daedalic Entertainment",
-    genre:"Point & Click", emoji:"🎪",
-    desc:"Sadwick le clown mélancolique et son chenille Spot parcourent un monde onirique voué à la destruction dans cette aventure point & click de Daedalic à l'aquarelle somptueuse. Une atmosphère mélancolique et poétique unique dans le genre, avec des puzzles inventifs et une direction artistique digne des grands contes illustrés." },
+    tags:["Point & Click", "Onirique / Poétique"], emoji:"🎪",
+    desc:"Sadwick le clown mélancolique et sa chenille Spot parcourent un monde onirique voué à la destruction dans cette aventure point & click de Daedalic à l'aquarelle somptueuse. Une atmosphère mélancolique et poétique unique dans le genre, avec des puzzles inventifs et une direction artistique digne des grands contes illustrés." },
   
   { year:2009, slug:"majesty-2-the-fantasy-kingdom-sim", img:"https://media.rawg.io/media/resize/1920/-/screenshots/987/987cd8b54077d13a8e92004c502094ab.jpg",
     title:"Majesty 2 : The Fantasy Kingdom Sim", platform:"PC", publisher:"Paradox Interactive",
-    genre:"Stratégie / God Game", emoji:"👑",
+    tags:["Gestion / God Game", "Heroic Fantasy"], emoji:"👑",
     desc:"Régnez sur un royaume de fantasy en plaçant des primes pour motiver vos héros autonomes à explorer, combattre et commercer selon leur propre volonté. Majesty 2 conserve le concept unique et délicieux de son prédécesseur — vous ne contrôlez pas directement vos unités — dans une réalisation modernisée avec une courbe de difficulté corsée." },
   
   // ── 2010 ──────────────────────────────────
   { year:2010, slug:"xenoblade-chronicles",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/e01/e014a674d56b971d2fff9caa077230d6.jpg",
     title:"Xenoblade Chronicles", platform:"Wii", publisher:"Monolith Soft / Nintendo",
-    genre:"RPG", emoji:"⚔️",
+    tags:["RPG", "Sci-Fi"], emoji:"⚔️",
     desc:"Shulk armé du Monado affronte les Mechon sur le dos de deux titans pétrifiés depuis l'aube des temps. RPG d'une ambition narrative rare, avec un monde ouvert saisissant et une bande-son magistrale." },
 
   { year:2010, slug:"vvvvvv",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/65e/65eb0b3caeb86a4f3feb86d3c827ff7a.jpg",
     title:"VVVVVV", platform:"PC / Mac / 3DS", publisher:"Terry Cavanagh",
-    genre:"Platformer", emoji:"🔄",
+    tags:["Puzzle-Plateforme", "Néon / Rétro"], emoji:"🔄",
+    alts:["Super Meat Boy (2010)"],
     desc:"Captain Viridian ne peut pas sauter — il inverse la gravité. Platformer minimaliste d'une difficulté redoutable, avec une bande-son chiptune de SoulEye inoubliable et un game design d'une élégance absolue." },
 
   { year:2010, slug:"gray-matter", 
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/485/4857d7536d3907c9247f52a4ec268009.jpg",
     title:"Gray Matter", platform:"PC / Xbox 360", publisher:"Lace Mamba Global",
-    genre:"Point & Click", emoji:"🎩",
+    tags:["Point & Click", "Horreur / Sombre"], emoji:"🎩",
     desc:"Samantha Everett, magicienne de rue, se retrouve mêlée aux expériences neurologiques troublantes du Dr David Styles dans un Oxford gothique et mystérieux. Adventure game signé Jane Jensen, créatrice de Gabriel Knight, avec une atmosphère envoûtante, une écriture soignée et des puzzles de prestidigitation originaux." },
 
   // ── 2011 ──────────────────────────────────
   { year:2011, slug:"rayman-origins",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/ae7/ae7a6ef9e9de7344219a613170414569.jpg",
     title:"Rayman Origins", platform:"Multi-plateformes", publisher:"Ubisoft Montpellier",
-    genre:"Platformer", emoji:"🦊",
+    tags:["Plateforme", "Onirique / Poétique"], emoji:"🦊",
+    alts:["Rayman Legends (2013)"],
     desc:"Retour en 2D pour Rayman dans des mondes aquarellés d'une beauté sidérante. Fruit du moteur UbiArt révolutionnant l'animation 2D, ce platformer coopératif jusqu'à 4 joueurs est une déclaration d'amour au médium." },
 
   { year:2011, slug:"bastion",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/6db/6dbd2885bb2b1ebf9a1184bb60308418.jpg",
     title:"Bastion", platform:"PC / Xbox 360", publisher:"Supergiant Games",
-    genre:"Action-RPG", emoji:"⚔️",
+    tags:["Action-RPG", "Onirique / Poétique"], emoji:"⚔️",
+    alts:["Transistor (2014)"],
     desc:"The Kid reconstruit le Bastion dans un monde fracturé, guidé par la voix narrative réactive de Rucks qui commente chaque action en temps réel. Premier jeu de Supergiant, un coup de maître visuel, sonore et ludique." },
 
   // ── 2012 ──────────────────────────────────
   { year:2012, slug:"the-walking-dead",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/4b7/4b7d1df2d54734c94e02753a76fa6f38.jpg",
     title:"The Walking Dead: Season 1", platform:"Multi-plateformes", publisher:"Telltale Games",
-    genre:"Aventure narrative", emoji:"📖",
+    tags:["Aventure narrative", "Post-apocalyptique"], emoji:"📖",
     desc:"Lee Everett protège la petite Clementine dans un monde dévasté par les zombies. Telltale réinvente le jeu narratif épisodique avec des choix déchirants, des personnages profonds et une conclusion inoubliable." },
 
   { year:2012, slug:"hotline-miami",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/88b/88b907144995e57c45ee043c59dd6810.jpg", rank: 50,
     title:"Hotline Miami", platform:"PC / PS3 / PS Vita", publisher:"Dennaton Games / Devolver Digital",
-    genre:"Action", emoji:"🔪",
+    tags:["Action", "Néon / Rétro"], emoji:"🔪",
     desc:"Tueur masqué assassine des gangsters au rythme d'une bande-son synthwave hypnotique dans une Miami néon des années 80. Ultra-violent et ultra-nerveux, il questionne notre rapport à la violence dans les jeux vidéo." },
 
   { year:2012, slug:"spec-ops-the-line",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/9e2/9e26af47a676b061f288ff269e91a8f1.jpg", rank: 5,
     title:"Spec Ops: The Line", platform:"PC / PS3 / Xbox 360", publisher:"Yager Development / 2K",
-    genre:"TPS", emoji:"💀",
+    tags:["Tir", "Historique / Militaire"], emoji:"💀",
     desc:"Shooter militaire en apparence, déconstruction lucide du genre en réalité. Inspiré de Au Cœur des Ténèbres de Conrad, il confronte le joueur à ses propres actes dans une Dubaï apocalyptique d'une noirceur rare.",
     opinion:"Étant atteint de cinétose (ou motion sickness), je ne peux tout simplement pas jouer aux FPS, ou en tout cas dans de rares bonnes conditions. De fait, si on regarde de près, ma liste ne comporte que de rares FPS, et donc de rares jeux dits de guerre. Un sujet fascinant, mais que j'ai toujours trouvé mal traité. On retrouve généralement le gentil et le méchant, le soldat américain invincible contre tout un tas d'ennemis plus prévisibles que les autres. Bref, un gameplay peut-être intéressant, mais une histoire faiblarde, là où des films comme Apocalypse Now ou le premier Rambo parlent de la guerre au niveau du soldat. Et un jour, je découvre Spec Ops : The Line, un TPS qui m'a enfin permis d'aborder le jeu de guerre. Ce jeu, malgré un gameplay qui peut sembler classique, offre une expérience qui nous fait réfléchir sur nos propres actes, en tant que joueur derrière la manette. Le capitaine Martin Walker évolue réellement par nos actions et la fin nous appartient. Ce jeu fait fort, sa durée de vie est courte mais l'expérience est intense, nous rappelant que la guerre, c'est sale. Bref, il faut avoir fait ce jeu au moins une fois dans sa vie. Aujourd'hui retiré des ventes en raison de problèmes de droits musicaux, le jeu mériterait une réédition un jour. En tout cas, je l'espère."},
 
   { year:2012, slug:"fez",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/f08/f083ed9be5ed890834ef0815f001d577.jpg", rank: 50,
     title:"Fez", platform:"Xbox 360 / PC / PS4", publisher:"Polytron Corporation",
-    genre:"Puzzle-Platformer", emoji:"🧩",
+    tags:["Puzzle-Plateforme", "Onirique / Poétique"], emoji:"🧩",
     desc:"Gomez découvre la troisième dimension dans son monde 2D grâce à un fez magique. Puzzle-platformer de Phil Fish avec une rotation ingénieuse et des mystères cryptiques qui ont alimenté des mois d'exploration communautaire." },
 
   { year:2012, slug:"dust-an-elysian-tail",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/2af/2afc81dacea6947b6cefe2da437ec937.jpg",
     title:"Dust: An Elysian Tail", platform:"PC / Xbox 360 / PS4", publisher:"Humble Hearts",
-    genre:"Action-RPG", emoji:"🌀",
+    tags:["Action-RPG", "Heroic Fantasy"], emoji:"🌀",
     desc:"Dust, guerrier amnésique accompagné de l'épée parlante Ahrah et de la fée Fidget, explore un monde animé d'une beauté stupéfiante. Action-RPG développé quasi entièrement par une seule personne, Dean Dodrill, avec un système de combat fluide et spectaculaire d'une générosité remarquable." },
 
   { year:2012, slug:"mark-of-the-ninja", 
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/471/471d3aa6965e2dde7758f15d5fd8ff96.jpg",
     title:"Mark of the Ninja", platform:"PC / Xbox 360 / PS4 / Switch", publisher:"Klei Entertainment",
-    genre:"Stealth / Platformer", emoji:"🥷",
+    tags:["Furtivité / Tactique", "Contemporain / Réaliste"], emoji:"🥷",
     desc:"Un ninja tatoué de symboles maudits infiltre des complexes ennemis dans un jeu de furtivité 2D d'une précision absolue. Klei Entertainment signe le meilleur jeu de ninja jamais conçu — chaque élément sonore et visuel communique l'information au joueur avec une clarté et une intelligence de design exemplaires." },
 
   { year:2012, slug:"thomas-was-alone", img:null,
     title:"Thomas Was Alone", platform:"PC / PS3 / PS Vita / Mobile", publisher:"Mike Bithell",
-    genre:"Puzzle-Platformer", emoji:"🟥",
+    tags:["Puzzle-Plateforme", "Onirique / Poétique"], emoji:"🟥",
     desc:"Des rectangles colorés aux personnalités distinctes s'entraident pour traverser des niveaux minimalistes, guidés par la narration de Danny Wallace. Mike Bithell prouve qu'empathie et émotion ne nécessitent pas de visuels élaborés — Thomas Was Alone est une démonstration magistrale de narration vidéoludique par le level design pur." },
   
   // ── 2013 ──────────────────────────────────
   { year:2013, slug:"the-stanley-parable",
     img:"https://media.rawg.io/media/screenshots/8f0/8f0b94922ad5e59968852649697b2643.jpg",
     title:"The Stanley Parable", platform:"PC", publisher:"Galactic Cafe",
-    genre:"Aventure narrative", emoji:"📖",
+    tags:["Aventure narrative", "Contemporain / Réaliste"], emoji:"📖",
     desc:"Stanley suit — ou non — les instructions d'un narrateur omniscient. Expérience métafictionnelle sur le libre arbitre et la condition du joueur. Drôle, philosophique et proprement fascinant — un objet vidéoludique unique." },
 
   { year:2013, slug:"shadowrun-returns", img:"https://media.rawg.io/media/resize/1920/-/screenshots/3f1/3f173a2c6f59d0c4a4abe8c91dd24273.jpg",
     title:"Shadowrun Returns", platform:"PC / Mac / Linux / Mobile", publisher:"Harebrained Schemes",
-    genre:"RPG tactique", emoji:"🔮",
+    tags:["Tactical RPG", "Sci-Fi"], emoji:"🔮",
     desc:"Dans un Seattle cyberpunk de 2054 où magie et technologie coexistent, un runner des ombres enquête sur le meurtre d'un vieil ami. Résurrection fidèle et financée en crowdfunding de la saga SNES/Mega Drive, Shadowrun Returns offre un RPG tactique au tour par tour riche en écriture et en ambiance cyberpunk-fantasy unique." },
   
   { year:2013, slug:"reus", img:"https://media.rawg.io/media/resize/1920/-/screenshots/588/58829bafe6d0381bdab46f2baeb05dea.jpg",
     title:"Reus", platform:"PC / Mac", publisher:"Abbey Games",
-    genre:"God Game", emoji:"🌍",
+    tags:["Gestion / God Game", "Mythologie"], emoji:"🌍",
     desc:"Quatre géants élémentaires façonnent une planète vierge en y plaçant océans, forêts, déserts et marécages pour faire prospérer des civilisations humaines qui, inévitablement, deviennent cupides. God game néerlandais d'Abbey Games à la direction artistique épurée et au système de synergies entre ressources d'une profondeur surprenante." },
   
   { year:2013, slug:"ittle-dew", img:"https://media.rawg.io/media/resize/1920/-/screenshots/e99/e991d5fcc1476d37406f9b7132a62f87.jpg",
     title:"Ittle Dew", platform:"PC / Mac / Linux / Wii U", publisher:"Ludosity",
-    genre:"Action-Aventure", emoji:"⚔️",
-    desc:"Ittle Dew et sa renarde Tippsie sont naufragées sur une île dont le manoir central regorge de coffres à ouvrir. Hommage décomplexé et hilarant à la saga Zelda, Ittle Dew dénonce avec humour les conventions du genre tout en livrant des puzzles et donjons d'une ingéniosité réelle — compact, drôle et malin." },
+    tags:["Action-Aventure", "Cartoon / Humour"], emoji:"⚔️",
+    desc:"Ittle Dew et sa fée Tippsie sont naufragées sur une île dont le manoir central regorge de coffres à ouvrir. Hommage décomplexé et hilarant à la saga Zelda, Ittle Dew dénonce avec humour les conventions du genre tout en livrant des puzzles et donjons d'une ingéniosité réelle — compact, drôle et malin." },
   
   // ── 2014 ──────────────────────────────────
   { year:2014, slug:"deponia-the-complete-journey",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/16d/16dfb5004b32b60083881757707d70c0.jpg",
     title:"Deponia: The Complete Journey", platform:"PC / Mac / Linux", publisher:"Daedalic Entertainment",
-    genre:"Point & Click", emoji:"🗑️",
+    tags:["Point & Click", "Cartoon / Humour"], emoji:"🗑️",
+    alts:["Runaway, A Road Adventure (2001)"],
     desc:"Rufus tente désespérément de quitter la planète-décharge Deponia pour rejoindre Elysium. Compilation de la trilogie de Daedalic, avec un humour absurde à l'allemande, des puzzles inventifs et une histoire d'amour délicieusement chaotique." },
   
   { year:2014, slug:"this-war-of-mine",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/9e8/9e8b0c791f6dfc516a29e8b03d4fc7c3.jpg",
     title:"This War of Mine", platform:"PC / Mobile / Consoles", publisher:"11 bit studios",
-    genre:"Survie", emoji:"🕯️",
+    tags:["Survie", "Historique / Militaire"], emoji:"🕯️",
+    alts:["Frostpunk (2018)"],
     desc:"Survivre dans une ville assiégée, non comme soldat mais comme civil. 11 bit studios signe un jeu courageux qui présente la guerre sous son angle le plus humain et douloureux — la faim, le deuil, les choix impossibles." },
 
   { year:2014, slug:"south-park-the-stick-of-truth",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/464/4642de3c58d4f772ce627bb3f58cf2a7.jpg", rank: 50,
     title:"South Park: The Stick of Truth", platform:"PC / PS3 / Xbox 360", publisher:"Obsidian Entertainment / Ubisoft",
-    genre:"RPG", emoji:"⚔️",
+    tags:["RPG", "Cartoon / Humour"], emoji:"⚔️",
+    alts:["South Park: The Fractured But Whole (2017)"],
     desc:"RPG tour par tour dans l'univers de la série culte, entièrement écrit par Parker et Stone. Obsidian livre une adaptation parfaite en termes d'humour dévastateur, de références pointues et de profondeur de gameplay." },
 
   { year:2014, slug:"shantae-and-the-pirates-curse",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/c2b/c2b6ad03da33ac3dd8787c76039e5e30.jpg",
     title:"Shantae and the Pirate's Curse", platform:"3DS / Wii U / PC", publisher:"WayForward",
-    genre:"Metroidvania", emoji:"💃",
+    tags:["Metroidvania", "Aventure / Pulp"], emoji:"💃",
+    alts:["Shantae and the Seven Sirens (2020)"],
     desc:"La demi-génie Shantae perd ses pouvoirs magiques et doit s'allier à son ennemi pirate Risky Boots. Platformer-Metroidvania débordant d'énergie et de personnalité, avec un pixel art expressif et un level design généreux." },
 
   { year:2014, slug:"lumino-city",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/efb/efb49a916deef77180d90fe97e30a9e0_PTNBi7q.jpg",
     title:"Lumino City", platform:"PC / Mac / iOS", publisher:"State of Play Games",
-    genre:"Point & Click", emoji:"🏙️",
+    tags:["Point & Click", "Onirique / Poétique"], emoji:"🏙️",
+    alts:["The Tiny Bang Story (2011)"],
     desc:"Lumi part à la recherche de son grand-père dans une ville construite entièrement à la main en maquettes de papier, carton et bois. Point & click d'une beauté artisanale époustouflante, récompensé pour son design et son univers incomparable." },
 
   { year:2014, slug:"child-of-light", 
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/f83/f83657eaf6a4495727438d85d8998406.jpg",
     title:"Child of Light", platform:"Multi-plateformes", publisher:"Ubisoft Montréal",
-    genre:"RPG", emoji:"🌙",
+    tags:["RPG", "Onirique / Poétique"], emoji:"🌙",
     desc:"Aurora, petite princesse autrichienne, s'éveille dans le royaume fantastique de Lemuria et doit ramener le soleil, la lune et les étoiles dérobés. RPG de combat au tour par tour au rendu aquarelle somptueux signé Ubisoft Montréal, avec un système de combat basé sur la jauge d'initiative et des dialogues entièrement en vers." },
 
   // ── 2015 ──────────────────────────────────
   { year:2015, slug:"life-is-strange-episode-1-2",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/4c6/4c6da2f36396d4ed51f82ba6159fa39b.jpg",
     title:"Life is Strange", platform:"Multi-plateformes", publisher:"Dontnod Entertainment / Square Enix",
-    genre:"Aventure narrative", emoji:"📷",
+    tags:["Aventure narrative", "Contemporain / Réaliste"], emoji:"📷",
+    alts:["Twin Mirror (2020)"],
     desc:"Max Caulfield peut rembobiner le temps pour changer les événements du présent. Aventure narrative épisodique qui aborde avec sensibilité l'adolescence, l'amitié, le deuil et les conséquences irréversibles de nos choix." },
 
   { year:2015, slug:"ori-and-the-blind-forest",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/bcb/bcb49e0507f3501823a8e39c15679763.jpg", rank: 20,
     title:"Ori and the Blind Forest", platform:"PC / Xbox One", publisher:"Moon Studios / Microsoft",
-    genre:"Platformer", emoji:"🌟",
+    tags:["Plateforme", "Onirique / Poétique"], emoji:"🌟",
+    alts:["Ori and the Will of the Wisps (2020)"],
     desc:"Ori, esprit de la forêt, restaure la lumière dans un monde mourant d'une beauté visuelle et musicale bouleversante. Platformer de précision exigeant signé Moon Studios, à la direction artistique somptueuse." },
 
   { year:2015, slug:"her-story",
     img:"https://media.rawg.io/media/resize/200/-/screenshots/fd4/fd4da6198e718001cd922f13b2e4d5bf.jpeg", rank: 20,
     title:"Her Story", platform:"PC / Mac / iOS", publisher:"Sam Barlow",
-    genre:"Aventure narrative", emoji:"📼",
+    tags:["Aventure narrative", "Contemporain / Réaliste"], emoji:"📼",
     desc:"Explorez une base de données d'interrogatoires vidéo fragmentés pour reconstituer l'histoire d'une femme soupçonnée de meurtre. Sam Barlow réinvente la narration non-linéaire dans un thriller FMV d'une finesse et d'une efficacité rares." },
 
   { year:2015, slug:"evoland-legendary-edition",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/2d8/2d89a2f2e853c2b610cc2577fd5caecf.jpg", rank: 50,
     title:"Evoland 2", platform:"PC / Mobile / Switch", publisher:"Shiro Games",
-    genre:"RPG", emoji:"🎮",
+    tags:["RPG", "Heroic Fantasy"], emoji:"🎮",
+    alts:["Swords & Souls: Neverseen (2019)"],
     desc:"Méta-RPG français qui voyage à travers l'histoire du jeu vidéo en débloquant ses propres mécaniques et graphismes au fil de la progression. Un hommage ludique et érudit signé Shiro Games aux grandes sagas du RPG japonais." },
 
   { year:2015, slug:"the-incredible-adventures-of-van-helsing-final-cut",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/f49/f4992dbdce9d44c9be3e650de5480640.jpg",
     title:"Van Helsing: Final Cut", platform:"PC", publisher:"NeocoreGames",
-    genre:"Action-RPG", emoji:"🧛",
+    tags:["Action-RPG", "Horreur / Sombre"], emoji:"🧛",
+    alts:["Grim Dawn (2016)", "Victor Vran (2015)"],
     desc:"Le fils du célèbre chasseur de monstres traque créatures et conspirateurs dans une Borgovie victorienne alternative. Hack-and-slash gothique à l'atmosphère soignée, avec un système de tours-défense original et un humour mordant." },
 
   { year:2015, slug:"rise-of-the-tomb-raider",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/fbf/fbff1fe1f3cbe33dec8b2fc98bbad4a4.jpg",
     title:"Rise of the Tomb Raider", platform:"Xbox One / PC / PS4", publisher:"Crystal Dynamics / Square Enix",
-    genre:"Action-Aventure", emoji:"🏹",
+    tags:["Action-Aventure", "Aventure / Pulp"], emoji:"🏹",
+    alts:["Tomb Raider (2013)"],
     desc:"Lara Croft traque la légendaire cité de Kitezh dans les steppes sibériennes gelées. Sequel ambitieux qui perfectionne la formule reboot avec des tombeaux facultatifs exemplaires, une survie bien pensée et une narration plus mature." },
 
   { year:2015, slug:"steamworld-heist",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/ead/ead0a4f9dcdd1084fbb0da8ea5a26a5e.jpg", rank: 20,
     title:"SteamWorld Heist", platform:"3DS / PC / Switch / PS4", publisher:"Image & Form",
-    genre:"Stratégie tour par tour", emoji:"🤖",
+    tags:["Tactical RPG", "Steampunk"], emoji:"🤖",
+    alts:["SteamWorld Heist II (2024)"],
     desc:"Des pirates-robots recrutent un équipage hétéroclite pour piller des vaisseaux en apesanteur dans des niveaux générés procéduralement. Tactical tour par tour au gameplay d'une élégance rare où viser manuellement fait toute la différence — une pépite d'Image & Form." },
 
   { year:2015, slug:"ronin",
     img:"https://media.rawg.io/media/screenshots/6f0/6f0c7996a3751dd4cf42251ef56c11ee.jpg", rank: 50,
     title:"RONIN", platform:"PC / Mac / Linux", publisher:"Devolver Digital",
-    genre:"Action / Tactique", emoji:"⚔️",
+    tags:["Furtivité / Tactique", "Néon / Rétro"], emoji:"⚔️",
     desc:"Une vindicatrice enchaîne des infiltrations nocturnes contre cinq cibles dans un système de combat au tour par tour déclenché au contact. RONIN fascine par sa tension unique entre action fluide en temps réel et réflexion tactique instantanée — une perle discrète éditée par Devolver." },
 
   { year:2015, slug:"hard-west", 
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/827/8278d750adf9d7f186610c33f890657b.jpg",
     title:"Hard West", platform:"PC / Switch", publisher:"CreativeForge Games / Gambitious",
-    genre:"Tactical RPG", emoji:"🤠",
+    tags:["Tactical RPG", "Western"], emoji:"🤠",
     desc:"Surnaturel et Far West s'entremêlent dans ce tactical tour par tour où démons, pactes diaboliques et vengeance s'affrontent sous un ciel de soufre. Hard West séduit par son ambiance de western noir unique, ses mécaniques de ricochets et sa narration fragmentée en huit histoires indépendantes." },
   
   // ── 2016 ──────────────────────────────────
   { year:2016, slug:"inside",
     img:"https://media.rawg.io/media/games/d5a/d5a24f9f71315427fa6e966fdd98dfa6.jpg",
     title:"Inside", platform:"Multi-plateformes", publisher:"Playdead",
-    genre:"Puzzle-Platformer", emoji:"🧩",
+    tags:["Puzzle-Plateforme", "Post-apocalyptique"], emoji:"🧩",
+    alts:["Limbo (2010)"],
     desc:"Un garçon fuit dans un monde totalitaire dystopique sans un mot d'explication. Playdead signe un puzzle-platformer silencieux d'une efficacité narrative redoutable, avec une conclusion aussi stupéfiante que dérangeante." },
 
   { year:2016, slug:"superhot-vr",
     img:"https://media.rawg.io/media/screenshots/65e/65e41ec8f819b718adb4286b16df45e5.jpg",
     title:"Superhot VR", platform:"VR (Oculus / Vive / PSVR)", publisher:"Superhot Team",
-    genre:"Action VR", emoji:"🥽",
+    tags:["Tir", "Sci-Fi"], emoji:"🥽",
+    alts:["Townsmen VR (2018)", "Beat Saber (2018)"],
     desc:"Le temps ne bouge que quand vous bougez — en réalité virtuelle. Une expérience VR transformative où esquiver des balles au ralenti et neutraliser des ennemis devient un ballet stratégique physique et euphorigène." },
 
   { year:2016, slug:"owlboy",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/03d/03dba5dfdb250f46db34fd742221e2a2.jpg", rank: 50,
     title:"Owlboy", platform:"PC / Switch / PS4 / Xbox", publisher:"D-Pad Studio",
-    genre:"Platformer", emoji:"🦉",
+    tags:["Plateforme", "Heroic Fantasy"], emoji:"🦉",
+    alts:["Shovel Knight (2014)"],
     desc:"Otus, jeune hibou sourd-muet, sauve son village pirate des envahisseurs à dos de ses amis tireurs. Dix ans de développement pour un pixel art monumental et un récit d'amitié et d'estime de soi d'une sensibilité touchante." },
 
   { year:2016, slug:"the-final-station", 
     img:"https://media.rawg.io/media/screenshots/acb/acb4f324aeb126cf5816ea0f4a9d8325.jpg",
     title:"The Final Station", platform:"PC / PS4 / Xbox / Switch", publisher:"tinyBuild",
-    genre:"Action / Survie", emoji:"🚂",
+    tags:["Survie", "Post-apocalyptique"], emoji:"🚂",
     desc:"Conduisez un train à travers un monde apocalyptique, gérez vos rescapés et combattez les infectés dans les gares dévastées. Pixel art atmosphérique signé Do My Best Games — le voyage lui-même est aussi mélancolique que les arrêts, dans un récit post-apocalyptique avare en explications et riche en sous-entendus." },
   
   // ── 2017 ──────────────────────────────────
   { year:2017, slug:"doki-doki-literature-club",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/bbc/bbc0e3592246160b0d937ac6d5f389fc.jpg", rank: 50,
     title:"Doki Doki Literature Club!", platform:"PC / Mac / Linux", publisher:"Team Salvato",
-    genre:"Visual Novel", emoji:"📖",
+    tags:["Visual Novel", "Horreur / Sombre"], emoji:"📖",
     desc:"Un club de lecture lycéen en apparence mignon qui déconstruit les codes du visual novel japonais dans une spirale psychologique de plus en plus dérangeante. Expérience gratuite sur Steam, à déconseiller aux âmes sensibles." },
 
   { year:2017, slug:"hob", 
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/348/3480519694911be8f4fe310f83081a61.jpg",
     title:"Hob", platform:"PC / PS4 / Switch", publisher:"Runic Games",
-    genre:"Action-Aventure", emoji:"⚙️",
+    tags:["Action-Aventure", "Onirique / Poétique"], emoji:"⚙️",
     desc:"Un personnage mutique explore et répare un monde mécanique vivant sans un mot de dialogue ni d'interface. Dernier jeu de Runic Games avant leur fermeture, Hob fascine par sa direction artistique organique-mécanique unique et sa manière de révéler son univers par l'exploration pure — une lettre d'amour silencieuse au médium." },
 
   { year:2017, slug:"splasher", 
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/347/34745dcdb781feb9ccc745d89e3bf9fd.jpg",
     title:"Splasher", platform:"PC / PS4 / Xbox / Switch", publisher:"Plug In Digital",
-    genre:"Platformer", emoji:"🎨",
+    tags:["Plateforme", "Cartoon / Humour"], emoji:"🎨",
     desc:"Un ouvrier d'usine armé d'un canon à peinture s'échappe des griffes de son patron tyrannique dans un platformer 2D frénétique. Jeu français de Splashteam au level design ciselé, avec trois types de peinture aux effets radicalement différents — adhésive, répulsive et protectrice — qui composent des puzzles d'une inventivité constante." },
   
 
@@ -864,155 +943,41 @@ const GAMES = [
   { year:2018, slug:"monster-boy-and-the-cursed-kingdom",
     img:"https://media.rawg.io/media/screenshots/3cd/3cd488dcccb38d73dc8d881e6c83701d.jpg", rank: 50,
     title:"Monster Boy and the Cursed Kingdom", platform:"Switch / PS4 / Xbox / PC", publisher:"FDG Entertainment / Game Atelier",
-    genre:"Action-Aventure", emoji:"🐸",
+    tags:["Action-Aventure", "Cartoon / Humour"], emoji:"🐸",
+    alts:["Wonder Boy in Monster World (1991)"],
     desc:"Hommage vibrant à la saga Wonder Boy, Jin doit désenvoûter son royaume en se métamorphosant en différentes créatures. Action-aventure 2D d'une générosité rare, sublimé par une animation main-levée magnifique." },
 
   { year:2018, slug:"chuchel",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/fd9/fd925fef5377be931da0ec2f9877dca3.jpg", rank: 50,
     title:"Chuchel", platform:"PC / Mac / iOS / Android", publisher:"Amanita Design",
-    genre:"Point & Click", emoji:"🍒",
+    tags:["Point & Click", "Cartoon / Humour"], emoji:"🍒",
+    alts:["Machinarium (2009)", "Botanicula (2012)"],
     desc:"Une boule de poils orange et sa cerise dans une série de mini-aventures burlesques signées Amanita Design. Jeu d'une douceur et d'un humour visuel irrésistibles, accessible à tous les âges, pépite de la scène indépendante tchèque." },
 
   { year:2018, slug:"minit",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/771/7719a5440e23fe8792a9a5adf22c3704.jpg",
     title:"Minit", platform:"PC / PS4 / Xbox / Switch", publisher:"Devolver Digital",
-    genre:"Action-Aventure", emoji:"⏱️",
+    tags:["Action-Aventure", "Cartoon / Humour"], emoji:"⏱️",
     desc:"Vous ne disposez que de 60 secondes avant de mourir et de repartir de chez vous. Aventure minimaliste en noir et blanc qui transforme sa contrainte de temps en mécanique de progression brillante — compact, inventif et profondément satisfaisant." },
 
   { year:2018, slug:"ni-no-kuni-ii-revenant-kingdom",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/72e/72efa8017c58ee36c07250b5675f62f7.jpg", rank: 50,
     title:"Ni no Kuni II: Revenant Kingdom", platform:"PC / PS4", publisher:"Level-5",
-    genre:"RPG", emoji:"🏰",
+    tags:["Action-RPG", "Heroic Fantasy"], emoji:"🏰",
     desc:"Le jeune roi Evan reconstruit son royaume après un coup d'État dans un monde de conte de fées animé inspiré du style Ghibli. RPG d'action généreux et lumineux de Level-5, avec un système de construction de royaume addictif et une bande-son enchanteresse." },
 
   // ── 2019 ──────────────────────────────────  
   { year:2019, slug:"a-short-hike", 
     img:"https://media.rawg.io/media/games/c38/c38deeb8f331a78c89e64ad71a1db361.jpg",
     title:"A Short Hike", platform:"PC / Mac / Switch / PS4 / Xbox", publisher:"adamgryu",
-    genre:"Aventure", emoji:"🏔️",
+    tags:["Aventure narrative", "Onirique / Poétique"], emoji:"🏔️",
     desc:"Claire l'oiseau grimpe au sommet d'une montagne insulaire en explorant librement, pêchant, discutant avec les habitants et collectant des plumes dorées. Jeu indépendant d'une heure et demie d'une douceur et d'une sincérité rares — A Short Hike est une méditation paisible sur le voyage, la déconnexion et la satisfaction simple d'atteindre un sommet." },
 
   { year:2019, slug:"cat-quest-ii", 
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/d72/d7273e3bcb47d4db3337089c3067af4b.jpg",
     title:"Cat Quest II", platform:"PC / PS4 / Xbox / Switch / Mobile", publisher:"The Gentlebros",
-    genre:"Action-RPG", emoji:"🐱",
+    tags:["Action-RPG", "Cartoon / Humour"], emoji:"🐱",
+    alts:["Cat Quest (2017)", "Cat Quest III (2024)"],
     desc:"Un chat et un chien doivent s'allier pour sauver leurs royaumes rivaux dans ce RPG d'action accessible et délicieusement félin. The Gentlebros double la mise avec un mode coopératif en local, un monde ouvert généreux truffé de calembours félins et de donjons bien rythmés — un jeu parfait pour débuter le RPG." },
   
 ];
-
-// ─────────────────────────────────────────────
-//  ALTERNATIVES  (slug → [titres suggérés])
-// ─────────────────────────────────────────────
-const ALTS = {
-  // ── 1990 ──
-  "the-secret-of-monkey-island":                       ["Monkey Island 2: LeChuck's Revenge (1991)", "The Curse of Monkey Island (1997)"],
-  "actraiser":                                         ["Soul Blazer (1994)"],
-  // ── 1992 ──
-  "ogre-battle-the-march-of-the-black-queen":          ["Tactics Ogre: Let Us Cling Together (1995)"],
-  "kirbys-dream-land":                                 ["Kirby's Dream Land 3 (1997)"],
-  // ── 1993 ──
-  "maniac-mansion-day-of-the-tentacle":                ["Thimbleweed Park (2017)"],
-  // ── 1994 ──
-  "theme-park":                                        ["Theme Park World (2000)"],
-  "wario-land-super-mario-land-3":                     ["Wario Land II (1998)", "Wario Land 4 (2001)"],
-  "woodruff-and-the-schnibble-of-azimuth":             ["Gobliins 2: Le Prince Bouffon (1992)"],
-  "the-incredible-machine-3":                          ["World of Goo (2008)"],
-
-  // ── 1995 ──
-  "rayman":                                            ["Rayman Forever (1998)", "Rayman 3: Hoodlum Havoc (2003)"],
-  "trials-of-mana":                                    ["Secret of Mana (1993)", "Mystic Quest (1991)"],
-  "front-mission":                                     ["Valkyria Chronicles (2008)"],
-  "tales-of-phantasia":                                ["Tales of Berseria (2016)"],
-  "terranigma":                                        ["Terra Nil (2023)"],
-  "chrono-trigger-1995":                               ["Chained Echoes (2022)"],
-  // ── 1996 ──
-  "wipeout-2097":                                      ["Wipeout 3 (1999)", "Wipeout Fusion (2002)"],
-  "donkey-kong-country-3-dixies-double-trouble":       ["Donkey Kong Country (1994)", "Donkey Kong Country 2: Diddy's Kong Quest (1995)"],
-  "broken-sword-2-the-smoking-mirror":                 ["Broken Sword: The Shadow of the Templars (1996)", "Broken Sword 5: The Serpent's Curse (2013)"],
-  // ── 1997 ──
-  "age-of-empires":                                    ["Age of Empires II (1999)"],
-  "crash-bandicoot-2":                                 ["Spyro the Dragon (1998)"],
-  "oddworld-abes-oddysee":                             ["Oddworld: Abe's Exoddus (1998)", "Oddworld: New 'n' Tasty (2014)"],
-  "theme-hospital":                                    ["Two Point Hospital (2018)"],
-  "the-lost-vikings-2":                                ["The Lost Vikings (1993)", "Trine Enchanted Edition (2009)"],
-  "dungeon-keeper":                                    ["Dungeons 2 (2015)"],
-  // ── 1998 ──
-  "the-legend-of-zelda-links-awakening-dx":            ["The Legend of Zelda: A Link to the Past (1991)", "The Legend of Zelda: A Link Between Worlds (2013)"],
-  "crash-bandicoot-warped":                            ["Crash Bandicoot N. Sane Trilogy (2017)"],
-  "medievil":                                          ["MediEvil II (2000)"],
-  "the-settlers-3":                                    ["The Settlers II: 10th Anniversary (2006)", "Anno 1602 (1998)"],
-  "populous-the-beginning":                            ["Black & White (2001)", "From Dust (2011)"],
-  // ── 1999 ──
-  "worms-armageddon":                                  ["Worms World Party (2001)", "Worms W.M.D (2016)"],
-  "heroes-of-might-and-magic-3-the-restoration-of-era": ["Age of Wonders II: The Wizard's Throne (2002)"],
-  "metal-gear-solid-vr-missions":                      ["Metal Gear Solid 2: Sons of Liberty (2001)", "Metal Gear Solid (1998)"],
-  "civilization-call-to-power":                        ["Civilization V (2010)"],
-  "ape-escape":                                        ["Ape Escape 2 (2002)", "Ape Escape 3 (2005)"],
-  "simcity-3000":                                      ["Les Sims 2: Castaway (2007)"],
-  // ── 2000 ──
-  "zeus-master-of-olympus":                            ["Pharaon (1999)", "Caesar III (1998)", "Emperor: Rise of the Middle Kingdom (2002)"],
-  "final-fantasy-ix":                                  ["Final Fantasy X (2001)", "Final Fantasy V (1992)"],
-  "command-conquer-red-alert-2":                       ["Tiberian Sun (1999)", "Command & Conquer Remastered Collection (2020)"],
-  "time-crisis-ii":                                    ["Point Blank 2 (1999)", "Crisis Zone (2004)"],
-  // ── 2001 ──
-  "max-payne":                                         ["Max Payne 2: The Fall of Max Payne (2003)"],
-  "commandos-2-men-of-courage":                        ["Shadow Gambit: The Cursed Crew (2023)"],
-  "baldurs-gate-dark-alliance":                        ["Champions of Norrath (2004)", "Champions: Return to Arms (2005)"],
-  "phoenix-wright-ace-attorney-2001":                  ["Phoenix Wright: Ace Attorney Trilogy (2014)"],
-  "ring-of-red":                                       ["Valkyria Chronicles (2008)"],
-  // ── 2002 ──
-  "dark-cloud-2":                                       ["Dark Cloud (2000)", "Rogue Galaxy (2005)"],
-  "warcraft-3-reign-of-chaos":                          ["Warcraft III: The Frozen Throne (2003)", "Warcraft II: Tides of Darkness (1995)"],
-  "age-of-mythology":                                   ["Age of Mythology: The Titans (2003)"],
-  "metroid-fusion":                                     ["Metroid Dread (2021)"],
-  "syberia":                                            ["L'Amerzone (1999)", "Syberia II (2004)", "Syberia: The World Before (2022)"],
-  // ── 2003 ──
-  "tropico-2-pirate-cove":                              ["Tropico 6 (2019)"],
-  "zoo-tycoon-2001":                                    ["Jurassic World Evolution (2018)"],
-  "xiii":                                               ["Command & Conquer: Renegade (2002)"],
-  "spellforce-the-order-of-dawn":                       ["SpellForce 2: Shadow Wars (2006)", "SpellForce - Platinum Edition (2005)"],
-  "final-fantasy-tactics-advance":                      ["Fire Emblem: The Blazing Blade (2003)"],
-  "prince-of-persia-the-sands-of-time":                 ["Prince of Persia 2: The Shadow and the Flame (1993)"],
-  "impossible-creatures":                               ["Paraworld (2006)"],
-  // ── 2004 ──
-  "sly-2-band-of-thieves":                              ["Sly 3: Honor Among Thieves (2005)"],
-  "the-lord-of-the-rings-the-battle-for-middle-earth":  ["The Battle for Middle-earth II (2006)"],
-  // ── 2005 ──
-  // ── 2006 ──
-  "company-of-heroes":                                  ["Act of War: Direct Action (2004)"],
-  "titan-quest":                                        ["Titan Quest: Immortal Throne (2007)", "Titan Quest Anniversary Edition (2016)"],
-  // ── 2008 ──
-  "kings-bounty-the-legend":                            ["King's Bounty: Armored Princess (2009)"],
-  // ── 2009 ──
-  "dragon-age-origins":                                 ["Dragon Age: Origins - Ultimate Edition (2010)"],
-  // ── 2010 ──
-  "vvvvvv":                                             ["Super Meat Boy (2010)"],
-  // ── 2011 ──
-  "rayman-origins":                                     ["Rayman Legends (2013)"],
-  "bastion":                                            ["Transistor (2014)"],
-  // ── 2012 ──
-  // ── 2013 ──
-  "deponia-the-complete-journey":                       ["Runaway, A Road Adventure (2001)"],
-  // ── 2014 ──
-  "this-war-of-mine":                                   ["Frostpunk (2018)"],
-  "south-park-the-stick-of-truth":                      ["South Park: The Fractured But Whole (2017)"],
-  "shantae-and-the-pirates-curse":                      ["Shantae and the Seven Sirens (2020)"],
-  "lumino-city":                                        ["The Tiny Bang Story (2011)"],
-  // ── 2015 ──
-  "life-is-strange-episode-1-2":                        ["Twin Mirror (2020)"],
-  "ori-and-the-blind-forest":                           ["Ori and the Will of the Wisps (2020)"],
-  "evoland-legendary-edition":                          ["Swords & Souls: Neverseen (2019)"],
-  "the-incredible-adventures-of-van-helsing-final-cut": ["Grim Dawn (2016)", "Victor Vran (2015)"],
-  "rise-of-the-tomb-raider":                            ["Tomb Raider (2013)"],
-  "steamworld-heist":                                   ["SteamWorld Heist II (2024)"],
-  // ── 2016 ──
-  "inside":                                             ["Limbo (2010)"],
-  "superhot-vr":                                        ["Townsmen VR (2018)", "Beat Saber (2018)"],
-  "owlboy":                                             ["Shovel Knight (2014)"],
-  // ── 2017 ──
-  // ── 2018 ──
-  "monster-boy-and-the-cursed-kingdom":                 ["Wonder Boy in Monster World (1991)"],
-  "chuchel":                                            ["Machinarium (2009)", "Botanicula (2012)"],
-  // ── 2019 ──
-  "cat-quest-ii":                                       ["Cat Quest (2017)", "Cat Quest III (2024)"],
-};
