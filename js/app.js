@@ -46,7 +46,9 @@ function render() {
             <div class="card-title">${g.title}</div>
             <div class="card-platform">${g.platform} &nbsp;·&nbsp; ${g.publisher}</div>
             <div class="card-desc">${g.desc}</div>
-            <span class="tag">${g.genre}</span>
+            ${(g.tags || []).map((t, i) =>
+              `<span class="tag tag-${i === 0 ? 'genre' : 'ambiance'}">${t}</span>`
+            ).join('')}
             ${altsHtml}
           </div>
           <div class="card-image">
@@ -294,7 +296,11 @@ function renderCarousel(games) {
         <img data-slug="${g.slug}" alt="${g.title}" />
         <div class="carousel-img-badges">
           <span class="carousel-year-badge">${g.year}</span>
-          <span class="carousel-tag">${g.genre}</span>
+          <div class="carousel-tag-group">
+             ${(g.tags || []).map((t, i) =>
+              `<span class="carousel-tag carousel-tag-${i === 0 ? 'genre' : 'ambiance'}">${t}</span>`
+               ).join('')}
+          </div>
         </div>
       </div>
       <div class="carousel-body">
