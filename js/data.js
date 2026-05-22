@@ -530,19 +530,19 @@ const GAMES = [
     
   // ── 2005 ──────────────────────────────────
   { year:2005, slug:"shadow-of-the-colossus",
-    img:"https://media.rawg.io/media/games/6ac/6ac602e70c837ababdf025e997391d9c.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/fbf/fbff3fb9828c12c9213f9ac9777c33f4.jpg", rank: 50,
     title:"Shadow of the Colossus", platform:"PlayStation 2", publisher:"Team Ico / Sony",
     genre:"Action-Aventure", emoji:"🗡️",
     desc:"Wander affronte seize colosses monumentaux pour ressusciter une jeune femme. Sans HUD, sans ennemis communs — un poème visuel et émotionnel de Fumito Ueda qui prouve que les jeux vidéo peuvent être de l'art." },
 
   { year:2005, slug:"the-movies",
-    img:"https://media.rawg.io/media/games/63e/63e861f7e8ef02cf83da78b6ffaf6e97.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/7e0/7e094bb72862c11c33e00c2b289e5275.jpg",
     title:"The Movies", platform:"PC", publisher:"Lionhead Studios / Activision",
     genre:"Simulation", emoji:"🎬",
     desc:"Simulateur de studio hollywoodien de Peter Molyneux. Gérez acteurs, réalisateurs et plateaux de l'ère du muet au blockbuster moderne, tout en tournant vos propres films grâce à un éditeur créatif addictif." },
 
   { year:2005, slug:"soulcalibur-iii",
-    img:"https://media.rawg.io/media/screenshots/710/710541adfb885acdd60be991a904b9cc.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/e69/e69950e696c3a2632645f801366a4097.jpg",
     title:"SoulCalibur III", platform:"PlayStation 2", publisher:"Namco",
     genre:"Combat", emoji:"⚔️",
     desc:"Le troisième opus de la saga d'armes blanches exclusive PS2 enrichit le roster avec des personnages créés de toutes pièces grâce à un mode Chronicles of the Sword ambitieux. SoulCalibur III reste l'épisode le plus généreux en contenu solo de la série, avec un système de combat spectaculaire au sommet de son art." },
@@ -556,7 +556,7 @@ const GAMES = [
     opinion:"Ōkami est sans aucun doute le plus beau jeu auquel il m'a été donné de jouer. Sa direction artistique en cel-shading est indémodable, rappelant les estampes ukiyo-e et sumi-e provenant du Japon, univers dans lequel le jeu veut nous emmener. Mais s'arrêter à son identité visuelle serait un crime, tant le titre est bourré de qualités. Son gameplay tout d'abord, proposant un système de dessins magiques à peindre soi-même pour agir sur le décor, les énigmes et les combats. Son histoire ensuite, combinant mythologie et folklore japonais, et qui nous amène à jouer la déesse du soleil, Amaterasu. Malgré des critiques dithyrambiques, Ōkami fut un échec commercial à sa sortie, et Clover Studio qui était derrière ce projet a été dissous peu après. Heureux possesseur d'une des 10 000 copies de la version PlayStation 2 seulement distribuées en France, je ne risque pas de m'en séparer !"},
 
   { year:2006, slug:"company-of-heroes",
-    img:"https://media.rawg.io/media/games/0fa/0fadc446fd1e9ae9e23a32793d9a5406.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/1c8/1c8cf5141e6f1abc99b164c8c7c58f30.jpg",
     title:"Company of Heroes", platform:"PC", publisher:"Relic Entertainment / THQ",
     genre:"Stratégie temps réel", emoji:"🪖",
     desc:"RTS tactique ancré dans le débarquement en Normandie, avec une physique destructible révolutionnaire et une gestion des unités d'une profondeur inédite. Considéré par beaucoup comme le meilleur RTS jamais conçu." },
@@ -573,26 +573,26 @@ const GAMES = [
     genre:"Rythme", emoji:"🕺",
     desc:"Des agents en costumes noirs sauvent des civils en difficulté grâce à la puissance de la musique, entièrement joué au stylet sur l'écran tactile du DS. Adaptation occidentale d'Osu! Tatakae! Ouendan, Elite Beat Agents est un jeu de rythme d'une énergie communicative et d'un humour visuel absolument irrésistibles." },
 
-  { year:2006, slug:"paraworld", img:null,
+  { year:2006, slug:"paraworld", img:"https://media.rawg.io/media/resize/1920/-/screenshots/b8e/b8ebd458b1bb0cd648b29f05d3a8243e.jpg",
     title:"ParaWorld", platform:"PC", publisher:"SEK / Aspyr",
     genre:"Stratégie temps réel", emoji:"🦕",
     desc:"Trois scientifiques se retrouvent propulsés dans un monde parallèle peuplé de dinosaures et de civilisations primitives qui les ont domestiqués. RTS de SEK au concept enthousiasmant — construire des armées de ptérodactyles, brachiosaures et T-Rex au service de tribus vikings ou aztèques — avec un système de héros montés sur créatures géantes." },
   
   // ── 2007 ──────────────────────────────────
-  { year:2007, slug:"professor-layton-and-the-curious-village", img:null,
+  { year:2007, slug:"professor-layton-and-the-curious-village", img:"https://media.rawg.io/media/resize/1920/-/screenshots/eda/edab0890d9a1f972481cd7abbafdafba.jpg",
     title:"Professeur Layton et l'Étrange Village", platform:"Nintendo DS", publisher:"Level-5 / Nintendo",
     genre:"Puzzle / Aventure", emoji:"🎩",
     desc:"Le Professeur Layton et son jeune assistant Luke enquêtent sur un mystérieux héritage dans le village de Saint-Mystère, résolvant plus de 130 énigmes logiques en chemin. Level-5 invente un genre à part entière — l'aventure puzzle narrative — avec une écriture charmante, des twists mémorables et une musique enchanteresse." },
   
   // ── 2008 ──────────────────────────────────
   { year:2008, slug:"spore",
-    img:"https://media.rawg.io/media/games/cae/caeb9d0cb154124b132d51861735431e.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/a25/a2541c78aabe1d3c95eec5f96483d4c8.jpg",
     title:"Spore", platform:"PC / Mac", publisher:"Maxis / EA",
     genre:"Simulation / Dieu", emoji:"🦠",
     desc:"Guidez une créature de cellule unicellulaire jusqu'à la conquête spatiale à travers cinq phases d'évolution distinctes. La vision de Will Wright pour un jeu de création infini — ambitieux, créatif et débordant de possibilités." },
 
   { year:2008, slug:"the-last-remnant",
-    img:"https://media.rawg.io/media/games/a86/a86263d9dd8d21bc3e9fa37db1fd3203.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/1ad/1ad6d749b3db3880e2b3d5d4fc7693d1.jpg",
     title:"The Last Remnant", platform:"PC / Xbox 360", publisher:"Square Enix",
     genre:"RPG", emoji:"⚔️",
     desc:"Rush Sykes part à la rescousse de sa sœur dans un monde dominé par d'énigmatiques artéfacts appelés Remnants. RPG de Square Enix au système de batailles en formations d'unités atypique, avec un lore d'une richesse considérable." },
@@ -616,12 +616,12 @@ const GAMES = [
     genre:"Rythme", emoji:"🎧",
     desc:"Mixez des mashups de morceaux iconiques sur une platine vinyle périphérique dans ce spinoff musical de Guitar Hero. FreeStyleGames livre une expérience de rythme unique en son genre, avec une tracklist soignée mêlant hip-hop, électro et pop — un objet culte sous-estimé de la grande époque des jeux musicaux." },
 
-  { year:2009, slug:"the-whispered-world", img:null,
+  { year:2009, slug:"the-whispered-world", img:"https://media.rawg.io/media/resize/1920/-/screenshots/cf0/cf01f00ef102ac54dc03f13b56041358.jpg",
     title:"The Whispered World", platform:"PC / Mac", publisher:"Daedalic Entertainment",
     genre:"Point & Click", emoji:"🎪",
     desc:"Sadwick le clown mélancolique et son chenille Spot parcourent un monde onirique voué à la destruction dans cette aventure point & click de Daedalic à l'aquarelle somptueuse. Une atmosphère mélancolique et poétique unique dans le genre, avec des puzzles inventifs et une direction artistique digne des grands contes illustrés." },
   
-  { year:2009, slug:"majesty-2-the-fantasy-kingdom-sim", img:null,
+  { year:2009, slug:"majesty-2-the-fantasy-kingdom-sim", img:"https://media.rawg.io/media/screenshots/94a/94a53ed966ec6147d34135ac2a16db8c.jpg",
     title:"Majesty 2 : The Fantasy Kingdom Sim", platform:"PC", publisher:"Paradox Interactive",
     genre:"Stratégie / God Game", emoji:"👑",
     desc:"Régnez sur un royaume de fantasy en plaçant des primes pour motiver vos héros autonomes à explorer, combattre et commercer selon leur propre volonté. Majesty 2 conserve le concept unique et délicieux de son prédécesseur — vous ne contrôlez pas directement vos unités — dans une réalisation modernisée avec une courbe de difficulté corsée." },
