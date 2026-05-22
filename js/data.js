@@ -165,7 +165,7 @@ const GAMES = [
     desc:"Ark ressuscite littéralement la Terre et ses civilisations. Chef-d'œuvre mélancolique sur le cycle de la vie et de la mort, injustement méconnu hors du Japon — clôture magnifique de la trilogie de l'âme d'Enix." },
 
   { year:1995, slug:"discworld", 
-    img:null,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/c7d/c7dc5a890091b0de3165eac26512e6d8_XsO2XPM.jpg",
     title:"Discworld", platform:"PC / PlayStation / Saturn", publisher:"Psygnosis / GT Interactive",
     tags:["Point & Click", "Cartoon / Humour"], emoji:"🐢",
     desc:"Rincevent, sorcier incompétent de Terry Pratchett, doit sauver Ankh-Morpork d'un dragon dans cette adaptation point & click du Disque-Monde. L'humour british absurde de Pratchett transcrit à la perfection, avec des puzzles farfelus et la voix inoubliable de Eric Idle (Monty Python) dans le rôle de Rincevent." },
@@ -761,7 +761,7 @@ const GAMES = [
     tags:["Furtivité / Tactique", "Contemporain / Réaliste"], emoji:"🥷",
     desc:"Un ninja tatoué de symboles maudits infiltre des complexes ennemis dans un jeu de furtivité 2D d'une précision absolue. Klei Entertainment signe le meilleur jeu de ninja jamais conçu — chaque élément sonore et visuel communique l'information au joueur avec une clarté et une intelligence de design exemplaires." },
 
-  { year:2012, slug:"thomas-was-alone", img:null,
+  { year:2012, slug:"thomas-was-alone", img:"https://media.rawg.io/media/games/6c8/6c8cb4780ce30b76b944cf656e8fff49.jpg",
     title:"Thomas Was Alone", platform:"PC / PS3 / PS Vita / Mobile", publisher:"Mike Bithell",
     tags:["Puzzle-Plateforme", "Onirique / Poétique"], emoji:"🟥",
     desc:"Des rectangles colorés aux personnalités distinctes s'entraident pour traverser des niveaux minimalistes, guidés par la narration de Danny Wallace. Mike Bithell prouve qu'empathie et émotion ne nécessitent pas de visuels élaborés — Thomas Was Alone est une démonstration magistrale de narration vidéoludique par le level design pur." },
