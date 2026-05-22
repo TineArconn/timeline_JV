@@ -868,19 +868,19 @@ const GAMES = [
     desc:"Hommage vibrant à la saga Wonder Boy, Jin doit désenvoûter son royaume en se métamorphosant en différentes créatures. Action-aventure 2D d'une générosité rare, sublimé par une animation main-levée magnifique." },
 
   { year:2018, slug:"chuchel",
-    img:"https://media.rawg.io/media/games/a8f/a8fd414f2e209b25b7081a23d04ba3ab.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/fd9/fd925fef5377be931da0ec2f9877dca3.jpg", rank: 50,
     title:"Chuchel", platform:"PC / Mac / iOS / Android", publisher:"Amanita Design",
     genre:"Point & Click", emoji:"🍒",
     desc:"Une boule de poils orange et sa cerise dans une série de mini-aventures burlesques signées Amanita Design. Jeu d'une douceur et d'un humour visuel irrésistibles, accessible à tous les âges, pépite de la scène indépendante tchèque." },
 
   { year:2018, slug:"minit",
-    img:"https://media.rawg.io/media/games/9da/9dabe368eb7990788be1d8726ae56699.jpg",
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/771/7719a5440e23fe8792a9a5adf22c3704.jpg",
     title:"Minit", platform:"PC / PS4 / Xbox / Switch", publisher:"Devolver Digital",
     genre:"Action-Aventure", emoji:"⏱️",
     desc:"Vous ne disposez que de 60 secondes avant de mourir et de repartir de chez vous. Aventure minimaliste en noir et blanc qui transforme sa contrainte de temps en mécanique de progression brillante — compact, inventif et profondément satisfaisant." },
 
   { year:2018, slug:"ni-no-kuni-ii-revenant-kingdom",
-    img:"https://media.rawg.io/media/games/b92/b924c4beeed6617201d5d91511cfcf8e.jpg", rank: 50,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/72e/72efa8017c58ee36c07250b5675f62f7.jpg", rank: 50,
     title:"Ni no Kuni II: Revenant Kingdom", platform:"PC / PS4", publisher:"Level-5",
     genre:"RPG", emoji:"🏰",
     desc:"Le jeune roi Evan reconstruit son royaume après un coup d'État dans un monde de conte de fées animé façon Ghibli. RPG d'action généreux et lumineux de Level-5, avec un système de construction de royaume addictif et une bande-son enchanteresse." },
@@ -893,7 +893,7 @@ const GAMES = [
     desc:"Claire l'oiseau grimpe au sommet d'une montagne insulaire en explorant librement, pêchant, discutant avec les habitants et collectant des plumes dorées. Jeu indépendant d'une heure et demie d'une douceur et d'une sincérité rares — A Short Hike est une méditation paisible sur le voyage, la déconnexion et la satisfaction simple d'atteindre un sommet." },
 
   { year:2019, slug:"cat-quest-ii", 
-    img:null,
+    img:"https://media.rawg.io/media/resize/1920/-/screenshots/d72/d7273e3bcb47d4db3337089c3067af4b.jpg",
     title:"Cat Quest II", platform:"PC / PS4 / Xbox / Switch / Mobile", publisher:"The Gentlebros",
     genre:"Action-RPG", emoji:"🐱",
     desc:"Un chat et un chien doivent s'allier pour sauver leurs royaumes rivaux dans ce RPG d'action accessible et délicieusement félin. The Gentlebros double la mise avec un mode coopératif en local, un monde ouvert généreux truffé de calembours félins et de donjons bien rythmés — un jeu parfait pour débuter le RPG." },
