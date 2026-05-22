@@ -105,7 +105,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/9ee/9ee80d0d20a4d7194c9f6bedcc78d326.jpg",
     title:"The Firemen", platform:"Super Nintendo", publisher:"Human Entertainment / Nintendo",
     tags:["Action", "Contemporain / Réaliste"], emoji:"🔥",
-    desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue — une curiosité exclusive au charme authentique." },
+    desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue — une curiosité au charme authentique." },
 
   // ── 1995 ──────────────────────────────────
   { year:1995, slug:"the-incredible-machine-3", 
@@ -119,7 +119,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/afc/afce8ec88233ba99781afab9046f6c8d.jpg", rank: 50,
     title:"Super Mario World 2: Yoshi's Island", platform:"Super Nintendo", publisher:"Nintendo",
     tags:["Plateforme", "Cartoon / Humour"], emoji:"🦕",
-    desc:"Yoshi transporte bébé Mario à travers des niveaux évoquant les dessins aux pastels. Un chef-d'œuvre graphique SNES d'une créativité permanente, avec des boss mémorables et inoubliables." },
+    desc:"Yoshi transporte bébé Mario à travers des niveaux évoquant les dessins aux craies grasses. Un chef-d'œuvre graphique SNES d'une créativité permanente, avec des boss mémorables et inoubliables." },
 
   { year:1995, slug:"rayman",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/8ad/8adafcbafd9c07d666845f90aa2dd872.jpg", rank: 50,
@@ -141,7 +141,7 @@ const GAMES = [
     title:"Seiken Densetsu 3 / Trials of Mana", platform:"Super Nintendo", publisher:"Square",
     tags:["Action-RPG", "Heroic Fantasy"], emoji:"⚔️",
     alts:["Secret of Mana (1993)", "Mystic Quest (1991)"],
-    desc:"Suite de Secret of Mana avec 6 personnages jouables et 3 storylines distinctes. Un action-RPG vibrant aux graphismes SNES sublimes, injustement resté exclusif au Japon pendant plus de vingt ans." },
+    desc:"Suite de Secret of Mana avec 6 personnages combinables en 3 storylines distinctes. Un action-RPG vibrant aux graphismes SNES sublimes, injustement resté exclusif au Japon pendant plus de vingt ans." },
 
   { year:1995, slug:"front-mission",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/f12/f1253ed454b9ac5937b86057fe8ba844.jpg",
@@ -168,7 +168,7 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/c7d/c7dc5a890091b0de3165eac26512e6d8_XsO2XPM.jpg",
     title:"Discworld", platform:"PC / PlayStation / Saturn", publisher:"Psygnosis / GT Interactive",
     tags:["Point & Click", "Cartoon / Humour"], emoji:"🐢",
-    desc:"Rincevent, sorcier incompétent de Terry Pratchett, doit sauver Ankh-Morpork d'un dragon dans cette adaptation point & click du Disque-Monde. L'humour british absurde de Pratchett transcrit à la perfection, avec des puzzles farfelus et la voix inoubliable de Eric Idle (Monty Python) dans le rôle de Rincevent." },
+    desc:"Rincevent, sorcier incompétent de Terry Pratchett, doit sauver Ankh-Morpork d'un dragon dans cette adaptation point & click du Disque-Monde. L'humour british absurde de Pratchett transcrit à la perfection, avec des puzzles farfelus et la voix anglaise inoubliable de Eric Idle (Monty Python) dans le rôle de Rincevent." },
 
   // ── 1996 ──────────────────────────────────
   { year:1996, slug:"wipeout-2097",
@@ -236,7 +236,7 @@ const GAMES = [
     desc:"Incarnez le Gardien du Donjon : creusez, piégez, recrutez des créatures maléfiques et repoussez les héros envahisseurs. Chef-d'œuvre absolu de Peter Molyneux et Bullfrog, Dungeon Keeper renverse les conventions du genre avec un humour noir irrésistible et une profondeur de gestion redoutable." },
 
   { year:1997, slug:"beasts-bumpkins", img:"https://media.rawg.io/media/resize/1920/-/screenshots/1f7/1f73d29f633222adc0b2de2822216a8c.jpg",
-    title:"Démons et Manants", platform:"PC", publisher:"Worldscape / Electronic Arts",
+    title:"Démons et Manants", platform:"PC", publisher:"Worldweaver / Electronic Arts",
     tags:["Gestion / God Game", "Cartoon / Humour"], emoji:"🏡",
     desc:"Gérez un village médiéval en assignant vos paysans à la construction, l'agriculture et la chasse, tout en repoussant les créatures monstrueuses qui rôdent autour de vos terres. Mélange attachant de gestion de ressources et de tower defense avant l'heure, avec un humour bucolique british et une accessibilité qui en fait un charme discret des années 90." },
 
@@ -264,7 +264,7 @@ const GAMES = [
   { year:1998, slug:"medievil",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/dea/dea30b29ca620a94d644dda271dfe4bd.jpg",
     title:"MediEvil", platform:"PlayStation", publisher:"SCE Cambridge Studio / Sony",
-    tags:["Action-Aventure", "Horreur / Sombre"], emoji:"💀",
+    tags:["Action-Aventure", "Cartoon / Humour"], emoji:"💀",
     alts:["MediEvil II (2000)"],
     desc:"Sir Daniel Fortesque, chevalier lâche ressuscité par accident, doit sauver le royaume de Gallowmere. Une aventure gothique et humoristique, exclusive PlayStation d'un charme noir irrésistible." },
 
@@ -283,7 +283,7 @@ const GAMES = [
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
 
   { year:1998, slug:"rage-of-mages", img:"https://media.rawg.io/media/resize/1920/-/screenshots/8db/8dbb2505af2cb6d39309d02d40238b60.jpg",
-    title:"Rage of Mages", platform:"PC", publisher:"Buka Entertainment",
+    title:"Rage of Mages", platform:"PC", publisher:"Monolith Productions",
     tags:["Stratégie temps réel", "Heroic Fantasy"], emoji:"🔮",
     desc:"Menez une troupe de guerriers et de mages dans des combats en temps réel à travers un monde de fantasy médiéval dans cet action-RPG russe méconnu en Occident. Rage of Mages séduit par son système de magie élaboré, son mode multijoueur coopératif et une profondeur de personnalisation surprenante pour son époque." },
     
@@ -319,7 +319,7 @@ const GAMES = [
     title:"Civilization: Call to Power", platform:"PC", publisher:"Activision",
     tags:["Stratégie tour par tour", "Historique / Militaire"], emoji:"🌍",
     alts:["Civilization V (2010)"],
-    desc:"Spin-off de la saga Civilization qui guide une civilisation de l'Antiquité jusqu'au futur lointain, avec des ères science-fiction inédites incluant la conquête spatiale et les fonds marins." },
+    desc:"Spin-off de la saga Civilization, suite à un accord à l'amiable sur des questions de droits. On y guide une civilisation de l'Antiquité jusqu'au futur lointain, avec des ères science-fiction inédites incluant la conquête spatiale et les fonds marins." },
 
   { year:1999, slug:"worms-armageddon",
     img:"https://media.rawg.io/media/games/96a/96a48ac7487d9db9179d83170afcb16a.jpg",
@@ -385,8 +385,8 @@ const GAMES = [
 
   { year:2001, slug:"america-no-peace-beyond-the-line", img:"https://media.rawg.io/media/screenshots/4cb/4cbe15046f43253a9ad28e3b8435e0e6.jpg",
     title:"America: No Peace Beyond the Line", platform:"PC", publisher:"Sunflowers",
-    tags:["Stratégie temps réel", "Aventure / Pulp"], emoji:"⚓",
-    desc:"Incarnez pirates, flibustiers ou marines royales dans les Caraïbes du XVIIe siècle, pillant convois et assiégeant ports dans un RTS naval et terrestre peu connu. Sunflowers livre une simulation historique ambitieuse à l'ambiance boucanière authentique, mêlant gestion de flotte, diplomatie et conquête coloniale dans un contexte rarement exploité." },
+    tags:["Stratégie temps réel", "Western"], emoji:"🤠",
+    desc:"Conquête de l'Ouest américain au XIXe siècle où quatre factions s'affrontent — Cavalerie U.S., tribus indiennes, armée mexicaine et hors-la-loi patriotes — chacune dotée de ses propres unités, bâtiments et héros historiques. RTS atypique signé Sunflowers (les créateurs d'Anno), porté par une direction artistique soignée et un cadre rarement exploité par le genre, qui mêle conquête territoriale, raids et défense de forts dans l'esprit des grandes fresques du western." },
       
   { year:2001, slug:"golden-sun",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/05b/05b8834559573639c2217f8815be591a.jpg",
@@ -668,7 +668,7 @@ const GAMES = [
   { year:2009, slug:"dragon-age-origins",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/7a9/7a9f60d3629dffa088cbef12d262a743.jpg", rank: 10,
     title:"Dragon Age: Origins", platform:"PC / PS3 / Xbox 360", publisher:"BioWare / EA",
-    tags:["Tactical RPG", "Heroic Fantasy"], emoji:"🛡️",
+    tags:["RPG", "Heroic Fantasy"], emoji:"🛡️",
     alts:["Dragon Age: Origins - Ultimate Edition (2010)"],
     desc:"RPG tactique de BioWare avec six origines jouables distinctes. Un monde de heroic fantasy sombre, des choix moraux aux conséquences durables et un niveau d'écriture exceptionnel pour les compagnons et la politique du royaume." },
 
