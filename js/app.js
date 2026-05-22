@@ -28,7 +28,7 @@ function render() {
     tl.className = 'timeline';
 
     group.forEach(g => {
-      const alts = ALTS[g.slug] || [];
+      const alts = g.alts || [];
       const altsHtml = alts.length
         ? `<div class="card-alts">
              <span class="alts-label">Voir aussi</span>
@@ -266,7 +266,7 @@ function renderCarousel(games) {
   slidesWrap.id = 'carousel-slides';
 
   carouselGames.forEach((g, i) => {
-    const alts = ALTS[g.slug] || [];
+    const alts = g.alts || [];
     const color = NEON_COLORS[i % NEON_COLORS.length];
     const altsHtml = alts.length
       ? `<div class="carousel-alts">
