@@ -336,7 +336,10 @@ function renderCarousel(games) {
 
   const hint = document.createElement('div');
   hint.className = 'carousel-hint';
-  hint.textContent = '← → TOUCHES DIRECTIONNELLES';
+  const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  hint.textContent = isTouchDevice
+    ? '← GLISSEZ POUR NAVIGUER →'
+    : '← → TOUCHES DIRECTIONNELLES';
 
   wrap.appendChild(slidesWrap);
   wrap.appendChild(nav);
@@ -396,6 +399,26 @@ function initCarouselKeys() {
   });
 }
 
+function initCarouselSwipe() {
+  const view = document.getElementById('carousel-view');
+  let touchStartX = 0, touchStartY = 0;
+  const SWIPE_THRESHOLD = 50; // distance minimale en px pour valider un swipe
+ 
+  view.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+    touchStartY = e.changedTouches[0].screenY;
+  }, { passive: true });
+ 
+  view.addEventListener('touchend', e => {
+    if (view.style.display === 'none' || !carouselGames.length) return;
+    const deltaX = e.changedTouches[0].screenX - touchStartX;
+    const deltaY = e.changedTouches[0].screenY - touchStartY;
+    // Ignore tap (< seuil) ou scroll vertical (|Y| > |X|)
+    if (Math.abs(deltaX) < SWIPE_THRESHOLD || Math.abs(deltaX) < Math.abs(deltaY)) return;
+    if (deltaX > 0) goTo(carouselIndex - 1);  // swipe →  : précédent
+    else            goTo(carouselIndex + 1);  // swipe ←  : suivant
+  }, { passive: true });
+}
 
 /* ════════════════════════════════════════════
    INIT
@@ -406,6 +429,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initModal();
   initFilter();
   initCarouselKeys();
+  initCarouselSwipe();   
   document.getElementById('game-count').textContent = `${GAMES.length} JEUX SÉLECTIONNÉS`;
   fetchImages();
 });
