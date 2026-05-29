@@ -103,7 +103,7 @@ const GAMES = [
 
   { year:1994, slug:"the-firemen",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/9ee/9ee80d0d20a4d7194c9f6bedcc78d326.jpg",
-    title:"The Firemen", platform:"Super Nintendo", publisher:"Human Entertainment / Nintendo",
+    title:"The Firemen", platform:"Super Nintendo", publisher:"Human Entertainment",
     tags:["Action", "Contemporain / Réaliste"], emoji:"🔥",
     desc:"Pete et Danny combattent un incendie dévastateur dans un gratte-ciel en utilisant lances à eau, extincteurs et accès de secours. Action-game SNES au gameplay atypique et à l'atmosphère tendue — une curiosité au charme authentique." },
 
@@ -239,7 +239,7 @@ const GAMES = [
   { year:1997, slug:"beasts-bumpkins", img:"https://media.rawg.io/media/resize/1920/-/screenshots/1f7/1f73d29f633222adc0b2de2822216a8c.jpg",
     title:"Démons et Manants", platform:"PC", publisher:"Worldweaver / Electronic Arts",
     tags:["Gestion / God Game", "Cartoon / Humour"], emoji:"🏡",
-    desc:"Gérez un village médiéval en assignant vos paysans à la construction, l'agriculture et la chasse, tout en repoussant les créatures monstrueuses qui rôdent autour de vos terres. Mélange attachant de gestion de ressources et de tower defense avant l'heure, avec un humour bucolique british et une accessibilité qui en fait un charme discret des années 90." },
+    desc:"Gérez un village médiéval en assignant vos paysans à la construction, l'agriculture et la chasse, tout en repoussant les créatures monstrueuses qui rôdent autour de vos terres. Mélange de gestion de ressources et de défense de village, avec un humour bucolique british qui en fait un charme discret des années 90." },
 
   // ── 1998 ──────────────────────────────────
   { year:1998, slug:"the-legend-of-zelda-links-awakening-dx",
@@ -284,8 +284,8 @@ const GAMES = [
     desc:"Troisième volet 3D de la saga god game de Bullfrog. Vous incarnez une chamane qui guide sa tribu à conquérir des planètes grâce à un arsenal de sortilèges divins dévastateurs — tornade, volcan, tremblement de terre." },
 
   { year:1998, slug:"rage-of-mages", img:"https://media.rawg.io/media/resize/1920/-/screenshots/8db/8dbb2505af2cb6d39309d02d40238b60.jpg",
-    title:"Rage of Mages", platform:"PC", publisher:"Monolith Productions",
-    tags:["Stratégie temps réel", "Heroic Fantasy"], emoji:"🔮",
+    title:"Rage of Mages", platform:"PC", publisher:"Nival Interactive / Monolith Productions",
+    tags:["Action-RPG", "Heroic Fantasy"], emoji:"🔮",
     desc:"Menez une troupe de guerriers et de mages dans des combats en temps réel à travers un monde de fantasy médiéval dans cet action-RPG russe méconnu en Occident. Rage of Mages séduit par son système de magie élaboré, son mode multijoueur coopératif et une profondeur de personnalisation surprenante pour son époque." },
     
   // ── 1999 ──────────────────────────────────
@@ -444,7 +444,7 @@ const GAMES = [
   { year:2001, slug:"klonoa-empire-of-dreams", img:"https://media.rawg.io/media/resize/1920/-/screenshots/feb/febe71ca992fd9738bb1954699a185b2.jpg",
     title:"Klonoa: Empire of Dreams", platform:"Game Boy Advance", publisher:"Namco",
     tags:["Plateforme", "Onirique / Poétique"], emoji:"🌙",
-    desc:"Klonoa est mystérieusement attiré dans le royaume d'Empiria où dormir est devenu interdit, dans ce platformer-puzzle GBA d'une ingéniosité remarquable. La mécanique signature de saisir et lancer les ennemis comme tremplin est parfaitement adaptée au format portable, pour des niveaux denses et satisfaisants." },
+    desc:"Klonoa est mystérieusement attiré dans le royaume des rêves où dormir est devenu interdit, dans ce platformer-puzzle GBA d'une ingéniosité remarquable. La mécanique signature de saisir et lancer les ennemis comme tremplin est parfaitement adaptée au format portable, pour des niveaux denses et satisfaisants." },
     
   // ── 2002 ──────────────────────────────────
   { year:2002, slug:"dark-cloud-2",
@@ -585,7 +585,7 @@ const GAMES = [
   { year:2004, slug:"the-lord-of-the-rings-the-third-age", img:"https://image.jeuxvideo.com/images/p2/l/o/lotap2016.jpg",
     title:"Le Seigneur des Anneaux : Le Tiers Âge", platform:"PS2 / Xbox / GameCube / GBA", publisher:"EA Games",
     tags:["RPG", "Heroic Fantasy"], emoji:"💍",
-    desc:"Un groupe de héros suit les traces de la Communauté de l'Anneau et revis ses batailles épiques dans ce RPG au tour par tour inspiré de Final Fantasy. Berethor et ses compagnons traversent la Moria, le Gouffre de Helm et les Plaines du Pelennor dans un hommage jouissif à la trilogie de Peter Jackson." },
+    desc:"Un groupe de héros suit les traces de la Communauté de l'Anneau et revit ses batailles épiques dans ce RPG au tour par tour inspiré de Final Fantasy. Berethor et ses compagnons traversent la Moria, le Gouffre de Helm et les Plaines du Pelennor dans un hommage jouissif à la trilogie de Peter Jackson." },
     
   // ── 2005 ──────────────────────────────────
   { year:2005, slug:"shadow-of-the-colossus",
@@ -634,11 +634,6 @@ const GAMES = [
     tags:["Rythme", "Cartoon / Humour"], emoji:"🕺",
     desc:"Des agents en costumes noirs sauvent des civils en difficulté grâce à la puissance de la musique, entièrement joué au stylet sur l'écran tactile du DS. Adaptation occidentale d'Osu! Tatakae! Ouendan, Elite Beat Agents est un jeu de rythme d'une énergie communicative et d'un humour visuel absolument irrésistibles." },
 
-  { year:2006, slug:"paraworld", img:"https://media.rawg.io/media/resize/1920/-/screenshots/b8e/b8ebd458b1bb0cd648b29f05d3a8243e.jpg",
-    title:"ParaWorld", platform:"PC", publisher:"Spellbound Entertainment / Aspyr",
-    tags:["Stratégie temps réel", "Aventure / Pulp"], emoji:"🦕",
-    desc:"Trois scientifiques se retrouvent propulsés dans un monde parallèle peuplé de dinosaures et de civilisations primitives qui les ont domestiqués. RTS de Spellbound au concept enthousiasmant — construire des armées de ptérodactyles, brachiosaures et T-Rex au service de tribus vikings ou aztèques — avec un système de héros montés sur créatures géantes." },
-  
   // ── 2007 ──────────────────────────────────
   { year:2007, slug:"professor-layton-and-the-curious-village", img:"https://media.rawg.io/media/resize/1920/-/screenshots/eda/edab0890d9a1f972481cd7abbafdafba.jpg",
     title:"Professeur Layton et l'Étrange Village", platform:"Nintendo DS", publisher:"Level-5 / Nintendo",
