@@ -507,7 +507,8 @@ const GAMES = [
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/328/3283eefc2bb816d8d9eae9e50637242f.jpg", rank: 10,
     title:"Castlevania: Aria of Sorrow", platform:"Game Boy Advance", publisher:"Konami",
     tags:["Metroidvania", "Horreur / Sombre"], emoji:"🏰",
-    desc:"Soma Cruz découvre qu'il est la réincarnation de Dracula dans un château bloqué dans le futur. L'apogée de la formule Metroidvania sur GBA grâce au Tactical Soul — absorber les pouvoirs ennemis." },
+    desc:"En pleine éclipse de 2035, Soma Cruz se retrouve happé dans le château de Dracula et découvre qu'il possède un pouvoir aussi inquiétant qu'unique : absorber les âmes de ceux qu'il abat. L'apogée de la formule Metroidvania sur GBA, signée Koji Igarashi.",
+    opinion:""},
 
   { year:2003, slug:"beyond-good-evil",
     img:"https://media.rawg.io/media/resize/1920/-/screenshots/d31/d31a4aecda62d3865b1e2e7be68820ab.jpg", rank: 20,
