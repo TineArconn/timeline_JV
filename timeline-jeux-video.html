@@ -11,6 +11,43 @@
 
   <div id="img-progress"></div>
 
+  <!-- TRANSPARENCE MODAL -->
+  <div id="transparency-modal" role="dialog" aria-modal="true" aria-label="Transparence IA">
+    <div id="transparency-inner">
+      <button id="transparency-close" aria-label="Fermer">✕</button>
+      <h2 class="t-title">🤖 × 👤 &nbsp; TRANSPARENCE IA</h2>
+      <p class="t-intro">Ce projet a été développé avec l'assistance d'une IA (Claude, Anthropic). Voici qui a fait quoi.</p>
+ 
+      <div class="t-section t-human">
+        <div class="t-section-label">100 % HUMAIN</div>
+        <ul>
+          <li>La <strong>sélection des ~145 jeux</strong> présents dans la frise — mes goûts, ma mémoire, mon parcours de joueur depuis les années 90.</li>
+          <li>Le <strong>classement personnel</strong> (top 50, 20, 10, 5) — chaque rang reflète ma propre hiérarchie subjective.</li>
+          <li>Les <strong>opinions personnelles</strong> rédigées pour les jeux du top 10 — contenu, anecdotes vécues, ton, tout vient de moi (l'IA n'a fait que relire la langue).</li>
+          <li>Le <strong>concept</strong> et le <strong>parti pris visuel</strong> (esthétique néon-rétro arcade, organisation par décennies).</li>
+        </ul>
+      </div>
+ 
+      <div class="t-section t-mixed">
+        <div class="t-section-label">ASSISTÉ PAR IA, RELU PAR L'HUMAIN</div>
+        <ul>
+          <li>Le <strong>code HTML / CSS / JS</strong> du site (frise, carrousel, modale, filtres, cross-références).</li>
+          <li>Les <strong>scripts utilitaires</strong> (pré-fetch des jaquettes via l'API RAWG).</li>
+          <li>Les <strong>choix de typographie</strong> et la palette néon — proposés par l'IA, validés par moi.</li>
+        </ul>
+      </div>
+ 
+      <div class="t-section t-ai">
+        <div class="t-section-label">GÉNÉRÉ PAR IA, FACTUELLEMENT RÉVISÉ</div>
+        <ul>
+          <li>Les <strong>~145 descriptions courtes</strong> des jeux dans la frise. Plusieurs passes de vérification ont corrigé des erreurs (America: No Peace Beyond the Line, Theme Hospital, ParaWorld, Rage of Mages…), mais des inexactitudes peuvent subsister.</li>
+        </ul>
+      </div>
+ 
+      <p class="t-footer">Pour la version détaillée : <a href="https://github.com/TineArconn/timeline_JV" target="_blank" rel="noopener">README.md</a>.</p>
+    </div>
+  </div>
+  
   <!-- MODAL -->
   <div id="modal" role="dialog" aria-modal="true" aria-label="Image agrandie">
     <div id="modal-inner">
@@ -32,6 +69,10 @@
       <p class="subtitle">1990 — 2020 &nbsp;·&nbsp; 30 ans d'épopée</p>
       <div class="header-line"></div>
       <p class="game-count" id="game-count"></p>
+      <button id="transparency-btn" type="button" aria-haspopup="dialog">
+        <span class="t-btn-icon">🤖 × 👤</span>
+        <span class="t-btn-text">TRANSPARENCE IA</span>
+      </button>
     </header>
 
     <!-- FILTER BAR -->
