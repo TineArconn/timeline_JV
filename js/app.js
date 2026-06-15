@@ -420,6 +420,29 @@ function initCarouselSwipe() {
   }, { passive: true });
 }
 
+function initTransparencyModal() {
+  const modal = document.getElementById('transparency-modal');
+  const btn   = document.getElementById('transparency-btn');
+  const close = document.getElementById('transparency-close');
+  if (!modal || !btn) return;
+
+  function open() {
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function shut() {
+    modal.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  btn.addEventListener('click', open);
+  close.addEventListener('click', shut);
+  modal.addEventListener('click', e => { if (e.target === modal) shut(); });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && modal.classList.contains('open')) shut();
+  });
+}
+
 /* ════════════════════════════════════════════
    INIT
 ════════════════════════════════════════════ */
@@ -429,7 +452,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initModal();
   initFilter();
   initCarouselKeys();
-  initCarouselSwipe();   
+  initCarouselSwipe();
+  initTransparencyModal();
   document.getElementById('game-count').textContent = `${GAMES.length} JEUX SÉLECTIONNÉS`;
   fetchImages();
 });
